@@ -1,0 +1,1 @@
+lt-proc ru-en.automorf.bin | cg-proc ru-en.rlx.bin | cg-proc ru-en.lex.bin | apertium-tagger -g ru-en.prob | apertium-pretransfer |  apertium-transfer apertium-ru-en.ru-en.t1x ru-en.t1x.bin ru-en.autobil.bin | apertium-interchunk apertium-ru-en.ru-en.t2x ru-en.t2x.bin | apertium-postchunk apertium-ru-en.ru-en.t3x ru-en.t3x.bin | lt-proc -g ru-en.autogen.bin

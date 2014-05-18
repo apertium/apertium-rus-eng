@@ -1,0 +1,20 @@
+* text=auto !eol
+/Makefile -text
+/apertium-ru-en.en-ru.t1x -text
+/apertium-ru-en.en-ru.t2x -text
+/apertium-ru-en.en-ru.t3x -text
+/apertium-ru-en.en.dix -text
+/apertium-ru-en.en.tsx -text
+/apertium-ru-en.ru-en.dix -text
+/apertium-ru-en.ru-en.lex -text
+/apertium-ru-en.ru-en.t1x -text
+/apertium-ru-en.ru-en.t2x -text
+/apertium-ru-en.ru-en.t3x -text
+/apertium-ru-en.ru.dix -text
+/en-ru.prob -text svneol=unset#unset
+/lexchoicebil.xsl -text
+/modes.xml -text
+/myautogen.sh -text
+/mytrans-en-ru.sh -text
+/mytrans-ru-en.sh -text
+/ru-en.prob -text svneol=unset#unset

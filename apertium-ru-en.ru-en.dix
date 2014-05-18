@@ -1,0 +1,1860 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n"        c="Noun"/>
+    <sdef n="prn"      c="Pronoun"/>
+    <sdef n="det"      c="Determiner"/>
+    <sdef n="adv"      c="Adverb"/>
+    <sdef n="cnjadv"   c="Conjunction adverb"/>
+    <sdef n="num"      c="Numeral"/>
+    <sdef n="pr"       c="Preposition"/>
+    <sdef n="adj"      c="Adjective"/>
+    <sdef n="np"       c="Proper noun"/>
+    <sdef n="vblex"    c="Verb"/>
+    <sdef n="cnjcoo"   c="Coordinating conjunction"/>
+    <sdef n="cnjsub"   c="Subordinating conjunction"/>
+
+    <sdef n="m"        c="Masculine"/>
+    <sdef n="f"        c="Feminine"/>
+    <sdef n="nt"       c="Neuter"/>
+
+    <sdef n="aa"       c="Animate"/>
+    <sdef n="nn"       c="Inanimate"/>
+
+    <sdef n="pos"      c="Possessive"/>
+
+    <sdef n="top"      c="Toponym"/>
+
+    <sdef n="imperf"   c="Imperfective"/>
+    <sdef n="perf"     c="Perfective"/>
+
+    <sdef n="sent"     c="Sentence marker"/>
+    <sdef n="cm"       c="Comma"/>
+
+     <sdef n="ij"      c="Interjection"/>
+
+     <sdef n="rel"      c="Rel... something"/>
+     <sdef n="preadv"      c="Pre Adverb"/>
+     <sdef n="pprs"      c="Whatever..."/>
+     <sdef n="actv"      c="Active verb form"/>
+     <sdef n="vbser"      c="Verb be"/>
+     <sdef n="vbmod"      c="Verb ... not sure"/>
+     <sdef n="part"      c="particle"/>
+
+
+  </sdefs>
+  <section id="main" type="standard">
+ 
+
+    <!-- SECTION: Conjunctions -->
+
+    <e c="  0"><p><l>и<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+    <e c="  0" r="LR"><p><l>а<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+    <e c="  0"><p><l>или<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
+    <e c="  0"><p><l>если<s n="cnjsub"/></l><r>if<s n="cnjsub"/></r></p></e>
+
+    <!-- SECTION: Prepositions -->
+
+    <e c="  0"><p><l>без<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>без<s n="pr"/></l><r>excluding<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>благодаря<s n="pr"/></l><r>thanks<b/>to<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>в<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>в<s n="pr"/></l><r>at<s n="pr"/></r></p></e>
+    <e slr="2"><p><l>в<s n="pr"/></l><r>on<s n="pr"/></r></p></e>
+    <e slr="3"><p><l>в<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
+    <e slr="4"><p><l>в<s n="pr"/></l><r>into<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>вдоль<s n="pr"/></l><r>along<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>включая<s n="pr"/></l><r>including<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>вместо<s n="pr"/></l><r>instead<b/>of<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>вне<s n="pr"/></l><r>out<b/>of<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>вне<s n="pr"/></l><r>outside<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>внизу<s n="pr"/></l><r>down<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>внутри<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>внутри<s n="pr"/></l><r>inside<s n="pr"/></r></p></e>
+    <e slr="2"><p><l>внутри<s n="pr"/></l><r>within<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>внутрь<s n="pr"/></l><r>inside<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>возле<s n="pr"/></l><r>beside<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>возле<s n="pr"/></l><r>by<s n="pr"/></r></p></e>
+    <e slr="2"><p><l>возле<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>вокруг<s n="pr"/></l><r>around<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>вопреки<s n="pr"/></l><r>in<b/>spite<b/>of<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>впереди<s n="pr"/></l><r>in<b/>front<b/>of<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>впереди<s n="pr"/></l><r>ahead<b/>of<s n="pr"/></r></p></e>
+    <e slr="2"><p><l>впереди<s n="pr"/></l><r>before<s n="pr"/></r></p></e>
+    <e><p><l>граммофон<s n="n"/><s n="m"/><s n="nn"/></l><r>gramophone<s n="n"/></r></p></e>
+    <e c="  0"><p><l>для<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>до<s n="pr"/></l><r>before<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>до<s n="pr"/></l><r>up<b/>to<s n="pr"/></r></p></e>
+    <e slr="2"><p><l>до<s n="pr"/></l><r>until<s n="pr"/></r></p></e>
+    <e slr="3"><p><l>до<s n="pr"/></l><r>till<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>за<s n="pr"/></l><r>behind<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>за<s n="pr"/></l><r>beyond<s n="pr"/></r></p></e>
+    <e slr="2"><p><l>за<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
+    <e slr="3"><p><l>за<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>за<s n="pr"/></l><r>for<s n="pr"/></r></p></e> <!-- ? -->
+    <e slr="4"><p><l>за<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
+    <e slr="5"><p><l>за<s n="pr"/></l><r>by<s n="pr"/></r></p></e>
+    <e slr="6"><p><l>за<s n="pr"/></l><r>after<s n="pr"/></r></p></e>
+    <e slr="7"><p><l>за<s n="pr"/></l><r>over<s n="pr"/></r></p></e>
+    <e slr="8"><p><l>за<s n="pr"/></l><r>during<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>изнутри<s n="pr"/></l><r>from<b/>within<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>изнутри<s n="pr"/></l><r>out<b/>of<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>кроме<s n="pr"/></l><r>except<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>кроме<s n="pr"/></l><r>besides<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>кругом<s n="pr"/></l><r>around<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>меж<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>меж<s n="pr"/></l><r>among<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>между<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>между<s n="pr"/></l><r>among<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>мимо<s n="pr"/></l><r>past<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>мимо<s n="pr"/></l><r>by<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>на<s n="pr"/></l><r>onto<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>на<s n="pr"/></l><r>on<s n="pr"/></r></p></e>
+    <e slr="2"><p><l>на<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
+    <e slr="3"><p><l>на<s n="pr"/></l><r>towards<s n="pr"/></r></p></e>
+    <e slr="4"><p><l>на<s n="pr"/></l><r>into<s n="pr"/></r></p></e>
+    <e slr="5"><p><l>на<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e slr="6"><p><l>на<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
+    <e slr="7"><p><l>на<s n="pr"/></l><r>at<s n="pr"/></r></p></e>
+    <e slr="8"><p><l>c<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>над<s n="pr"/></l><r>above<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>над<s n="pr"/></l><r>over<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>накануне<s n="pr"/></l><r>the<b/>day<b/>before<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>напротив<s n="pr"/></l><r>opposite<b/>to<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>насчёт<s n="pr"/></l><r>about<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>о<s n="pr"/></l><r>about<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>о<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
+    <e slr="2"><p><l>о<s n="pr"/></l><r>on<s n="pr"/></r></p></e>
+    <e slr="3"><p><l>о<s n="pr"/></l><r>against<s n="pr"/></r></p></e>
+    <e slr="4"><p><l>о<s n="pr"/></l><r>upon<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>около<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>около<s n="pr"/></l><r>around<s n="pr"/></r></p></e>
+    <e slr="2"><p><l>около<s n="pr"/></l><r>about<s n="pr"/></r></p></e>
+    <e slr="3"><p><l>около<s n="pr"/></l><r>by<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>перед<s n="pr"/></l><r>in<b/>front<b/>of<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>перед<s n="pr"/></l><r>before<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>по<s n="pr"/></l><r>on<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>по<s n="pr"/></l><r>till<s n="pr"/></r></p></e>
+    <e slr="2"><p><l>по<s n="pr"/></l><r>along<s n="pr"/></r></p></e>
+    <e slr="3"><p><l>по<s n="pr"/></l><r>over<s n="pr"/></r></p></e>
+    <e slr="4"><p><l>по<s n="pr"/></l><r>up<b/>to<s n="pr"/></r></p></e>
+    <e slr="5"><p><l>по<s n="pr"/></l><r>according<b/>to<s n="pr"/></r></p></e>
+    <e slr="6"><p><l>по<s n="pr"/></l><r>after<s n="pr"/></r></p></e>
+    <e slr="7"><p><l>по<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
+<!--
+    <e c="  0"><p><l>поверх<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>под<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>позади<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>помимо<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>поперек<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>после<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>посреди<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>прежде<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>при<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>про<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>против<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>путем<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>ради<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>сверху<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>сзади<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>сквозь<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>снизу<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>спустя<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>среди<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>у<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>через<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>к<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>ко<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+-->
+    <e c="  0"><p><l>из<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>из<s n="pr"/></l><r>out<b/>of<s n="pr"/></r></p></e>
+    <e slr="2"><p><l>из<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
+    <e slr="3"><p><l>из<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
+    <e slr="4"><p><l>из<s n="pr"/></l><r>through<s n="pr"/></r></p></e>
+
+    <e c="  0"><p><l>с<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
+<!--
+    <e c="  0"><p><l>со<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>от<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>несмотря<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+-->
+
+
+    <!-- SECTION: Pronouns -->
+
+    <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+    <e><p><l>это<s n="prn"/></l><r>probj<s n="prn"/></r></p></e>
+	<e><p><l>который<s n="prn"/></l><r>which<s n="prn"/></r></p></e>
+	<e><p><l>весь<s n="prn"/></l><r>all<s n="prn"/></r></p></e>
+	<e><p><l>сколько<s n="prn"/></l><r>how<b/>many<s n="prn"/></r></p></e>
+	<e><p><l>что<s n="prn"/></l><r>what<s n="rel"/></r></p></e>
+
+    <!-- SECTION: Determiners -->
+
+    <e><p><l>свой<s n="det"/><s n="pos"/></l><r>its<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>тот<b/>же<b/>самый<s n="adj"/></l><r>the<b/>same<s n="det"/></r></p></e>
+    <e><p><l>это<s n="det"/></l><r>the<s n="det"/></r></p></e>
+	<e><p><l>самый<s n="adj"/></l><r>most<s n="preadv"/></r></p></e>
+	<e><p><l>самый<s n="adj"/></l><r>the<b/>most<s n="det"/></r></p></e>
+	<e><p><l>который<s n="prn"/></l><r>which<s n="det"/></r></p></e>
+	<e><p><l>который<s n="prn"/></l><r>which<s n="rel"/></r></p></e>
+	<e><p><l>либо<s n="cnjcoo"/></l><r>either<s n="det"/></r></p></e>
+    <e><p><l>ваш<s n="det"/></l><r>your<s n="det"/></r></p></e>
+    <e><p><l>об<b/>этом<s n="det"/></l><r>on<b/>this<s n="det"/></r></p></e>
+
+	<e><p><l>весь<s n="det"/></l><r>all<s n="det"/></r></p></e>
+	<e><p><l>сколько<s n="prn"/></l><r>how<b/>many<s n="det"/></r></p></e>
+
+    <!-- SECTION: Nouns -->
+    
+    <e><p><l>правило<g><b/>по<b/>безопасности</g><s n="n"/><s n="nt"/><s n="nn"/></l><r>security<b/>regulation<s n="n"/></r></p></e>
+
+    <e><p><l>наименование<s n="n"/><s n="nt"/><s n="nn"/></l><r>item<s n="n"/></r></p></e>
+
+    <e c="  0"><p><l>год<s n="n"/><s n="m"/><s n="nn"/></l><r>year<s n="n"/></r></p></e>
+    <e c="  0"><p><l>август<s n="n"/><s n="m"/><s n="nn"/></l><r>august<s n="n"/></r></p></e>
+    <e c="  0"><p><l>авиация<s n="n"/><s n="f"/><s n="nn"/></l><r>aviation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>автобус<s n="n"/><s n="m"/><s n="nn"/></l><r>bus<s n="n"/></r></p></e>
+    <e c="  0"><p><l>автомат<s n="n"/><s n="m"/><s n="nn"/></l><r>automaton_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>автомобиль<s n="n"/><s n="m"/><s n="nn"/></l><r>automobile<s n="n"/></r></p></e>
+    <e c="  0"><p><l>автор<s n="n"/><s n="m"/><s n="aa"/></l><r>author<s n="n"/></r></p></e>
+    <e c="  0"><p><l>авторитет<s n="n"/><s n="m"/><s n="nn"/></l><r>authority<s n="n"/></r></p></e>
+    <e c="  0"><p><l>агент<s n="n"/><s n="m"/><s n="aa"/></l><r>agent<s n="n"/></r></p></e>
+    <e c="  0"><p><l>агентство<s n="n"/><s n="nt"/><s n="nn"/></l><r>agency_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ад<s n="n"/><s n="m"/><s n="nn"/></l><r>hell<s n="n"/></r></p></e>
+    <e c="  0"><p><l>адвокат<s n="n"/><s n="m"/><s n="aa"/></l><r>lawyer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>адмирал<s n="n"/><s n="m"/><s n="aa"/></l><r>admiral<s n="n"/></r></p></e>
+    <e c="  0"><p><l>адрес<s n="n"/><s n="m"/><s n="nn"/></l><r>address<s n="n"/></r></p></e>
+    <e c="  0"><p><l>академик<s n="n"/><s n="m"/><s n="aa"/></l><r>academician<s n="n"/></r></p></e>
+    <e c="  0"><p><l>академия<s n="n"/><s n="f"/><s n="nn"/></l><r>academy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>аккумулятор<s n="n"/><s n="m"/><s n="nn"/></l><r>rechargeable_battery<s n="n"/></r></p></e>
+    <e c="  0"><p><l>акт<s n="n"/><s n="m"/><s n="nn"/></l><r>act<s n="n"/></r></p></e>
+    <e c="  0"><p><l>акцент<s n="n"/><s n="m"/><s n="nn"/></l><r>accent<s n="n"/></r></p></e>
+    <e c="  0"><p><l>акция<s n="n"/><s n="f"/><s n="nn"/></l><r>action<s n="n"/></r></p></e>
+    <e c="  0"><p><l>алкоголь<s n="n"/><s n="m"/><s n="nn"/></l><r>alcohol_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>альбом<s n="n"/><s n="m"/><s n="nn"/></l><r>album_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>анализ<s n="n"/><s n="m"/><s n="nn"/></l><r>analysis_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ангел<s n="n"/><s n="m"/><s n="aa"/></l><r>angel<s n="n"/></r></p></e>
+    <e c="  0"><p><l>англичанин<s n="n"/><s n="m"/><s n="aa"/></l><r>english_people<s n="n"/></r></p></e>
+    <e c="  0"><p><l>анекдот<s n="n"/><s n="m"/><s n="nn"/></l><r>anecdote<s n="n"/></r></p></e>
+    <e c="  0"><p><l>аппарат<s n="n"/><s n="m"/><s n="nn"/></l><r>apparatus<s n="n"/></r></p></e>
+    <e c="  0"><p><l>аппетит<s n="n"/><s n="m"/><s n="nn"/></l><r>appetite<s n="n"/></r></p></e>
+    <e c="  0"><p><l>апрель<s n="n"/><s n="m"/><s n="nn"/></l><r>april<s n="n"/></r></p></e>
+    <e c="  0"><p><l>аргумент<s n="n"/><s n="m"/><s n="nn"/></l><r>argument_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>арест<s n="n"/><s n="m"/><s n="nn"/></l><r>arrest_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>армия<s n="n"/><s n="f"/><s n="nn"/></l><r>army<s n="n"/></r></p></e>
+    <e c="  0"><p><l>артиллерия<s n="n"/><s n="f"/><s n="nn"/></l><r>artillery<s n="n"/></r></p></e>
+    <e c="  0"><p><l>архив<s n="n"/><s n="m"/><s n="nn"/></l><r>archive<s n="n"/></r></p></e>
+    <e c="  0"><p><l>асфальт<s n="n"/><s n="m"/><s n="nn"/></l><r>asphalt<s n="n"/></r></p></e>
+    <e c="  0"><p><l>атака<s n="n"/><s n="f"/><s n="nn"/></l><r>ataka<s n="n"/></r></p></e>
+    <e c="  0"><p><l>атмосфера<s n="n"/><s n="f"/><s n="nn"/></l><r>atmosphere<s n="n"/></r></p></e>
+    <e c="  0"><p><l>аэродром<s n="n"/><s n="m"/><s n="nn"/></l><r>aerodrome<s n="n"/></r></p></e>
+    <e c="  0"><p><l>аэропорт<s n="n"/><s n="m"/><s n="nn"/></l><r>airport<s n="n"/></r></p></e>
+    <e c="  0"><p><l>баба<s n="n"/><s n="f"/><s n="aa"/></l><r>baba<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бабка<s n="n"/><s n="f"/><s n="nn"/></l><r>babka<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бабочка<s n="n"/><s n="f"/><s n="aa"/></l><r>lepidoptera<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бабушка<s n="n"/><s n="f"/><s n="aa"/></l><r>grandmother<s n="n"/></r></p></e>
+    <e c="  0"><p><l>база<s n="n"/><s n="f"/><s n="nn"/></l><r>base<s n="n"/></r></p></e>
+    <e c="  0"><p><l>базар<s n="n"/><s n="m"/><s n="nn"/></l><r>bazaar<s n="n"/></r></p></e>
+    <e c="  0"><p><l>балкон<s n="n"/><s n="m"/><s n="nn"/></l><r>balcony<s n="n"/></r></p></e>
+    <e c="  0"><p><l>банда<s n="n"/><s n="f"/><s n="nn"/></l><r>banda<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бандит<s n="n"/><s n="m"/><s n="aa"/></l><r>gang<s n="n"/></r></p></e>
+    <e c="  0"><p><l>банк<s n="n"/><s n="m"/><s n="nn"/></l><r>bank<s n="n"/></r></p></e>
+    <e c="  0"><p><l>баня<s n="n"/><s n="f"/><s n="nn"/></l><r>banya_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>барак<s n="n"/><s n="m"/><s n="nn"/></l><r>shack<s n="n"/></r></p></e>
+    <e c="  0"><p><l>барон<s n="n"/><s n="m"/><s n="aa"/></l><r>baron<s n="n"/></r></p></e>
+    <e c="  0"><p><l>барьер<s n="n"/><s n="m"/><s n="nn"/></l><r>barrier<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бассейн<s n="n"/><s n="m"/><s n="nn"/></l><r>basin<s n="n"/></r></p></e>
+    <e c="  0"><p><l>батальон<s n="n"/><s n="m"/><s n="nn"/></l><r>battalion<s n="n"/></r></p></e>
+    <e c="  0"><p><l>батарея<s n="n"/><s n="f"/><s n="nn"/></l><r>battery<s n="n"/></r></p></e>
+    <e c="  0"><p><l>башка<s n="n"/><s n="f"/><s n="nn"/></l><r>baška_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>башня<s n="n"/><s n="f"/><s n="nn"/></l><r>tower<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бег<s n="n"/><s n="m"/><s n="nn"/></l><r>running<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бедро<s n="n"/><s n="nt"/><s n="nn"/></l><r>thigh<s n="n"/></r></p></e>
+    <e c="  0"><p><l>безопасность<s n="n"/><s n="f"/><s n="nn"/></l><r>security<s n="n"/></r></p></e>
+    <e c="  0"><p><l>белок<s n="n"/><s n="m"/><s n="nn"/></l><r>interwiki-en-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бензин<s n="n"/><s n="m"/><s n="nn"/></l><r>gasoline<s n="n"/></r></p></e>
+    <e c="  0"><p><l>берег<s n="n"/><s n="m"/><s n="nn"/></l><r>shore<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бес<s n="n"/><s n="m"/><s n="aa"/></l><r>rabies_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>беспокойство<s n="n"/><s n="nt"/><s n="nn"/></l><r>anxiety<s n="n"/></r></p></e>
+    <e c="  0"><p><l>библиотека<s n="n"/><s n="f"/><s n="nn"/></l><r>library<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бизнес<s n="n"/><s n="m"/><s n="nn"/></l><r>entrepreneurship<s n="n"/></r></p></e>
+    <e c="  0"><p><l>билет<s n="n"/><s n="m"/><s n="nn"/></l><r>fare<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бинокль<s n="n"/><s n="m"/><s n="nn"/></l><r>binoculars<s n="n"/></r></p></e>
+    <e c="  0"><p><l>биография<s n="n"/><s n="f"/><s n="nn"/></l><r>biography<s n="n"/></r></p></e>
+    <e c="  0"><p><l>битва<s n="n"/><s n="f"/><s n="nn"/></l><r>battle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>благо<s n="n"/><s n="nt"/><s n="nn"/></l><r>bene<s n="n"/></r></p></e>
+    <e c="  0"><p><l>благодарность<s n="n"/><s n="f"/><s n="nn"/></l><r>gratitude<s n="n"/></r></p></e>
+    <e c="  0"><p><l>блин<s n="n"/><s n="m"/><s n="nn"/></l><r>pancake<s n="n"/></r></p></e>
+    <e c="  0"><p><l>блок<s n="n"/><s n="m"/><s n="nn"/></l><r>blok<s n="n"/></r></p></e>
+    <e c="  0"><p><l>блюдо<s n="n"/><s n="nt"/><s n="nn"/></l><r>dish_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бог<s n="n"/><s n="m"/><s n="aa"/></l><r>interwiki-en-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>богатство<s n="n"/><s n="nt"/><s n="nn"/></l><r>wealth<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бой<s n="n"/><s n="m"/><s n="aa"/></l><r>combat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бок<s n="n"/><s n="m"/><s n="nn"/></l><r>edge_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бокал<s n="n"/><s n="m"/><s n="nn"/></l><r>stemware<s n="n"/></r></p></e>
+    <e c="  0"><p><l>болезнь<s n="n"/><s n="f"/><s n="nn"/></l><r>disease<s n="n"/></r></p></e>
+    <e c="  0"><p><l>болото<s n="n"/><s n="nt"/><s n="nn"/></l><r>bog<s n="n"/></r></p></e>
+    <e c="  0"><p><l>боль<s n="n"/><s n="f"/><s n="nn"/></l><r>pain<s n="n"/></r></p></e>
+    <e c="  0"><p><l>больница<s n="n"/><s n="f"/><s n="nn"/></l><r>hospital<s n="n"/></r></p></e>
+    <e c="  0"><p><l>большевик<s n="n"/><s n="m"/><s n="aa"/></l><r>bolshevik<s n="n"/></r></p></e>
+    <e c="  0"><p><l>большинство<s n="n"/><s n="nt"/><s n="nn"/></l><r>majority<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бомба<s n="n"/><s n="f"/><s n="nn"/></l><r>bomb<s n="n"/></r></p></e>
+    <e c="  0"><p><l>борода<s n="n"/><s n="f"/><s n="nn"/></l><r>beard<s n="n"/></r></p></e>
+    <e c="  0"><p><l>борьба<s n="n"/><s n="f"/><s n="nn"/></l><r>wrestling<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ботинок<s n="n"/><s n="m"/><s n="nn"/></l><r>boot_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>боцман<s n="n"/><s n="m"/><s n="aa"/></l><r>bootsmann<s n="n"/></r></p></e>
+    <e c="  0"><p><l>брак<s n="n"/><s n="m"/><s n="nn"/></l><r>marriage<s n="n"/></r></p></e>
+    <e c="  0"><p><l>брат<s n="n"/><s n="m"/><s n="aa"/></l><r>brother_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бревно<s n="n"/><s n="nt"/><s n="nn"/></l><r>lumber<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бред<s n="n"/><s n="m"/><s n="nn"/></l><r>delusion<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бригада<s n="n"/><s n="f"/><s n="nn"/></l><r>brigade<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бригадир<s n="n"/><s n="m"/><s n="aa"/></l><r>brigadier<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бровь<s n="n"/><s n="f"/><s n="nn"/></l><r>eyebrow<s n="n"/></r></p></e>
+    <e c="  0"><p><l>брюхо<s n="n"/><s n="nt"/><s n="nn"/></l><r>human_abdomen<s n="n"/></r></p></e>
+    <e c="  0"><p><l>будущее<s n="n"/><s n="nt"/><s n="nn"/></l><r>future<s n="n"/></r></p></e>
+    <e c="  0"><p><l>буква<s n="n"/><s n="f"/><s n="nn"/></l><r>letter_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бульвар<s n="n"/><s n="m"/><s n="nn"/></l><r>boulevard<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бумага<s n="n"/><s n="f"/><s n="nn"/></l><r>paper<s n="n"/></r></p></e>
+    <e c="  0"><p><l>буря<s n="n"/><s n="f"/><s n="nn"/></l><r>storm<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бутылка<s n="n"/><s n="f"/><s n="nn"/></l><r>bottle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бык<s n="n"/><s n="m"/><s n="nn"/></l><r>byk<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бытие<s n="n"/><s n="nt"/><s n="aa"/></l><r>being<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бюджет<s n="n"/><s n="m"/><s n="nn"/></l><r>budget<s n="n"/></r></p></e>
+    <e c="  0"><p><l>бюро<s n="n"/><s n="nt"/><s n="aa"/></l><r>bureau<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вагон<s n="n"/><s n="m"/><s n="nn"/></l><r>railroad_car<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вал<s n="n"/><s n="m"/><s n="nn"/></l><r>wall_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>валенок<s n="n"/><s n="m"/><s n="nn"/></l><r>valenki<s n="n"/></r></p></e>
+    <e c="  0"><p><l>валюта<s n="n"/><s n="f"/><s n="nn"/></l><r>currency<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ванна<s n="n"/><s n="f"/><s n="nn"/></l><r>bathtub<s n="n"/></r></p></e>
+    <e c="  0"><p><l>введение<s n="n"/><s n="nt"/><s n="nn"/></l><r>introduction_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вдова<s n="n"/><s n="f"/><s n="aa"/></l><r>widow<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ведьма<s n="n"/><s n="f"/><s n="aa"/></l><r>interwiki-en-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>век<s n="n"/><s n="m"/><s n="nn"/></l><r>century<s n="n"/></r></p></e>
+    <e c="  0"><p><l>веко<s n="n"/><s n="nt"/><s n="nn"/></l><r>eyelid<s n="n"/></r></p></e>
+    <e c="  0"><p><l>величина<s n="n"/><s n="f"/><s n="nn"/></l><r>magnitude_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>велосипед<s n="n"/><s n="m"/><s n="nn"/></l><r>interwiki-en-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вена<s n="n"/><s n="f"/><s n="nn"/></l><r>vienna<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вера<s n="n"/><s n="f"/><s n="nn"/></l><r>faith<s n="n"/></r></p></e>
+    <e c="  0"><p><l>веранда<s n="n"/><s n="f"/><s n="nn"/></l><r>verandah<s n="n"/></r></p></e>
+    <e c="  0"><p><l>веревка<s n="n"/><s n="f"/><s n="nn"/></l><r>rope<s n="n"/></r></p></e>
+    <e c="  0"><p><l>версия<s n="n"/><s n="f"/><s n="nn"/></l><r>version<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вертолет<s n="n"/><s n="m"/><s n="nn"/></l><r>helicopter<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вершина<s n="n"/><s n="f"/><s n="nn"/></l><r>vertex<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вес<s n="n"/><s n="m"/><s n="nn"/></l><r>weight<s n="n"/></r></p></e>
+    <e c="  0"><p><l>весло<s n="n"/><s n="nt"/><s n="nn"/></l><r>paddle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>весна<s n="n"/><s n="f"/><s n="nn"/></l><r>spring_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ветвь<s n="n"/><s n="f"/><s n="nn"/></l><r>branch<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ветер<s n="n"/><s n="m"/><s n="nn"/></l><r>interwiki-en-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ветеран<s n="n"/><s n="m"/><s n="aa"/></l><r>veteran<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вечер<s n="n"/><s n="m"/><s n="nn"/></l><r>evening<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вещество<s n="n"/><s n="nt"/><s n="nn"/></l><r>chemical_substance<s n="n"/></r></p></e>
+    <e c="  0"><p><l>взвод<s n="n"/><s n="m"/><s n="nn"/></l><r>platoon<s n="n"/></r></p></e>
+    <e c="  0"><p><l>взгляд<s n="n"/><s n="m"/><s n="nn"/></l><r>gaze<s n="n"/></r></p></e>
+    <e c="  0"><p><l>взор<s n="n"/><s n="m"/><s n="nn"/></l><r>gaze<s n="n"/></r></p></e>
+    <e c="  0"><p><l>взрыв<s n="n"/><s n="m"/><s n="nn"/></l><r>explosion<s n="n"/></r></p></e>
+    <e c="  0"><p><l>видимость<s n="n"/><s n="f"/><s n="nn"/></l><r>visibility_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>виза<s n="n"/><s n="f"/><s n="nn"/></l><r>visa_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вина<s n="n"/><s n="f"/><s n="nn"/></l><r>guilt<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вино<s n="n"/><s n="nt"/><s n="nn"/></l><r>wine<s n="n"/></r></p></e>
+    <e c="  0"><p><l>винтовка<s n="n"/><s n="f"/><s n="nn"/></l><r>rifle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>виски<s n="n"/><s n="m"/><s n="aa"/></l><r>whisky<s n="n"/></r></p></e>
+    <e c="  0"><p><l>висок<s n="n"/><s n="m"/><s n="nn"/></l><r>temple_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вкус<s n="n"/><s n="m"/><s n="nn"/></l><r>taste<s n="n"/></r></p></e>
+    <e c="  0"><p><l>владелец<s n="n"/><s n="m"/><s n="aa"/></l><r>possession_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>власть<s n="n"/><s n="f"/><s n="nn"/></l><r>power_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>внимание<s n="n"/><s n="nt"/><s n="nn"/></l><r>attention<s n="n"/></r></p></e>
+    <e c="  0"><p><l>внук<s n="n"/><s n="m"/><s n="aa"/></l><r>kinship<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вода<s n="n"/><s n="f"/><s n="nn"/></l><r>water<s n="n"/></r></p></e>
+    <e c="  0"><p><l>водка<s n="n"/><s n="f"/><s n="nn"/></l><r>vodka<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вождь<s n="n"/><s n="m"/><s n="aa"/></l><r>tribal_chief<s n="n"/></r></p></e>
+    <e c="  0"><p><l>воздух<s n="n"/><s n="m"/><s n="nn"/></l><r>atmosphere_of_earth#composition<s n="n"/></r></p></e>
+    <e c="  0"><p><l>возможность<s n="n"/><s n="f"/><s n="nn"/></l><r>logical_possibility<s n="n"/></r></p></e>
+    <e c="  0"><p><l>воин<s n="n"/><s n="m"/><s n="aa"/></l><r>warrior<s n="n"/></r></p></e>
+    <e c="  0"><p><l>война<s n="n"/><s n="f"/><s n="nn"/></l><r>war<s n="n"/></r></p></e>
+    <e c="  0"><p><l>войско<s n="n"/><s n="nt"/><s n="nn"/></l><r>army<s n="n"/></r></p></e>
+    <e slr="1"><p><l>войско<s n="n"/><s n="nt"/><s n="nn"/></l><r>force<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вокзал<s n="n"/><s n="m"/><s n="nn"/></l><r>transit_station<s n="n"/></r></p></e>
+    <e c="  0"><p><l>волк<s n="n"/><s n="m"/><s n="nn"/></l><r>interwiki-ast-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>волна<s n="n"/><s n="f"/><s n="nn"/></l><r>wave<s n="n"/></r></p></e>
+    <e c="  0"><p><l>волнение<s n="n"/><s n="nt"/><s n="nn"/></l><r>wind_wave<s n="n"/></r></p></e>
+    <e c="  0"><p><l>волос<s n="n"/><s n="m"/><s n="nn"/></l><r>hair<s n="n"/></r></p></e>
+    <e c="  0"><p><l>волшебник<s n="n"/><s n="m"/><s n="aa"/></l><r>wizard<s n="n"/></r></p></e>
+    <e c="  0"><p><l>воля<s n="n"/><s n="f"/><s n="aa"/></l><r>will<s n="n"/></r></p></e>
+    <e c="  0"><p><l>воображение<s n="n"/><s n="nt"/><s n="nn"/></l><r>imagination<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вопрос<s n="n"/><s n="m"/><s n="nn"/></l><r>question<s n="n"/></r></p></e>
+    <e c="  0"><p><l>воробей<s n="n"/><s n="m"/><s n="aa"/></l><r>sparrow<s n="n"/></r></p></e>
+    <e c="  0"><p><l>воротник<s n="n"/><s n="m"/><s n="aa"/></l><r>collar_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>воскресенье<s n="n"/><s n="nt"/><s n="nn"/></l><r>sunday<s n="n"/></r></p></e>
+    <e c="  0"><p><l>воспаление<s n="n"/><s n="nt"/><s n="nn"/></l><r>inflammation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>воспоминание<s n="n"/><s n="nt"/><s n="nn"/></l><r>memory<s n="n"/></r></p></e>
+    <e c="  0"><p><l>восток<s n="n"/><s n="m"/><s n="nn"/></l><r>east<s n="n"/></r></p></e>
+    <e c="  0"><p><l>восторг<s n="n"/><s n="m"/><s n="nn"/></l><r>euphoria<s n="n"/></r></p></e>
+    <e c="  0"><p><l>восхищение<s n="n"/><s n="nt"/><s n="nn"/></l><r>euphoria<s n="n"/></r></p></e>
+    <e c="  0"><p><l>враг<s n="n"/><s n="m"/><s n="aa"/></l><r>enemy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>врач<s n="n"/><s n="m"/><s n="aa"/></l><r>physician<s n="n"/></r></p></e>
+    <e c="  0"><p><l>время<s n="n"/><s n="nt"/><s n="nn"/></l><r>time<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вселенная<s n="n"/><s n="f"/><s n="nn"/></l><r>universe<s n="n"/></r></p></e>
+    <e c="  0"><p><l>выбор<s n="n"/><s n="m"/><s n="nn"/></l><r>choice<s n="n"/></r></p></e>
+    <e c="  0"><p><l>вызов<s n="n"/><s n="m"/><s n="nn"/></l><r>challenge<s n="n"/></r></p></e>
+    <e c="  0"><p><l>выпуск<s n="n"/><s n="m"/><s n="nn"/></l><r>tranche<s n="n"/></r></p></e>
+    <e c="  0"><p><l>высота<s n="n"/><s n="f"/><s n="nn"/></l><r>height<s n="n"/></r></p></e>
+    <e c="  0"><p><l>выставка<s n="n"/><s n="f"/><s n="nn"/></l><r>exhibition<s n="n"/></r></p></e>
+    <e c="  0"><p><l>выстрел<s n="n"/><s n="m"/><s n="nn"/></l><r>gunshot<s n="n"/></r></p></e>
+    <e c="  0"><p><l>выход<s n="n"/><s n="m"/><s n="nn"/></l><r>exit<s n="n"/></r></p></e>
+    <e slr="1"><p><l>выход<s n="n"/><s n="m"/><s n="nn"/></l><r>withdrawl<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гад<s n="n"/><s n="m"/><s n="aa"/></l><r>gad<s n="n"/></r></p></e>
+    <e c="  0"><p><l>газ<s n="n"/><s n="m"/><s n="nn"/></l><r>gas<s n="n"/></r></p></e>
+    <e c="  0"><p><l>газета<s n="n"/><s n="f"/><s n="nn"/></l><r>newspaper<s n="n"/></r></p></e>
+    <e c="  0"><p><l>галстук<s n="n"/><s n="m"/><s n="nn"/></l><r>necktie<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гараж<s n="n"/><s n="m"/><s n="nn"/></l><r>garage<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гвоздь<s n="n"/><s n="m"/><s n="nn"/></l><r>nail_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ген<s n="n"/><s n="m"/><s n="nn"/></l><r>gene<s n="n"/></r></p></e>
+    <e c="  0"><p><l>генерал<s n="n"/><s n="m"/><s n="aa"/></l><r>general_officer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гений<s n="n"/><s n="m"/><s n="aa"/></l><r>genius<s n="n"/></r></p></e>
+    <e c="  0"><p><l>герой<s n="n"/><s n="m"/><s n="aa"/></l><r>hero<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гибель<s n="n"/><s n="f"/><s n="nn"/></l><r>death<s n="n"/></r></p></e>
+    <e c="  0"><p><l>глава<s n="n"/><s n="f"/><s n="nn"/></l><r>chapter_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>глаз<s n="n"/><s n="m"/><s n="nn"/></l><r>eye<s n="n"/></r></p></e>
+    <e c="  0"><p><l>глина<s n="n"/><s n="f"/><s n="nn"/></l><r>clay<s n="n"/></r></p></e>
+    <e c="  0"><p><l>глоток<s n="n"/><s n="m"/><s n="nn"/></l><r>suck_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гнев<s n="n"/><s n="m"/><s n="nn"/></l><r>interwiki-en<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гнездо<s n="n"/><s n="nt"/><s n="nn"/></l><r>nest<s n="n"/></r></p></e>
+    <e c="  0"><p><l>голова<s n="n"/><s n="f"/><s n="aa"/></l><r>head<s n="n"/></r></p></e>
+    <e c="  0"><p><l>голод<s n="n"/><s n="m"/><s n="nn"/></l><r>hunger<s n="n"/></r></p></e>
+    <e c="  0"><p><l>голос<s n="n"/><s n="m"/><s n="nn"/></l><r>human_voice<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гора<s n="n"/><s n="f"/><s n="nn"/></l><r>mountain<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гордость<s n="n"/><s n="f"/><s n="nn"/></l><r>pride<s n="n"/></r></p></e>
+    <e c="  0"><p><l>горе<s n="n"/><s n="nt"/><s n="nn"/></l><r>gorée<s n="n"/></r></p></e>
+    <e c="  0"><p><l>горечь<s n="n"/><s n="f"/><s n="nn"/></l><r>taste<s n="n"/></r></p></e>
+    <e c="  0"><p><l>горизонт<s n="n"/><s n="m"/><s n="nn"/></l><r>horizon<s n="n"/></r></p></e>
+    <e c="  0"><p><l>горло<s n="n"/><s n="nt"/><s n="nn"/></l><r>throat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>город<s n="n"/><s n="m"/><s n="nn"/></l><r>city<s n="n"/></r></p></e>
+    <e c="  0"><p><l>городок<s n="n"/><s n="m"/><s n="nn"/></l><r>horodok<s n="n"/></r></p></e>
+    <e c="  0"><p><l>горшок<s n="n"/><s n="m"/><s n="nn"/></l><r>pot_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>госпиталь<s n="n"/><s n="m"/><s n="nn"/></l><r>military_hospital<s n="n"/></r></p></e>
+    <e c="  0"><p><l>господь<s n="n"/><s n="m"/><s n="aa"/></l><r>interwiki-en-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>госпожа<s n="n"/><s n="f"/><s n="aa"/></l><r>mr.<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гостиница<s n="n"/><s n="f"/><s n="nn"/></l><r>hotel<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гость<s n="n"/><s n="m"/><s n="aa"/></l><r>guest<s n="n"/></r></p></e>
+    <e c="  0"><p><l>государство<s n="n"/><s n="nt"/><s n="nn"/></l><r>state_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>градус<s n="n"/><s n="m"/><s n="nn"/></l><r>degree<s n="n"/></r></p></e>
+    <e c="  0"><p><l>грамм<s n="n"/><s n="m"/><s n="aa"/></l><r>gram<s n="n"/></r></p></e>
+    <e c="  0"><p><l>граната<s n="n"/><s n="f"/><s n="nn"/></l><r>hand_grenade<s n="n"/></r></p></e>
+    <e c="  0"><p><l>граница<s n="n"/><s n="f"/><s n="nn"/></l><r>boundary<s n="n"/></r></p></e>
+    <e c="  0"><p><l>грек<s n="n"/><s n="m"/><s n="aa"/></l><r>greek<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гриб<s n="n"/><s n="m"/><s n="nn"/></l><r>mushroom<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гроб<s n="n"/><s n="m"/><s n="nn"/></l><r>coffin<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гроза<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-en<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гром<s n="n"/><s n="m"/><s n="nn"/></l><r>thunder<s n="n"/></r></p></e>
+    <e c="  0"><p><l>груз<s n="n"/><s n="m"/><s n="nn"/></l><r>cargo<s n="n"/></r></p></e>
+    <e c="  0"><p><l>грузовик<s n="n"/><s n="m"/><s n="nn"/></l><r>truck<s n="n"/></r></p></e>
+    <e c="  0"><p><l>группа<s n="n"/><s n="f"/><s n="nn"/></l><r>group<s n="n"/></r></p></e>
+    <e c="  0"><p><l>группировка<s n="n"/><s n="f"/><s n="nn"/></l><r>group<s n="n"/></r></p></e>
+    <e c="  0"><p><l>грязь<s n="n"/><s n="f"/><s n="nn"/></l><r>mud<s n="n"/></r></p></e>
+    <e c="  0"><p><l>губа<s n="n"/><s n="f"/><s n="nn"/></l><r>lip<s n="n"/></r></p></e>
+    <e c="  0"><p><l>губернатор<s n="n"/><s n="m"/><s n="aa"/></l><r>governor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>гусь<s n="n"/><s n="m"/><s n="aa"/></l><r>anser_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>давление<s n="n"/><s n="nt"/><s n="nn"/></l><r>pressure<s n="n"/></r></p></e>
+    <e c="  0"><p><l>даль<s n="n"/><s n="f"/><s n="nn"/></l><r>dahl<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дама<s n="n"/><s n="f"/><s n="aa"/></l><r>dame<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дар<s n="n"/><s n="m"/><s n="nn"/></l><r>gift_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дата<s n="n"/><s n="f"/><s n="nn"/></l><r>calendar_date<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дача<s n="n"/><s n="f"/><s n="nn"/></l><r>dacha<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дверь<s n="n"/><s n="f"/><s n="nn"/></l><r>door<s n="n"/></r></p></e>
+    <e c="  0"><p><l>двигатель<s n="n"/><s n="m"/><s n="nn"/></l><r>engine<s n="n"/></r></p></e>
+    <e c="  0"><p><l>движение<s n="n"/><s n="nt"/><s n="nn"/></l><r>movement<s n="n"/></r></p></e>
+    <e c="  0"><p><l>двор<s n="n"/><s n="m"/><s n="nn"/></l><r>yard_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дворец<s n="n"/><s n="m"/><s n="nn"/></l><r>palace<s n="n"/></r></p></e>
+    <e c="  0"><p><l>девочка<s n="n"/><s n="f"/><s n="aa"/></l><r>girl<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дед<s n="n"/><s n="m"/><s n="aa"/></l><r>grandparent<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дедушка<s n="n"/><s n="m"/><s n="aa"/></l><r>kinship<s n="n"/></r></p></e>
+    <e c="  0"><p><l>декабрь<s n="n"/><s n="m"/><s n="nn"/></l><r>december<s n="n"/></r></p></e>
+    <e c="  0"><p><l>делегация<s n="n"/><s n="f"/><s n="nn"/></l><r>delegation_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>демократия<s n="n"/><s n="f"/><s n="nn"/></l><r>democracy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>день<s n="n"/><s n="m"/><s n="nn"/></l><r>daytime_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>депутат<s n="n"/><s n="m"/><s n="aa"/></l><r>member_of_parliament<s n="n"/></r></p></e>
+    <e c="  0"><p><l>деревня<s n="n"/><s n="f"/><s n="nn"/></l><r>hamlet_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дерево<s n="n"/><s n="nt"/><s n="nn"/></l><r>tree<s n="n"/></r></p></e>
+    <e c="  0"><p><l>десятилетие<s n="n"/><s n="nt"/><s n="nn"/></l><r>decade<s n="n"/></r></p></e>
+    <e c="  0"><p><l>деталь<s n="n"/><s n="f"/><s n="nn"/></l><r>machine_element<s n="n"/></r></p></e>
+    <e c="  0"><p><l>детство<s n="n"/><s n="nt"/><s n="nn"/></l><r>childhood<s n="n"/></r></p></e>
+    <e c="  0"><p><l>деятельность<s n="n"/><s n="f"/><s n="nn"/></l><r>action_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>диван<s n="n"/><s n="m"/><s n="nn"/></l><r>diwan<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дивизия<s n="n"/><s n="f"/><s n="nn"/></l><r>division_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>диплом<s n="n"/><s n="m"/><s n="nn"/></l><r>diplom<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дипломат<s n="n"/><s n="m"/><s n="aa"/></l><r>diplomat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>диск<s n="n"/><s n="m"/><s n="nn"/></l><r>disc<s n="n"/></r></p></e>
+    <e c="  0"><p><l>длина<s n="n"/><s n="f"/><s n="nn"/></l><r>length<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дневник<s n="n"/><s n="m"/><s n="nn"/></l><r>diary<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дно<s n="n"/><s n="nt"/><s n="nn"/></l><r>seabed<s n="n"/></r></p></e>
+    <e c="  0"><p><l>добро<s n="n"/><s n="nt"/><s n="nn"/></l><r>good_and_evil<s n="n"/></r></p></e>
+    <e c="  0"><p><l>доверие<s n="n"/><s n="nt"/><s n="nn"/></l><r>trust_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>договор<s n="n"/><s n="m"/><s n="nn"/></l><r>contract<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дождь<s n="n"/><s n="m"/><s n="nn"/></l><r>interwiki-en-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>доза<s n="n"/><s n="f"/><s n="nn"/></l><r>dose<s n="n"/></r></p></e>
+    <e c="  0"><p><l>док<s n="n"/><s n="m"/><s n="nn"/></l><r>doc<s n="n"/></r></p></e>
+    <e c="  0"><p><l>доказательство<s n="n"/><s n="nt"/><s n="nn"/></l><r>proof<s n="n"/></r></p></e>
+    <e c="  0"><p><l>доклад<s n="n"/><s n="m"/><s n="nn"/></l><r>report<s n="n"/></r></p></e>
+    <e c="  0"><p><l>доктор<s n="n"/><s n="m"/><s n="aa"/></l><r>doctor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>документ<s n="n"/><s n="m"/><s n="nn"/></l><r>document<s n="n"/></r></p></e>
+    <e c="  0"><p><l>долг<s n="n"/><s n="m"/><s n="nn"/></l><r>debt<s n="n"/></r></p></e>
+    <e c="  0"><p><l>язык<s n="n"/><s n="m"/><s n="nn"/></l><r>language<s n="n"/></r></p></e>
+    <e c="  0"><p><l>долина<s n="n"/><s n="f"/><s n="nn"/></l><r>valley<s n="n"/></r></p></e>
+    <e c="  0"><p><l>доллар<s n="n"/><s n="m"/><s n="nn"/></l><r>dollar<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дом<s n="n"/><s n="m"/><s n="nn"/></l><r>dom<s n="n"/></r></p></e>
+    <e c="  0"><p><l>домик<s n="n"/><s n="m"/><s n="nn"/></l><r>dom<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дон<s n="n"/><s n="m"/><s n="aa"/></l><r>don_river_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>допрос<s n="n"/><s n="m"/><s n="nn"/></l><r>interrogation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дорога<s n="n"/><s n="f"/><s n="nn"/></l><r>road<s n="n"/></r></p></e>
+    <e c="  0"><p><l>достоинство<s n="n"/><s n="nt"/><s n="nn"/></l><r>dignity<s n="n"/></r></p></e>
+    <e c="  0"><p><l>доход<s n="n"/><s n="m"/><s n="nn"/></l><r>income<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дочка<s n="n"/><s n="f"/><s n="aa"/></l><r>kinship<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дочь<s n="n"/><s n="f"/><s n="aa"/></l><r>kinship<s n="n"/></r></p></e>
+    <e c="  0"><p><l>драка<s n="n"/><s n="f"/><s n="nn"/></l><r>brawling_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дракон<s n="n"/><s n="m"/><s n="aa"/></l><r>dragon<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дровосек<s n="n"/><s n="m"/><s n="aa"/></l><r>lumberjack<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дрожь<s n="n"/><s n="f"/><s n="nn"/></l><r>tremble<s n="n"/></r></p></e>
+    <e c="  0"><p><l>друг<s n="n"/><s n="m"/><s n="aa"/></l><r>friendship<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дружба<s n="n"/><s n="f"/><s n="nn"/></l><r>friendship<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дуб<s n="n"/><s n="m"/><s n="nn"/></l><r>oak<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дума<s n="n"/><s n="f"/><s n="nn"/></l><r>duma_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дура<s n="n"/><s n="f"/><s n="aa"/></l><r>dura<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дух<s n="n"/><s n="m"/><s n="nn"/></l><r>spirit_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>душа<s n="n"/><s n="f"/><s n="nn"/></l><r>soul_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дым<s n="n"/><s n="m"/><s n="nn"/></l><r>smoke<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дыра<s n="n"/><s n="f"/><s n="nn"/></l><r>hole<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дырка<s n="n"/><s n="f"/><s n="nn"/></l><r>electron_hole<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дыхание<s n="n"/><s n="nt"/><s n="nn"/></l><r>breathing<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дьявол<s n="n"/><s n="m"/><s n="aa"/></l><r>bill_zebub<s n="n"/></r></p></e>
+    <e c="  0"><p><l>дядя<s n="n"/><s n="m"/><s n="aa"/></l><r>uncle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>еврей<s n="n"/><s n="m"/><s n="aa"/></l><r>interwiki-en-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>европа<s n="n"/><s n="f"/><s n="nn"/></l><r>europe<s n="n"/></r></p></e>
+    <e c="  0"><p><l>еда<s n="n"/><s n="f"/><s n="nn"/></l><r>food<s n="n"/></r></p></e>
+    <e c="  0"><p><l>единица<s n="n"/><s n="f"/><s n="nn"/></l><r>unit<s n="n"/></r></p></e>
+    <e c="  0"><p><l>жажда<s n="n"/><s n="f"/><s n="nn"/></l><r>thirst<s n="n"/></r></p></e>
+    <e c="  0"><p><l>жар<s n="n"/><s n="m"/><s n="nn"/></l><r>braising<s n="n"/></r></p></e>
+    <e c="  0"><p><l>желание<s n="n"/><s n="nt"/><s n="nn"/></l><r>want<s n="n"/></r></p></e>
+    <e c="  0"><p><l>железо<s n="n"/><s n="nt"/><s n="aa"/></l><r>iron<s n="n"/></r></p></e>
+    <e c="  0"><p><l>желудок<s n="n"/><s n="m"/><s n="nn"/></l><r>stomach<s n="n"/></r></p></e>
+    <e c="  0"><p><l>жена<s n="n"/><s n="f"/><s n="aa"/></l><r>wife<s n="n"/></r></p></e>
+    <e c="  0"><p><l>жених<s n="n"/><s n="m"/><s n="aa"/></l><r>wedding_ceremony_participant<s n="n"/></r></p></e>
+    <e c="  0"><p><l>женщина<s n="n"/><s n="f"/><s n="aa"/></l><r>woman<s n="n"/></r></p></e>
+    <e c="  0"><p><l>жертва<s n="n"/><s n="f"/><s n="nn"/></l><r>victim<s n="n"/></r></p></e>
+    <e c="  0"><p><l>жест<s n="n"/><s n="m"/><s n="nn"/></l><r>gesture<s n="n"/></r></p></e>
+    <e c="  0"><p><l>живопись<s n="n"/><s n="f"/><s n="nn"/></l><r>painting<s n="n"/></r></p></e>
+    <e c="  0"><p><l>живот<s n="n"/><s n="m"/><s n="nn"/></l><r>human_abdomen<s n="n"/></r></p></e>
+    <e c="  0"><p><l>жидкость<s n="n"/><s n="f"/><s n="nn"/></l><r>liquid<s n="n"/></r></p></e>
+    <e c="  0"><p><l>жизнь<s n="n"/><s n="f"/><s n="nn"/></l><r>life<s n="n"/></r></p></e>
+    <e c="  0"><p><l>жир<s n="n"/><s n="m"/><s n="nn"/></l><r>triglyceride<s n="n"/></r></p></e>
+    <e c="  0"><p><l>журнал<s n="n"/><s n="m"/><s n="nn"/></l><r>magazine<s n="n"/></r></p></e>
+    <e c="  0"><p><l>журналист<s n="n"/><s n="m"/><s n="aa"/></l><r>journalist<s n="n"/></r></p></e>
+    <e c="  0"><p><l>заболевание<s n="n"/><s n="nt"/><s n="nn"/></l><r>disease<s n="n"/></r></p></e>
+    <e c="  0"><p><l>забор<s n="n"/><s n="m"/><s n="nn"/></l><r>fence<s n="n"/></r></p></e>
+    <e c="  0"><p><l>забота<s n="n"/><s n="f"/><s n="nn"/></l><r>worry<s n="n"/></r></p></e>
+    <e c="  0"><p><l>зависимость<s n="n"/><s n="f"/><s n="nn"/></l><r>dependency<s n="n"/></r></p></e>
+    <e c="  0"><p><l>зависть<s n="n"/><s n="f"/><s n="nn"/></l><r>envy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>завод<s n="n"/><s n="m"/><s n="nn"/></l><r>factory<s n="n"/></r></p></e>
+    <e c="  0"><p><l>завтрак<s n="n"/><s n="m"/><s n="nn"/></l><r>breakfast<s n="n"/></r></p></e>
+    <e c="  0"><p><l>загадка<s n="n"/><s n="f"/><s n="nn"/></l><r>riddle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>заговор<s n="n"/><s n="m"/><s n="nn"/></l><r>conspiracy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>задача<s n="n"/><s n="f"/><s n="nn"/></l><r>problem<s n="n"/></r></p></e>
+    <e c="  0"><p><l>закат<s n="n"/><s n="m"/><s n="nn"/></l><r>sunset<s n="n"/></r></p></e>
+    <e c="  0"><p><l>закон<s n="n"/><s n="m"/><s n="nn"/></l><r>law_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>зал<s n="n"/><s n="m"/><s n="nn"/></l><r>hall<s n="n"/></r></p></e>
+    <e c="  0"><p><l>заместитель<s n="n"/><s n="m"/><s n="aa"/></l><r>proxy_pattern<s n="n"/></r></p></e>
+    <e c="  0"><p><l>заметка<s n="n"/><s n="f"/><s n="nn"/></l><r>newspaper<s n="n"/></r></p></e>
+    <e c="  0"><p><l>замок<s n="n"/><s n="m"/><s n="nn"/></l><r>lock<s n="n"/></r></p></e>
+    <e c="  0"><p><l>занавеска<s n="n"/><s n="f"/><s n="nn"/></l><r>curtain<s n="n"/></r></p></e>
+    <e c="  0"><p><l>запад<s n="n"/><s n="m"/><s n="nn"/></l><r>west<s n="n"/></r></p></e>
+    <e c="  0"><p><l>запах<s n="n"/><s n="m"/><s n="nn"/></l><r>odor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>зарплата<s n="n"/><s n="f"/><s n="nn"/></l><r>wage<s n="n"/></r></p></e>
+    <e c="  0"><p><l>заря<s n="n"/><s n="f"/><s n="nn"/></l><r>twilight<s n="n"/></r></p></e>
+    <e c="  0"><p><l>затылок<s n="n"/><s n="m"/><s n="nn"/></l><r>nape<s n="n"/></r></p></e>
+    <e c="  0"><p><l>защита<s n="n"/><s n="f"/><s n="nn"/></l><r>protection<s n="n"/></r></p></e>
+    <e c="  0"><p><l>заяц<s n="n"/><s n="m"/><s n="aa"/></l><r>leporidae<s n="n"/></r></p></e>
+    <e c="  0"><p><l>звезда<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-en-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>зверь<s n="n"/><s n="m"/><s n="aa"/></l><r>theria<s n="n"/></r></p></e>
+    <e c="  0"><p><l>звук<s n="n"/><s n="m"/><s n="nn"/></l><r>sound<s n="n"/></r></p></e>
+    <e c="  0"><p><l>здание<s n="n"/><s n="nt"/><s n="nn"/></l><r>building<s n="n"/></r></p></e>
+    <e c="  0"><p><l>здоровье<s n="n"/><s n="nt"/><s n="nn"/></l><r>health<s n="n"/></r></p></e>
+    <e c="  0"><p><l>зелень<s n="n"/><s n="f"/><s n="nn"/></l><r>leaf_vegetable<s n="n"/></r></p></e>
+    <e c="  0"><p><l>земля<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-ar-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>землянка<s n="n"/><s n="f"/><s n="nn"/></l><r>dugout_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>зеркало<s n="n"/><s n="nt"/><s n="nn"/></l><r>mirror<s n="n"/></r></p></e>
+    <e c="  0"><p><l>зима<s n="n"/><s n="f"/><s n="nn"/></l><r>winter<s n="n"/></r></p></e>
+    <e c="  0"><p><l>зло<s n="n"/><s n="nt"/><s n="nn"/></l><r>evil<s n="n"/></r></p></e>
+    <e c="  0"><p><l>змей<s n="n"/><s n="m"/><s n="aa"/></l><r>serpent_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>змея<s n="n"/><s n="f"/><s n="aa"/></l><r>snake<s n="n"/></r></p></e>
+    <e c="  0"><p><l>знак<s n="n"/><s n="m"/><s n="nn"/></l><r>sign<s n="n"/></r></p></e>
+    <e c="  0"><p><l>знамя<s n="n"/><s n="nt"/><s n="nn"/></l><r>banner<s n="n"/></r></p></e>
+    <e c="  0"><p><l>знание<s n="n"/><s n="nt"/><s n="nn"/></l><r>knowledge<s n="n"/></r></p></e>
+    <e c="  0"><p><l>значение<s n="n"/><s n="nt"/><s n="nn"/></l><r>meaning_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>золото<s n="n"/><s n="nt"/><s n="aa"/></l><r>gold<s n="n"/></r></p></e>
+    <e c="  0"><p><l>зона<s n="n"/><s n="f"/><s n="nn"/></l><r>zone<s n="n"/></r></p></e>
+    <e c="  0"><p><l>зрение<s n="n"/><s n="nt"/><s n="nn"/></l><r>visual_system<s n="n"/></r></p></e>
+    <e c="  0"><p><l>игра<s n="n"/><s n="f"/><s n="nn"/></l><r>game<s n="n"/></r></p></e>
+    <e c="  0"><p><l>игрок<s n="n"/><s n="m"/><s n="aa"/></l><r>the_gambler<s n="n"/></r></p></e>
+    <e c="  0"><p><l>игрушка<s n="n"/><s n="f"/><s n="nn"/></l><r>toy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>идеал<s n="n"/><s n="m"/><s n="nn"/></l><r>ideal_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>идеология<s n="n"/><s n="f"/><s n="nn"/></l><r>ideology<s n="n"/></r></p></e>
+    <e c="  0"><p><l>идея<s n="n"/><s n="f"/><s n="nn"/></l><r>idea<s n="n"/></r></p></e>
+    <e c="  0"><p><l>идиот<s n="n"/><s n="m"/><s n="aa"/></l><r>the_idiot_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>изба<s n="n"/><s n="f"/><s n="nn"/></l><r>izba<s n="n"/></r></p></e>
+    <e c="  0"><p><l>изменение<s n="n"/><s n="nt"/><s n="nn"/></l><r>process<s n="n"/></r></p></e>
+    <e c="  0"><p><l>икона<s n="n"/><s n="f"/><s n="nn"/></l><r>icon<s n="n"/></r></p></e>
+    <e c="  0"><p><l>император<s n="n"/><s n="m"/><s n="aa"/></l><r>emperor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>империя<s n="n"/><s n="f"/><s n="nn"/></l><r>empire<s n="n"/></r></p></e>
+    <e c="  0"><p><l>имущество<s n="n"/><s n="nt"/><s n="nn"/></l><r>property<s n="n"/></r></p></e>
+    <e c="  0"><p><l>имя<s n="n"/><s n="nt"/><s n="nn"/></l><r>name<s n="n"/></r></p></e>
+    <e c="  0"><p><l>инвалид<s n="n"/><s n="m"/><s n="aa"/></l><r>disability<s n="n"/></r></p></e>
+    <e c="  0"><p><l>инженер<s n="n"/><s n="m"/><s n="aa"/></l><r>engineer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>иностранец<s n="n"/><s n="m"/><s n="aa"/></l><r>alien_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>инстинкт<s n="n"/><s n="m"/><s n="nn"/></l><r>instinct<s n="n"/></r></p></e>
+    <e c="  0"><p><l>институт<s n="n"/><s n="m"/><s n="nn"/></l><r>institute_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>инструкция<s n="n"/><s n="f"/><s n="nn"/></l><r>instruction<s n="n"/></r></p></e>
+    <e c="  0"><p><l>инструмент<s n="n"/><s n="m"/><s n="nn"/></l><r>tool<s n="n"/></r></p></e>
+    <e c="  0"><p><l>интеллигент<s n="n"/><s n="m"/><s n="aa"/></l><r>intelligentsia<s n="n"/></r></p></e>
+    <e c="  0"><p><l>интеллигенция<s n="n"/><s n="f"/><s n="nn"/></l><r>intelligentsia<s n="n"/></r></p></e>
+    <e c="  0"><p><l>интервью<s n="n"/><s n="nt"/><s n="aa"/></l><r>interview<s n="n"/></r></p></e>
+    <e c="  0"><p><l>интерес<s n="n"/><s n="m"/><s n="nn"/></l><r>interest_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>интонация<s n="n"/><s n="f"/><s n="nn"/></l><r>intonation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>информация<s n="n"/><s n="f"/><s n="nn"/></l><r>information<s n="n"/></r></p></e>
+    <e c="  0"><p><l>исключение<s n="n"/><s n="nt"/><s n="nn"/></l><r>exception<s n="n"/></r></p></e>
+    <e c="  0"><p><l>искра<s n="n"/><s n="f"/><s n="nn"/></l><r>iskra_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>искусство<s n="n"/><s n="nt"/><s n="nn"/></l><r>art<s n="n"/></r></p></e>
+    <e c="  0"><p><l>исследование<s n="n"/><s n="nt"/><s n="nn"/></l><r>research<s n="n"/></r></p></e>
+    <e c="  0"><p><l>истина<s n="n"/><s n="f"/><s n="nn"/></l><r>truth<s n="n"/></r></p></e>
+    <e c="  0"><p><l>историк<s n="n"/><s n="m"/><s n="aa"/></l><r>historian<s n="n"/></r></p></e>
+    <e c="  0"><p><l>история<s n="n"/><s n="f"/><s n="nn"/></l><r>history<s n="n"/></r></p></e>
+    <e c="  0"><p><l>источник<s n="n"/><s n="m"/><s n="nn"/></l><r>source<s n="n"/></r></p></e>
+    <e c="  0"><p><l>исход<s n="n"/><s n="m"/><s n="nn"/></l><r>the_exodus<s n="n"/></r></p></e>
+    <e c="  0"><p><l>итог<s n="n"/><s n="m"/><s n="nn"/></l><r>goal<s n="n"/></r></p></e>
+    <e c="  0"><p><l>июль<s n="n"/><s n="m"/><s n="nn"/></l><r>july<s n="n"/></r></p></e>
+    <e c="  0"><p><l>июнь<s n="n"/><s n="m"/><s n="nn"/></l><r>june<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кабина<s n="n"/><s n="f"/><s n="nn"/></l><r>cockpit<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кабинет<s n="n"/><s n="m"/><s n="nn"/></l><r>cabinet<s n="n"/></r></p></e>
+    <e c="  0"><p><l>каблук<s n="n"/><s n="m"/><s n="nn"/></l><r>heel_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кадр<s n="n"/><s n="m"/><s n="nn"/></l><r>film_frame<s n="n"/></r></p></e>
+    <e c="  0"><p><l>казарма<s n="n"/><s n="f"/><s n="nn"/></l><r>barracks<s n="n"/></r></p></e>
+    <e c="  0"><p><l>калитка<s n="n"/><s n="f"/><s n="nn"/></l><r>wicket_gate<s n="n"/></r></p></e>
+    <e c="  0"><p><l>камень<s n="n"/><s n="m"/><s n="nn"/></l><r>stone<s n="n"/></r></p></e>
+    <e c="  0"><p><l>камера<s n="n"/><s n="f"/><s n="nn"/></l><r>chamber<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кампания<s n="n"/><s n="f"/><s n="nn"/></l><r>campania_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>канал<s n="n"/><s n="m"/><s n="nn"/></l><r>canal_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кандидат<s n="n"/><s n="m"/><s n="aa"/></l><r>candidate<s n="n"/></r></p></e>
+    <e c="  0"><p><l>капитал<s n="n"/><s n="m"/><s n="nn"/></l><r>capital_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>капитализм<s n="n"/><s n="m"/><s n="nn"/></l><r>capitalism<s n="n"/></r></p></e>
+    <e c="  0"><p><l>капитан<s n="n"/><s n="m"/><s n="aa"/></l><r>captain<s n="n"/></r></p></e>
+    <e c="  0"><p><l>капля<s n="n"/><s n="f"/><s n="nn"/></l><r>drop_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>капуста<s n="n"/><s n="f"/><s n="nn"/></l><r>brassica_oleracea<s n="n"/></r></p></e>
+    <e c="  0"><p><l>карандаш<s n="n"/><s n="m"/><s n="nn"/></l><r>pencil<s n="n"/></r></p></e>
+    <e c="  0"><p><l>карман<s n="n"/><s n="m"/><s n="nn"/></l><r>pocket<s n="n"/></r></p></e>
+    <e c="  0"><p><l>карта<s n="n"/><s n="m"/><s n="nn"/></l><r>card<s n="n"/></r></p></e>
+    <e c="  0"><p><l>картина<s n="n"/><s n="f"/><s n="nn"/></l><r>picture<s n="n"/></r></p></e>
+    <e c="  0"><p><l>карьера<s n="n"/><s n="f"/><s n="nn"/></l><r>career<s n="n"/></r></p></e>
+    <e c="  0"><p><l>катастрофа<s n="n"/><s n="f"/><s n="nn"/></l><r>disaster<s n="n"/></r></p></e>
+    <e c="  0"><p><l>категория<s n="n"/><s n="f"/><s n="nn"/></l><r>category<s n="n"/></r></p></e>
+    <e c="  0"><p><l>катер<s n="n"/><s n="m"/><s n="nn"/></l><r>cutter_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кафе<s n="n"/><s n="nt"/><s n="aa"/></l><r>café<s n="n"/></r></p></e>
+    <e c="  0"><p><l>качество<s n="n"/><s n="nt"/><s n="nn"/></l><r>quality<s n="n"/></r></p></e>
+    <e c="  0"><p><l>каша<s n="n"/><s n="f"/><s n="nn"/></l><r>porridge<s n="n"/></r></p></e>
+    <e c="  0"><p><l>квартал<s n="n"/><s n="m"/><s n="nn"/></l><r>quarter<s n="n"/></r></p></e>
+    <e c="  0"><p><l>квартира<s n="n"/><s n="f"/><s n="nn"/></l><r>apartment<s n="n"/></r></p></e>
+    <e c="  0"><p><l>килограмм<s n="n"/><s n="m"/><s n="nn"/></l><r>interwiki-en<s n="n"/></r></p></e>
+    <e c="  0"><p><l>километр<s n="n"/><s n="m"/><s n="nn"/></l><r>kilometre<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кино<s n="n"/><s n="nt"/><s n="aa"/></l><r>kino<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кирпич<s n="n"/><s n="m"/><s n="nn"/></l><r>brick<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кислота<s n="n"/><s n="f"/><s n="nn"/></l><r>acid<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кладбище<s n="n"/><s n="nt"/><s n="nn"/></l><r>cemetery<s n="n"/></r></p></e>
+    <e c="  0"><p><l>класс<s n="n"/><s n="m"/><s n="nn"/></l><r>class<s n="n"/></r></p></e>
+    <e c="  0"><p><l>клетка<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-es-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>клиент<s n="n"/><s n="m"/><s n="aa"/></l><r>client<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кличка<s n="n"/><s n="f"/><s n="nn"/></l><r>nickname<s n="n"/></r></p></e>
+    <e c="  0"><p><l>клуб<s n="n"/><s n="m"/><s n="nn"/></l><r>club<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ключ<s n="n"/><s n="m"/><s n="nn"/></l><r>key<s n="n"/></r></p></e>
+    <e c="  0"><p><l>книга<s n="n"/><s n="f"/><s n="nn"/></l><r>book<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кнопка<s n="n"/><s n="f"/><s n="nn"/></l><r>button_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>князь<s n="n"/><s n="m"/><s n="aa"/></l><r>knyaz<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ковер<s n="n"/><s n="m"/><s n="nn"/></l><r>carpet<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кодекс<s n="n"/><s n="m"/><s n="nn"/></l><r>code_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кожа<s n="n"/><s n="f"/><s n="nn"/></l><r>skin<s n="n"/></r></p></e>
+    <e c="  0"><p><l>коза<s n="n"/><s n="f"/><s n="aa"/></l><r>goat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кол<s n="n"/><s n="m"/><s n="nn"/></l><r>kohl<s n="n"/></r></p></e>
+    <e c="  0"><p><l>колбаса<s n="n"/><s n="f"/><s n="nn"/></l><r>kielbasa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>колдун<s n="n"/><s n="m"/><s n="aa"/></l><r>warlock<s n="n"/></r></p></e>
+    <e c="  0"><p><l>колесо<s n="n"/><s n="nt"/><s n="nn"/></l><r>wheel<s n="n"/></r></p></e>
+    <e c="  0"><p><l>количество<s n="n"/><s n="nt"/><s n="nn"/></l><r>quantity<s n="n"/></r></p></e>
+    <e c="  0"><p><l>коллектив<s n="n"/><s n="m"/><s n="nn"/></l><r>collective<s n="n"/></r></p></e>
+    <e c="  0"><p><l>коллекция<s n="n"/><s n="f"/><s n="nn"/></l><r>collection<s n="n"/></r></p></e>
+    <e c="  0"><p><l>колодец<s n="n"/><s n="m"/><s n="nn"/></l><r>water_well<s n="n"/></r></p></e>
+    <e c="  0"><p><l>колонна<s n="n"/><s n="f"/><s n="nn"/></l><r>column_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>колхоз<s n="n"/><s n="m"/><s n="nn"/></l><r>kolkhoz<s n="n"/></r></p></e>
+    <e c="  0"><p><l>команда<s n="n"/><s n="f"/><s n="nn"/></l><r>commando_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>командировка<s n="n"/><s n="f"/><s n="nn"/></l><r>business_trip<s n="n"/></r></p></e>
+    <e c="  0"><p><l>комар<s n="n"/><s n="m"/><s n="aa"/></l><r>mosquito<s n="n"/></r></p></e>
+    <e c="  0"><p><l>комиссия<s n="n"/><s n="f"/><s n="nn"/></l><r>commission<s n="n"/></r></p></e>
+    <e c="  0"><p><l>комитет<s n="n"/><s n="m"/><s n="nn"/></l><r>committee<s n="n"/></r></p></e>
+    <e c="  0"><p><l>коммунизм<s n="n"/><s n="m"/><s n="nn"/></l><r>communism<s n="n"/></r></p></e>
+    <e c="  0"><p><l>комната<s n="n"/><s n="f"/><s n="nn"/></l><r>room<s n="n"/></r></p></e>
+    <e c="  0"><p><l>компания<s n="n"/><s n="f"/><s n="nn"/></l><r>company_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>комплекс<s n="n"/><s n="m"/><s n="nn"/></l><r>complex<s n="n"/></r></p></e>
+    <e c="  0"><p><l>компьютер<s n="n"/><s n="m"/><s n="nn"/></l><r>computer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>конверт<s n="n"/><s n="m"/><s n="nn"/></l><r>envelope<s n="n"/></r></p></e>
+    <e c="  0"><p><l>конструктор<s n="n"/><s n="m"/><s n="nn"/></l><r>constructor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>контакт<s n="n"/><s n="m"/><s n="nn"/></l><r>contact<s n="n"/></r></p></e>
+    <e c="  0"><p><l>контракт<s n="n"/><s n="m"/><s n="nn"/></l><r>contract<s n="n"/></r></p></e>
+    <e c="  0"><p><l>контроль<s n="n"/><s n="m"/><s n="nn"/></l><r>control<s n="n"/></r></p></e>
+    <e c="  0"><p><l>конференция<s n="n"/><s n="f"/><s n="nn"/></l><r>conference<s n="n"/></r></p></e>
+    <e c="  0"><p><l>конфета<s n="n"/><s n="f"/><s n="nn"/></l><r>candy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>концерт<s n="n"/><s n="m"/><s n="nn"/></l><r>concert_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>коньяк<s n="n"/><s n="m"/><s n="nn"/></l><r>cognac_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>копия<s n="n"/><s n="f"/><s n="nn"/></l><r>copy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>копыто<s n="n"/><s n="nt"/><s n="nn"/></l><r>hoof<s n="n"/></r></p></e>
+    <e c="  0"><p><l>копье<s n="n"/><s n="nt"/><s n="nn"/></l><r>spear<s n="n"/></r></p></e>
+    <e c="  0"><p><l>корабль<s n="n"/><s n="m"/><s n="nn"/></l><r>warship<s n="n"/></r></p></e>
+    <e c="  0"><p><l>корень<s n="n"/><s n="m"/><s n="nn"/></l><r>root<s n="n"/></r></p></e>
+    <e c="  0"><p><l>корзина<s n="n"/><s n="f"/><s n="nn"/></l><r>basket<s n="n"/></r></p></e>
+    <e c="  0"><p><l>коридор<s n="n"/><s n="m"/><s n="nn"/></l><r>hall<s n="n"/></r></p></e>
+    <e c="  0"><p><l>коробка<s n="n"/><s n="f"/><s n="nn"/></l><r>box<s n="n"/></r></p></e>
+    <e c="  0"><p><l>корова<s n="n"/><s n="f"/><s n="aa"/></l><r>cattle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>королева<s n="n"/><s n="f"/><s n="aa"/></l><r>king<s n="n"/></r></p></e>
+    <e c="  0"><p><l>король<s n="n"/><s n="m"/><s n="aa"/></l><r>king<s n="n"/></r></p></e>
+    <e c="  0"><p><l>корпорация<s n="n"/><s n="f"/><s n="nn"/></l><r>corporation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>корпус<s n="n"/><s n="m"/><s n="nn"/></l><r>corpus<s n="n"/></r></p></e>
+    <e c="  0"><p><l>корреспондент<s n="n"/><s n="m"/><s n="aa"/></l><r>correspondent_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>космос<s n="n"/><s n="m"/><s n="nn"/></l><r>cosmos_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кость<s n="n"/><s n="f"/><s n="nn"/></l><r>bone<s n="n"/></r></p></e>
+    <e c="  0"><p><l>костюм<s n="n"/><s n="m"/><s n="nn"/></l><r>costume<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кот<s n="n"/><s n="m"/><s n="aa"/></l><r>cat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>котенок<s n="n"/><s n="m"/><s n="aa"/></l><r>cat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кофе<s n="n"/><s n="m"/><s n="aa"/></l><r>interwiki-es-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кошка<s n="n"/><s n="f"/><s n="aa"/></l><r>cat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>край<s n="n"/><s n="m"/><s n="nn"/></l><r>kraj<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кран<s n="n"/><s n="m"/><s n="nn"/></l><r>crane<s n="n"/></r></p></e>
+    <e c="  0"><p><l>краска<s n="n"/><s n="f"/><s n="nn"/></l><r>paint<s n="n"/></r></p></e>
+    <e c="  0"><p><l>красота<s n="n"/><s n="f"/><s n="nn"/></l><r>beauty<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кредит<s n="n"/><s n="f"/><s n="nn"/></l><r>credit_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кремль<s n="n"/><s n="m"/><s n="nn"/></l><r>kremlin<s n="n"/></r></p></e>
+    <e c="  0"><p><l>крепость<s n="n"/><s n="f"/><s n="nn"/></l><r>stronghold<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кресло<s n="n"/><s n="nt"/><s n="nn"/></l><r>wing_chair<s n="n"/></r></p></e>
+    <e c="  0"><p><l>крест<s n="n"/><s n="m"/><s n="nn"/></l><r>cross<s n="n"/></r></p></e>
+    <e c="  0"><p><l>крестьянин<s n="n"/><s n="m"/><s n="aa"/></l><r>peasant<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кризис<s n="n"/><s n="m"/><s n="nn"/></l><r>crisis<s n="n"/></r></p></e>
+    <e c="  0"><p><l>крик<s n="n"/><s n="m"/><s n="nn"/></l><r>shout<s n="n"/></r></p></e>
+    <e c="  0"><p><l>критика<s n="n"/><s n="f"/><s n="nn"/></l><r>criticism<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кровать<s n="n"/><s n="f"/><s n="nn"/></l><r>bed<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кровь<s n="n"/><s n="f"/><s n="nn"/></l><r>blood<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кролик<s n="n"/><s n="m"/><s n="aa"/></l><r>rabbit<s n="n"/></r></p></e>
+    <e c="  0"><p><l>круг<s n="n"/><s n="m"/><s n="nn"/></l><r>disk_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>крыло<s n="n"/><s n="nt"/><s n="nn"/></l><r>flügel<s n="n"/></r></p></e>
+    <e c="  0"><p><l>крыльцо<s n="n"/><s n="nt"/><s n="nn"/></l><r>porch<s n="n"/></r></p></e>
+    <e c="  0"><p><l>крыса<s n="n"/><s n="f"/><s n="aa"/></l><r>rat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>крыша<s n="n"/><s n="f"/><s n="nn"/></l><r>roof<s n="n"/></r></p></e>
+    <e c="  0"><p><l>крышка<s n="n"/><s n="f"/><s n="nn"/></l><r>lid_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>крючок<s n="n"/><s n="m"/><s n="nn"/></l><r>fish_hook<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кузов<s n="n"/><s n="m"/><s n="nn"/></l><r>coachwork<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кукла<s n="n"/><s n="f"/><s n="aa"/></l><r>doll<s n="n"/></r></p></e>
+    <e c="  0"><p><l>кулак<s n="n"/><s n="m"/><s n="aa"/></l><r>cam_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>культура<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-en-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>купец<s n="n"/><s n="m"/><s n="aa"/></l><r>merchant<s n="n"/></r></p></e>
+    <e c="  0"><p><l>купол<s n="n"/><s n="m"/><s n="nn"/></l><r>dome<s n="n"/></r></p></e>
+    <e c="  0"><p><l>курица<s n="n"/><s n="f"/><s n="aa"/></l><r>chicken<s n="n"/></r></p></e>
+    <e c="  0"><p><l>куртка<s n="n"/><s n="f"/><s n="nn"/></l><r>jacket<s n="n"/></r></p></e>
+    <e c="  0"><p><l>куст<s n="n"/><s n="m"/><s n="nn"/></l><r>shrub<s n="n"/></r></p></e>
+    <e c="  0"><p><l>куча<s n="n"/><s n="f"/><s n="nn"/></l><r>kucha<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лаборатория<s n="n"/><s n="f"/><s n="nn"/></l><r>laboratory<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лаборатория<s n="n"/><s n="f"/><s n="nn"/></l><r>laboratory<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лагерь<s n="n"/><s n="m"/><s n="nn"/></l><r>bearing<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лампа<s n="n"/><s n="f"/><s n="nn"/></l><r>lamp<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лампочка<s n="n"/><s n="f"/><s n="nn"/></l><r>incandescent_light_bulb<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лапа<s n="n"/><s n="f"/><s n="nn"/></l><r>paw<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лев<s n="n"/><s n="m"/><s n="aa"/></l><r>interwiki-ca-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>легенда<s n="n"/><s n="f"/><s n="nn"/></l><r>legend<s n="n"/></r></p></e>
+    <e c="  0"><p><l>легкое<s n="n"/><s n="nt"/><s n="nn"/></l><r>lung<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лед<s n="n"/><s n="m"/><s n="nn"/></l><r>ice<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лейтенант<s n="n"/><s n="m"/><s n="aa"/></l><r>lieutenant<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лекарство<s n="n"/><s n="nt"/><s n="nn"/></l><r>pharmaceutical_drug<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лента<s n="n"/><s n="f"/><s n="nn"/></l><r>tape<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лес<s n="n"/><s n="m"/><s n="nn"/></l><r>forest<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лестница<s n="n"/><s n="f"/><s n="nn"/></l><r>stairway<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лето<s n="n"/><s n="nt"/><s n="nn"/></l><r>summer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>летчик<s n="n"/><s n="m"/><s n="aa"/></l><r>aviator<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лечение<s n="n"/><s n="nt"/><s n="nn"/></l><r>therapy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лидер<s n="n"/><s n="m"/><s n="aa"/></l><r>leadership<s n="n"/></r></p></e>
+    <e c="  0"><p><l>линия<s n="n"/><s n="f"/><s n="nn"/></l><r>line<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лист<s n="n"/><s n="m"/><s n="nn"/></l><r>leaf<s n="n"/></r></p></e>
+    <e c="  0"><p><l>листва<s n="n"/><s n="f"/><s n="nn"/></l><r>leaf<s n="n"/></r></p></e>
+    <e c="  0"><p><l>литература<s n="n"/><s n="f"/><s n="nn"/></l><r>literature<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лифт<s n="n"/><s n="m"/><s n="nn"/></l><r>elevator<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лицо<s n="n"/><s n="nt"/><s n="nn"/></l><r>face<s n="n"/></r></p></e>
+    <e c="  0"><p><l>личность<s n="n"/><s n="f"/><s n="nn"/></l><r>person<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лоб<s n="n"/><s n="m"/><s n="nn"/></l><r>forehead<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лодка<s n="n"/><s n="f"/><s n="nn"/></l><r>boat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ложка<s n="n"/><s n="f"/><s n="nn"/></l><r>spoon<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ложь<s n="n"/><s n="f"/><s n="nn"/></l><r>lie<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лозунг<s n="n"/><s n="m"/><s n="nn"/></l><r>slogan<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лопата<s n="n"/><s n="f"/><s n="nn"/></l><r>shovel<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лошадь<s n="n"/><s n="f"/><s n="aa"/></l><r>equus_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>луг<s n="n"/><s n="m"/><s n="nn"/></l><r>meadow<s n="n"/></r></p></e>
+    <e c="  0"><p><l>лужа<s n="n"/><s n="f"/><s n="nn"/></l><r>puddle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>луна<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-ar-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>любитель<s n="n"/><s n="m"/><s n="aa"/></l><r>amateur<s n="n"/></r></p></e>
+    <e c="  0"><p><l>любовь<s n="n"/><s n="f"/><s n="nn"/></l><r>love<s n="n"/></r></p></e>
+    <e c="  0"><p><l>любопытство<s n="n"/><s n="nt"/><s n="nn"/></l><r>curiosity<s n="n"/></r></p></e>
+    <e c="  0"><p><l>маг<s n="n"/><s n="m"/><s n="aa"/></l><r>magus<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мадам<s n="n"/><s n="f"/><s n="aa"/></l><r>madam<s n="n"/></r></p></e>
+    <e c="  0"><p><l>май<s n="n"/><s n="m"/><s n="nn"/></l><r>may<s n="n"/></r></p></e>
+    <e c="  0"><p><l>майка<s n="n"/><s n="f"/><s n="nn"/></l><r>sleeveless_shirt<s n="n"/></r></p></e>
+    <e c="  0"><p><l>майор<s n="n"/><s n="m"/><s n="aa"/></l><r>major<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мак<s n="n"/><s n="m"/><s n="nn"/></l><r>papaver<s n="n"/></r></p></e>
+    <e c="  0"><p><l>малыш<s n="n"/><s n="m"/><s n="aa"/></l><r>kid<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мальчик<s n="n"/><s n="m"/><s n="aa"/></l><r>boy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мама<s n="n"/><s n="f"/><s n="nn"/></l><r>mama<s n="n"/></r></p></e>
+    <e c="  0"><p><l>марка<s n="n"/><s n="f"/><s n="nn"/></l><r>marca<s n="n"/></r></p></e>
+    <e c="  0"><p><l>март<s n="n"/><s n="m"/><s n="nn"/></l><r>march<s n="n"/></r></p></e>
+    <e c="  0"><p><l>марш<s n="n"/><s n="m"/><s n="nn"/></l><r>marsh_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>маршал<s n="n"/><s n="m"/><s n="aa"/></l><r>marshal<s n="n"/></r></p></e>
+    <e c="  0"><p><l>маска<s n="n"/><s n="f"/><s n="nn"/></l><r>mask<s n="n"/></r></p></e>
+    <e c="  0"><p><l>масло<s n="n"/><s n="nt"/><s n="nn"/></l><r>oil<s n="n"/></r></p></e>
+    <e c="  0"><p><l>масса<s n="n"/><s n="f"/><s n="nn"/></l><r>mass<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мастер<s n="n"/><s n="m"/><s n="aa"/></l><r>master<s n="n"/></r></p></e>
+    <e c="  0"><p><l>масштаб<s n="n"/><s n="m"/><s n="nn"/></l><r>scale_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>материал<s n="n"/><s n="m"/><s n="nn"/></l><r>material<s n="n"/></r></p></e>
+    <e c="  0"><p><l>материя<s n="n"/><s n="f"/><s n="nn"/></l><r>materia<s n="n"/></r></p></e>
+    <e c="  0"><p><l>матрос<s n="n"/><s n="m"/><s n="aa"/></l><r>seaman<s n="n"/></r></p></e>
+    <e c="  0"><p><l>матушка<s n="n"/><s n="f"/><s n="aa"/></l><r>mother<s n="n"/></r></p></e>
+    <e c="  0"><p><l>матч<s n="n"/><s n="m"/><s n="nn"/></l><r>match_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мать<s n="n"/><s n="f"/><s n="aa"/></l><r>mother<s n="n"/></r></p></e>
+    <e c="  0"><p><l>машина<s n="n"/><s n="f"/><s n="nn"/></l><r>machine<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мебель<s n="n"/><s n="f"/><s n="nn"/></l><r>furniture<s n="n"/></r></p></e>
+    <e c="  0"><p><l>медаль<s n="n"/><s n="f"/><s n="nn"/></l><r>medal<s n="n"/></r></p></e>
+    <e c="  0"><p><l>медведь<s n="n"/><s n="m"/><s n="aa"/></l><r>bear<s n="n"/></r></p></e>
+    <e c="  0"><p><l>медицина<s n="n"/><s n="f"/><s n="nn"/></l><r>medicine<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мелодия<s n="n"/><s n="f"/><s n="nn"/></l><r>melody<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мера<s n="n"/><s n="f"/><s n="nn"/></l><r>mera<s n="n"/></r></p></e>
+
+    <e c="  0"><p><l>место<s n="n"/><s n="nt"/><s n="nn"/></l><r>location<s n="n"/></r></p></e>
+
+    <e c="  0"><p><l>месяц<s n="n"/><s n="m"/><s n="nn"/></l><r>month<s n="n"/></r></p></e>
+    <e c="  0"><p><l>металл<s n="n"/><s n="m"/><s n="nn"/></l><r>metal<s n="n"/></r></p></e>
+    <e c="  0"><p><l>метод<s n="n"/><s n="m"/><s n="nn"/></l><r>method<s n="n"/></r></p></e>
+    <e c="  0"><p><l>метр<s n="n"/><s n="m"/><s n="nn"/></l><r>metre<s n="n"/></r></p></e>
+    <e c="  0"><p><l>метро<s n="n"/><s n="nt"/><s n="aa"/></l><r>interwiki-sl-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>механизм<s n="n"/><s n="m"/><s n="nn"/></l><r>mechanism_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>меч<s n="n"/><s n="m"/><s n="nn"/></l><r>sword<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мечта<s n="n"/><s n="f"/><s n="nn"/></l><r>daydream<s n="n"/></r></p></e>
+    <e c="  0"><p><l>миг<s n="n"/><s n="m"/><s n="nn"/></l><r>mikoyan<s n="n"/></r></p></e>
+    <e c="  0"><p><l>милиционер<s n="n"/><s n="m"/><s n="aa"/></l><r>militsiya<s n="n"/></r></p></e>
+    <e c="  0"><p><l>милиция<s n="n"/><s n="f"/><s n="nn"/></l><r>militsiya<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мина<s n="n"/><s n="f"/><s n="nn"/></l><r>mine<s n="n"/></r></p></e>
+    <e c="  0"><p><l>министерство<s n="n"/><s n="nt"/><s n="nn"/></l><r>ministry_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>министр<s n="n"/><s n="m"/><s n="aa"/></l><r>minister_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>минута<s n="n"/><s n="f"/><s n="nn"/></l><r>minute<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мир<s n="n"/><s n="m"/><s n="nn"/></l><r>mir_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>миска<s n="n"/><s n="f"/><s n="nn"/></l><r>bowl_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>митинг<s n="n"/><s n="m"/><s n="nn"/></l><r>demonstration_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>младенец<s n="n"/><s n="m"/><s n="aa"/></l><r>infant<s n="n"/></r></p></e>
+    <e c="  0"><p><l>множество<s n="n"/><s n="nt"/><s n="nn"/></l><r>set_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>могила<s n="n"/><s n="f"/><s n="nn"/></l><r>grave_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мода<s n="n"/><s n="f"/><s n="nn"/></l><r>fashion<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мозг<s n="n"/><s n="m"/><s n="nn"/></l><r>brain<s n="n"/></r></p></e>
+    <e c="  0"><p><l>молитва<s n="n"/><s n="f"/><s n="nn"/></l><r>prayer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>молния<s n="n"/><s n="f"/><s n="nn"/></l><r>lightning<s n="n"/></r></p></e>
+    <e c="  0"><p><l>молодость<s n="n"/><s n="f"/><s n="nn"/></l><r>youth<s n="n"/></r></p></e>
+    <e c="  0"><p><l>молоко<s n="n"/><s n="nt"/><s n="nn"/></l><r>milk<s n="n"/></r></p></e>
+    <e c="  0"><p><l>момент<s n="n"/><s n="m"/><s n="nn"/></l><r>moment<s n="n"/></r></p></e>
+    <e c="  0"><p><l>монастырь<s n="n"/><s n="m"/><s n="nn"/></l><r>monastery<s n="n"/></r></p></e>
+    <e c="  0"><p><l>монах<s n="n"/><s n="m"/><s n="aa"/></l><r>monk<s n="n"/></r></p></e>
+    <e c="  0"><p><l>монета<s n="n"/><s n="f"/><s n="nn"/></l><r>coin<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мораль<s n="n"/><s n="f"/><s n="nn"/></l><r>morality<s n="n"/></r></p></e>
+    <e c="  0"><p><l>морда<s n="n"/><s n="f"/><s n="nn"/></l><r>muzzle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>море<s n="n"/><s n="nt"/><s n="nn"/></l><r>sea<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мороз<s n="n"/><s n="m"/><s n="nn"/></l><r>cold<s n="n"/></r></p></e>
+    <e c="  0"><p><l>моряк<s n="n"/><s n="m"/><s n="aa"/></l><r>sailor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мост<s n="n"/><s n="m"/><s n="nn"/></l><r>bridge<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мотив<s n="n"/><s n="m"/><s n="nn"/></l><r>motive<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мотор<s n="n"/><s n="m"/><s n="nn"/></l><r>engine<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мотоцикл<s n="n"/><s n="m"/><s n="nn"/></l><r>motorcycle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мудрость<s n="n"/><s n="f"/><s n="nn"/></l><r>wisdom<s n="n"/></r></p></e>
+    <e c="  0"><p><l>муж<s n="n"/><s n="m"/><s n="aa"/></l><r>husband<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мужик<s n="n"/><s n="m"/><s n="aa"/></l><r>peasant<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мужчина<s n="n"/><s n="m"/><s n="aa"/></l><r>man<s n="n"/></r></p></e>
+    <e c="  0"><p><l>музей<s n="n"/><s n="m"/><s n="nn"/></l><r>museum<s n="n"/></r></p></e>
+    <e c="  0"><p><l>музыка<s n="n"/><s n="f"/><s n="nn"/></l><r>music<s n="n"/></r></p></e>
+    <e c="  0"><p><l>музыкант<s n="n"/><s n="m"/><s n="aa"/></l><r>musician<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мука<s n="n"/><s n="f"/><s n="nn"/></l><r>flour<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мундир<s n="n"/><s n="m"/><s n="nn"/></l><r>uniform<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мусор<s n="n"/><s n="m"/><s n="aa"/></l><r>waste<s n="n"/></r></p></e>
+    <e c="  0"><p><l>муха<s n="n"/><s n="f"/><s n="aa"/></l><r>musca_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мыло<s n="n"/><s n="nt"/><s n="nn"/></l><r>soap<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мысль<s n="n"/><s n="f"/><s n="nn"/></l><r>thought<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мышца<s n="n"/><s n="f"/><s n="nn"/></l><r>muscle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мышь<s n="n"/><s n="f"/><s n="aa"/></l><r>muridae<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мэр<s n="n"/><s n="m"/><s n="aa"/></l><r>mayor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мясо<s n="n"/><s n="nt"/><s n="nn"/></l><r>meat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>мяч<s n="n"/><s n="m"/><s n="nn"/></l><r>ball<s n="n"/></r></p></e>
+    <e c="  0"><p><l>наблюдение<s n="n"/><s n="nt"/><s n="nn"/></l><r>observation_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>награда<s n="n"/><s n="f"/><s n="nn"/></l><r>award<s n="n"/></r></p></e>
+    <e c="  0"><p><l>надежда<s n="n"/><s n="f"/><s n="nn"/></l><r>hope<s n="n"/></r></p></e>
+    <e c="  0"><p><l>наказание<s n="n"/><s n="nt"/><s n="nn"/></l><r>punishment<s n="n"/></r></p></e>
+    <e c="  0"><p><l>налог<s n="n"/><s n="m"/><s n="nn"/></l><r>tax<s n="n"/></r></p></e>
+    <e c="  0"><p><l>напиток<s n="n"/><s n="m"/><s n="nn"/></l><r>drink<s n="n"/></r></p></e>
+    <e c="  0"><p><l>напряжение<s n="n"/><s n="nt"/><s n="nn"/></l><r>tension<s n="n"/></r></p></e>
+    <e c="  0"><p><l>народ<s n="n"/><s n="m"/><s n="nn"/></l><r>people<s n="n"/></r></p></e>
+    <e c="  0"><p><l>население<s n="n"/><s n="nt"/><s n="nn"/></l><r>population<s n="n"/></r></p></e>
+    <e c="  0"><p><l>наслаждение<s n="n"/><s n="nt"/><s n="nn"/></l><r>pleasure<s n="n"/></r></p></e>
+    <e c="  0"><p><l>настроение<s n="n"/><s n="nt"/><s n="nn"/></l><r>mood_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>наступление<s n="n"/><s n="nt"/><s n="nn"/></l><r>offensive<s n="n"/></r></p></e>
+    <e c="  0"><p><l>наука<s n="n"/><s n="f"/><s n="nn"/></l><r>science<s n="n"/></r></p></e>
+    <e c="  0"><p><l>национальность<s n="n"/><s n="f"/><s n="nn"/></l><r>nationality#nationality_vs_citizenship<s n="n"/></r></p></e>
+    <e c="  0"><p><l>нация<s n="n"/><s n="f"/><s n="nn"/></l><r>nation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>начальство<s n="n"/><s n="nt"/><s n="nn"/></l><r>power_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>небо<s n="n"/><s n="nt"/><s n="nn"/></l><r>sky<s n="n"/></r></p></e>
+    <e c="  0"><p><l>невеста<s n="n"/><s n="f"/><s n="aa"/></l><r>bride<s n="n"/></r></p></e>
+    <e c="  0"><p><l>невроз<s n="n"/><s n="m"/><s n="nn"/></l><r>neurosis<s n="n"/></r></p></e>
+    <e c="  0"><p><l>негр<s n="n"/><s n="m"/><s n="aa"/></l><r>negro<s n="n"/></r></p></e>
+    <e c="  0"><p><l>неделя<s n="n"/><s n="f"/><s n="nn"/></l><r>week<s n="n"/></r></p></e>
+    <e c="  0"><p><l>немец<s n="n"/><s n="m"/><s n="aa"/></l><r>germans<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ненависть<s n="n"/><s n="f"/><s n="nn"/></l><r>hatred<s n="n"/></r></p></e>
+    <e c="  0"><p><l>необходимость<s n="n"/><s n="f"/><s n="nn"/></l><r>necessary<s n="n"/></r></p></e>
+    <e c="  0"><p><l>неправда<s n="n"/><s n="f"/><s n="nn"/></l><r>lie<s n="n"/></r></p></e>
+    <e c="  0"><p><l>нерв<s n="n"/><s n="m"/><s n="nn"/></l><r>peripheral_nerve<s n="n"/></r></p></e>
+    <e c="  0"><p><l>неудача<s n="n"/><s n="f"/><s n="nn"/></l><r>failure<s n="n"/></r></p></e>
+    <e c="  0"><p><l>нефть<s n="n"/><s n="f"/><s n="nn"/></l><r>petroleum<s n="n"/></r></p></e>
+    <e c="  0"><p><l>новость<s n="n"/><s n="f"/><s n="nn"/></l><r>news<s n="n"/></r></p></e>
+    <e c="  0"><p><l>нога<s n="n"/><s n="f"/><s n="nn"/></l><r>leg<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ноготь<s n="n"/><s n="m"/><s n="nn"/></l><r>nail_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>нож<s n="n"/><s n="m"/><s n="nn"/></l><r>knife<s n="n"/></r></p></e>
+    <e c="  0"><p><l>номенклатура<s n="n"/><s n="f"/><s n="nn"/></l><r>nomenclatura<s n="n"/></r></p></e>
+    <e c="  0"><p><l>норма<s n="n"/><s n="f"/><s n="nn"/></l><r>norm<s n="n"/></r></p></e>
+    <e c="  0"><p><l>нос<s n="n"/><s n="m"/><s n="nn"/></l><r>nose<s n="n"/></r></p></e>
+    <e c="  0"><p><l>носок<s n="n"/><s n="m"/><s n="nn"/></l><r>sock<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ночь<s n="n"/><s n="f"/><s n="nn"/></l><r>night<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ноябрь<s n="n"/><s n="m"/><s n="nn"/></l><r>november<s n="n"/></r></p></e>
+    <e c="  0"><p><l>нужда<s n="n"/><s n="f"/><s n="nn"/></l><r>need<s n="n"/></r></p></e>
+    <e c="  0"><p><l>обвинение<s n="n"/><s n="nt"/><s n="nn"/></l><r>criminal_accusation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>обед<s n="n"/><s n="m"/><s n="nn"/></l><r>lunch<s n="n"/></r></p></e>
+    <e c="  0"><p><l>обезьяна<s n="n"/><s n="f"/><s n="aa"/></l><r>monkey<s n="n"/></r></p></e>
+    <e c="  0"><p><l>облако<s n="n"/><s n="nt"/><s n="nn"/></l><r>cloud<s n="n"/></r></p></e>
+    <e c="  0"><p><l>обман<s n="n"/><s n="m"/><s n="nn"/></l><r>lie<s n="n"/></r></p></e>
+    <e c="  0"><p><l>оболочка<s n="n"/><s n="f"/><s n="nn"/></l><r>shell<s n="n"/></r></p></e>
+    <e c="  0"><p><l>оборона<s n="n"/><s n="f"/><s n="nn"/></l><r>defense_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>образ<s n="n"/><s n="m"/><s n="nn"/></l><r>image_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>образование<s n="n"/><s n="nt"/><s n="nn"/></l><r>education<s n="n"/></r></p></e>
+    <e c="  0"><p><l>обстоятельство<s n="n"/><s n="nt"/><s n="nn"/></l><r>adverbial<s n="n"/></r></p></e>
+    <e c="  0"><p><l>обсуждение<s n="n"/><s n="nt"/><s n="nn"/></l><r>dialogue<s n="n"/></r></p></e>
+    <e c="  0"><p><l>обувь<s n="n"/><s n="f"/><s n="nn"/></l><r>footwear<s n="n"/></r></p></e>
+    <e c="  0"><p><l>общежитие<s n="n"/><s n="nt"/><s n="nn"/></l><r>dormitory<s n="n"/></r></p></e>
+    <e c="  0"><p><l>общение<s n="n"/><s n="nt"/><s n="nn"/></l><r>communication<s n="n"/></r></p></e>
+    <e c="  0"><p><l>общество<s n="n"/><s n="nt"/><s n="nn"/></l><r>society<s n="n"/></r></p></e>
+    <e c="  0"><p><l>объект<s n="n"/><s n="m"/><s n="nn"/></l><r>object_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>объятие<s n="n"/><s n="nt"/><s n="nn"/></l><r>hug<s n="n"/></r></p></e>
+    <e c="  0"><p><l>овраг<s n="n"/><s n="m"/><s n="nn"/></l><r>gully<s n="n"/></r></p></e>
+    <e c="  0"><p><l>овца<s n="n"/><s n="f"/><s n="aa"/></l><r>sheep<s n="n"/></r></p></e>
+
+    <e c="  0"><p><l>обстоятельство<s n="n"/><s n="nt"/><s n="nn"/></l><r>circumstance<s n="n"/></r></p></e>
+
+    <e c="  0"><p><l>огонек<s n="n"/><s n="m"/><s n="nn"/></l><r>ogoniok<s n="n"/></r></p></e>
+    <e c="  0"><p><l>огонь<s n="n"/><s n="m"/><s n="nn"/></l><r>fire<s n="n"/></r></p></e>
+    <e c="  0"><p><l>огород<s n="n"/><s n="m"/><s n="nn"/></l><r>garden<s n="n"/></r></p></e>
+    <e c="  0"><p><l>огурец<s n="n"/><s n="m"/><s n="nn"/></l><r>cucumber<s n="n"/></r></p></e>
+    <e c="  0"><p><l>одежда<s n="n"/><s n="f"/><s n="nn"/></l><r>clothing<s n="n"/></r></p></e>
+    <e c="  0"><p><l>одеяло<s n="n"/><s n="nt"/><s n="nn"/></l><r>blanket<s n="n"/></r></p></e>
+    <e c="  0"><p><l>одиночество<s n="n"/><s n="nt"/><s n="nn"/></l><r>solitude<s n="n"/></r></p></e>
+    <e c="  0"><p><l>озеро<s n="n"/><s n="nt"/><s n="nn"/></l><r>lake<s n="n"/></r></p></e>
+    <e c="  0"><p><l>океан<s n="n"/><s n="m"/><s n="nn"/></l><r>ocean<s n="n"/></r></p></e>
+    <e c="  0"><p><l>окно<s n="n"/><s n="nt"/><s n="nn"/></l><r>window<s n="n"/></r></p></e>
+    <e c="  0"><p><l>окончание<s n="n"/><s n="nt"/><s n="nn"/></l><r>morpheme<s n="n"/></r></p></e>
+    <e c="  0"><p><l>окоп<s n="n"/><s n="m"/><s n="nn"/></l><r>defensive_fighting_position<s n="n"/></r></p></e>
+    <e c="  0"><p><l>окружение<s n="n"/><s n="nt"/><s n="nn"/></l><r>encirclement<s n="n"/></r></p></e>
+    <e c="  0"><p><l>октябрь<s n="n"/><s n="m"/><s n="nn"/></l><r>october<s n="n"/></r></p></e>
+    <e c="  0"><p><l>окурок<s n="n"/><s n="m"/><s n="nn"/></l><r>interwiki-sv-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>олень<s n="n"/><s n="m"/><s n="aa"/></l><r>deer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>опасность<s n="n"/><s n="f"/><s n="nn"/></l><r>hazard<s n="n"/></r></p></e>
+    <e c="  0"><p><l>операция<s n="n"/><s n="f"/><s n="nn"/></l><r>operation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>орган<s n="n"/><s n="m"/><s n="nn"/></l><r>organ<s n="n"/></r></p></e>
+    <e c="  0"><p><l>организация<s n="n"/><s n="f"/><s n="nn"/></l><r>organisation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>организм<s n="n"/><s n="m"/><s n="nn"/></l><r>organism<s n="n"/></r></p></e>
+    <e c="  0"><p><l>орех<s n="n"/><s n="m"/><s n="nn"/></l><r>nut_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>оркестр<s n="n"/><s n="m"/><s n="nn"/></l><r>orchestra<s n="n"/></r></p></e>
+    <e c="  0"><p><l>оружие<s n="n"/><s n="nt"/><s n="nn"/></l><r>weapon<s n="n"/></r></p></e>
+    <e c="  0"><p><l>осень<s n="n"/><s n="f"/><s n="nn"/></l><r>autumn<s n="n"/></r></p></e>
+    <e c="  0"><p><l>особенность<s n="n"/><s n="f"/><s n="nn"/></l><r>mathematical_singularity<s n="n"/></r></p></e>
+    <e c="  0"><p><l>остров<s n="n"/><s n="m"/><s n="nn"/></l><r>island<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ось<s n="n"/><s n="f"/><s n="nn"/></l><r>axle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ответ<s n="n"/><s n="m"/><s n="nn"/></l><r>answer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ответственность<s n="n"/><s n="f"/><s n="nn"/></l><r>moral_responsibility<s n="n"/></r></p></e>
+    <e c="  0"><p><l>отдел<s n="n"/><s n="m"/><s n="nn"/></l><r>phylum<s n="n"/></r></p></e>
+    <e c="  0"><p><l>отделение<s n="n"/><s n="nt"/><s n="nn"/></l><r>squad<s n="n"/></r></p></e>
+    <e c="  0"><p><l>отдых<s n="n"/><s n="m"/><s n="nn"/></l><r>recreation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>отель<s n="n"/><s n="m"/><s n="nn"/></l><r>hotel<s n="n"/></r></p></e>
+    <e c="  0"><p><l>отец<s n="n"/><s n="m"/><s n="aa"/></l><r>father<s n="n"/></r></p></e>
+    <e c="  0"><p><l>открытие<s n="n"/><s n="nt"/><s n="nn"/></l><r>discovery_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>отношение<s n="n"/><s n="nt"/><s n="nn"/></l><r>relation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>отпуск<s n="n"/><s n="m"/><s n="nn"/></l><r>leave_of_absence<s n="n"/></r></p></e>
+    <e c="  0"><p><l>отражение<s n="n"/><s n="nt"/><s n="nn"/></l><r>reflection<s n="n"/></r></p></e>
+    <e c="  0"><p><l>отряд<s n="n"/><s n="m"/><s n="nn"/></l><r>order_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>оттенок<s n="n"/><s n="m"/><s n="nn"/></l><r>color<s n="n"/></r></p></e>
+    <e c="  0"><p><l>отчаяние<s n="n"/><s n="nt"/><s n="nn"/></l><r>despair<s n="n"/></r></p></e>
+    <e c="  0"><p><l>отчет<s n="n"/><s n="m"/><s n="nn"/></l><r>report<s n="n"/></r></p></e>
+    <e c="  0"><p><l>офис<s n="n"/><s n="m"/><s n="nn"/></l><r>office<s n="n"/></r></p></e>
+    <e c="  0"><p><l>офицер<s n="n"/><s n="m"/><s n="aa"/></l><r>officer_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>официант<s n="n"/><s n="m"/><s n="aa"/></l><r>waiting_staff<s n="n"/></r></p></e>
+    <e c="  0"><p><l>охота<s n="n"/><s n="f"/><s n="nn"/></l><r>hunting<s n="n"/></r></p></e>
+    <e c="  0"><p><l>охрана<s n="n"/><s n="f"/><s n="nn"/></l><r>guard<s n="n"/></r></p></e>
+    <e c="  0"><p><l>охранник<s n="n"/><s n="m"/><s n="aa"/></l><r>guard<s n="n"/></r></p></e>
+    <e c="  0"><p><l>оценка<s n="n"/><s n="f"/><s n="nn"/></l><r>evaluation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>очередь<s n="n"/><s n="f"/><s n="nn"/></l><r>queue<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ошибка<s n="n"/><s n="f"/><s n="nn"/></l><r>error<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ощущение<s n="n"/><s n="nt"/><s n="nn"/></l><r>sense<s n="n"/></r></p></e>
+    <e c="  0"><p><l>падаль<s n="n"/><s n="f"/><s n="nn"/></l><r>carrion<s n="n"/></r></p></e>
+    <e c="  0"><p><l>падение<s n="n"/><s n="nt"/><s n="nn"/></l><r>the_fall_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пазуха<s n="n"/><s n="f"/><s n="nn"/></l><r>leaf<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пакет<s n="n"/><s n="m"/><s n="nn"/></l><r>packet<s n="n"/></r></p></e>
+    <e c="  0"><p><l>палатка<s n="n"/><s n="f"/><s n="nn"/></l><r>tent<s n="n"/></r></p></e>
+    <e c="  0"><p><l>палец<s n="n"/><s n="m"/><s n="nn"/></l><r>finger<s n="n"/></r></p></e>
+    <e c="  0"><p><l>палуба<s n="n"/><s n="m"/><s n="nn"/></l><r>deck_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пальто<s n="n"/><s n="nt"/><s n="aa"/></l><r>overcoat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>памятник<s n="n"/><s n="m"/><s n="nn"/></l><r>monument<s n="n"/></r></p></e>
+    <e c="  0"><p><l>память<s n="n"/><s n="f"/><s n="nn"/></l><r>memory<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пан<s n="n"/><s n="m"/><s n="aa"/></l><r>pan<s n="n"/></r></p></e>
+    <e c="  0"><p><l>паника<s n="n"/><s n="f"/><s n="nn"/></l><r>panic<s n="n"/></r></p></e>
+    <e c="  0"><p><l>папка<s n="n"/><s n="m"/><s n="nn"/></l><r>folder<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пара<s n="n"/><s n="f"/><s n="nn"/></l><r>couple<s n="n"/></r></p></e>
+    <e c="  0"><p><l>парень<s n="n"/><s n="m"/><s n="aa"/></l><r>man<s n="n"/></r></p></e>
+    <e c="  0"><p><l>парк<s n="n"/><s n="m"/><s n="nn"/></l><r>park<s n="n"/></r></p></e>
+    <e c="  0"><p><l>парламент<s n="n"/><s n="m"/><s n="nn"/></l><r>parliament<s n="n"/></r></p></e>
+    <e c="  0"><p><l>паровоз<s n="n"/><s n="m"/><s n="nn"/></l><r>steam_locomotive<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пароход<s n="n"/><s n="m"/><s n="nn"/></l><r>steamboat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>партизан<s n="n"/><s n="m"/><s n="aa"/></l><r>partisan_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>партия<s n="n"/><s n="f"/><s n="nn"/></l><r>party_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>партнер<s n="n"/><s n="m"/><s n="aa"/></l><r>partner<s n="n"/></r></p></e>
+    <e c="  0"><p><l>паспорт<s n="n"/><s n="m"/><s n="nn"/></l><r>passport<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пассажир<s n="n"/><s n="m"/><s n="aa"/></l><r>passenger<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пастух<s n="n"/><s n="m"/><s n="aa"/></l><r>shepherd<s n="n"/></r></p></e>
+    <e c="  0"><p><l>патрон<s n="n"/><s n="m"/><s n="aa"/></l><r>cartridge_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пауза<s n="n"/><s n="f"/><s n="nn"/></l><r>pause<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пациент<s n="n"/><s n="m"/><s n="aa"/></l><r>patient<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пейзаж<s n="n"/><s n="m"/><s n="nn"/></l><r>landscape_art<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пена<s n="n"/><s n="f"/><s n="nn"/></l><r>foam<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пенсия<s n="n"/><s n="f"/><s n="nn"/></l><r>pension<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пепел<s n="n"/><s n="m"/><s n="nn"/></l><r>ashes<s n="n"/></r></p></e>
+    <e c="  0"><p><l>перевод<s n="n"/><s n="m"/><s n="nn"/></l><r>translation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>переводчик<s n="n"/><s n="m"/><s n="aa"/></l><r>translator<s n="n"/></r></p></e>
+    <e c="  0"><p><l>передача<s n="n"/><s n="f"/><s n="nn"/></l><r>transmission<s n="n"/></r></p></e>
+    <e c="  0"><p><l>перестройка<s n="n"/><s n="f"/><s n="nn"/></l><r>perestroika<s n="n"/></r></p></e>
+    <e c="  0"><p><l>переулок<s n="n"/><s n="m"/><s n="nn"/></l><r>side_road<s n="n"/></r></p></e>
+    <e c="  0"><p><l>перец<s n="n"/><s n="m"/><s n="nn"/></l><r>pepper<s n="n"/></r></p></e>
+    <e c="  0"><p><l>период<s n="n"/><s n="m"/><s n="nn"/></l><r>period<s n="n"/></r></p></e>
+    <e c="  0"><p><l>перо<s n="n"/><s n="nt"/><s n="nn"/></l><r>feather<s n="n"/></r></p></e>
+    <e c="  0"><p><l>перспектива<s n="n"/><s n="f"/><s n="nn"/></l><r>perspective_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>перчатка<s n="n"/><s n="f"/><s n="nn"/></l><r>glove<s n="n"/></r></p></e>
+    <e c="  0"><p><l>песня<s n="n"/><s n="f"/><s n="nn"/></l><r>song<s n="n"/></r></p></e>
+    <e c="  0"><p><l>песок<s n="n"/><s n="m"/><s n="nn"/></l><r>sand<s n="n"/></r></p></e>
+    <e c="  0"><p><l>петля<s n="n"/><s n="f"/><s n="nn"/></l><r>loop<s n="n"/></r></p></e>
+    <e c="  0"><p><l>петух<s n="n"/><s n="m"/><s n="aa"/></l><r>rooster<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пехота<s n="n"/><s n="f"/><s n="nn"/></l><r>infantry<s n="n"/></r></p></e>
+    <e c="  0"><p><l>печаль<s n="n"/><s n="f"/><s n="nn"/></l><r>sadness<s n="n"/></r></p></e>
+    <e c="  0"><p><l>печать<s n="n"/><s n="f"/><s n="nn"/></l><r>seal<s n="n"/></r></p></e>
+    <e c="  0"><p><l>печень<s n="n"/><s n="f"/><s n="nn"/></l><r>liver<s n="n"/></r></p></e>
+    <e c="  0"><p><l>печь<s n="n"/><s n="f"/><s n="aa"/></l><r>oven<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пещера<s n="n"/><s n="f"/><s n="nn"/></l><r>cave<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пианистка<s n="n"/><s n="f"/><s n="aa"/></l><r>pianist<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пиво<s n="n"/><s n="nt"/><s n="nn"/></l><r>interwiki-es-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пиджак<s n="n"/><s n="m"/><s n="nn"/></l><r>sportcoat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пила<s n="n"/><s n="f"/><s n="nn"/></l><r>saw<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пилот<s n="n"/><s n="m"/><s n="aa"/></l><r>pilot<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пионер<s n="n"/><s n="m"/><s n="aa"/></l><r>pioneer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>писатель<s n="n"/><s n="m"/><s n="aa"/></l><r>writer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пистолет<s n="n"/><s n="m"/><s n="nn"/></l><r>handgun<s n="n"/></r></p></e>
+    <e c="  0"><p><l>письмо<s n="n"/><s n="nt"/><s n="nn"/></l><r>letter_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пища<s n="n"/><s n="f"/><s n="nn"/></l><r>food<s n="n"/></r></p></e>
+    <e c="  0"><p><l>плакат<s n="n"/><s n="m"/><s n="nn"/></l><r>poster<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пламя<s n="n"/><s n="nt"/><s n="nn"/></l><r>flame<s n="n"/></r></p></e>
+    <e c="  0"><p><l>план<s n="n"/><s n="m"/><s n="nn"/></l><r>plan_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>планета<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-vi-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>платформа<s n="n"/><s n="f"/><s n="nn"/></l><r>platform<s n="n"/></r></p></e>
+    <e c="  0"><p><l>платье<s n="n"/><s n="nt"/><s n="nn"/></l><r>dress<s n="n"/></r></p></e>
+    <e c="  0"><p><l>плач<s n="n"/><s n="m"/><s n="nn"/></l><r>crying<s n="n"/></r></p></e>
+    <e c="  0"><p><l>плащ<s n="n"/><s n="m"/><s n="nn"/></l><r>cloak<s n="n"/></r></p></e>
+    <e c="  0"><p><l>племя<s n="n"/><s n="nt"/><s n="nn"/></l><r>tribe<s n="n"/></r></p></e>
+    <e c="  0"><p><l>плод<s n="n"/><s n="m"/><s n="nn"/></l><r>fruit<s n="n"/></r></p></e>
+    <e c="  0"><p><l>площадь<s n="n"/><s n="f"/><s n="nn"/></l><r>area<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пляж<s n="n"/><s n="m"/><s n="nn"/></l><r>beach<s n="n"/></r></p></e>
+    <e c="  0"><p><l>победа<s n="n"/><s n="f"/><s n="nn"/></l><r>pobeda<s n="n"/></r></p></e>
+    <e c="  0"><p><l>победитель<s n="n"/><s n="m"/><s n="aa"/></l><r>pobeda<s n="n"/></r></p></e>
+    <e c="  0"><p><l>повар<s n="n"/><s n="m"/><s n="aa"/></l><r>chef<s n="n"/></r></p></e>
+    <e c="  0"><p><l>поведение<s n="n"/><s n="nt"/><s n="nn"/></l><r>behavior<s n="n"/></r></p></e>
+    <e c="  0"><p><l>поверхность<s n="n"/><s n="f"/><s n="nn"/></l><r>surface<s n="n"/></r></p></e>
+    <e c="  0"><p><l>поворот<s n="n"/><s n="m"/><s n="nn"/></l><r>rotation_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>погода<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-en<s n="n"/></r></p></e>
+    <e c="  0"><p><l>погон<s n="n"/><s n="m"/><s n="nn"/></l><r>shoulder_mark<s n="n"/></r></p></e>
+    <e c="  0"><p><l>подарок<s n="n"/><s n="m"/><s n="nn"/></l><r>gift<s n="n"/></r></p></e>
+    <e c="  0"><p><l>подбородок<s n="n"/><s n="m"/><s n="nn"/></l><r>chin<s n="n"/></r></p></e>
+    <e c="  0"><p><l>подвал<s n="n"/><s n="m"/><s n="nn"/></l><r>basement<s n="n"/></r></p></e>
+    <e c="  0"><p><l>подпись<s n="n"/><s n="f"/><s n="nn"/></l><r>signature<s n="n"/></r></p></e>
+    <e c="  0"><p><l>подполковник<s n="n"/><s n="m"/><s n="aa"/></l><r>lieutenant_colonel<s n="n"/></r></p></e>
+    <e c="  0"><p><l>подросток<s n="n"/><s n="m"/><s n="aa"/></l><r>adolescence<s n="n"/></r></p></e>
+    <e c="  0"><p><l>подруга<s n="n"/><s n="f"/><s n="aa"/></l><r>friendship<s n="n"/></r></p></e>
+    <e c="  0"><p><l>подушка<s n="n"/><s n="f"/><s n="nn"/></l><r>pillow<s n="n"/></r></p></e>
+    <e c="  0"><p><l>подъезд<s n="n"/><s n="m"/><s n="nn"/></l><r>porch<s n="n"/></r></p></e>
+    <e c="  0"><p><l>поезд<s n="n"/><s n="m"/><s n="nn"/></l><r>train<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пожар<s n="n"/><s n="m"/><s n="nn"/></l><r>conflagration<s n="n"/></r></p></e>
+    <e c="  0"><p><l>поза<s n="n"/><s n="f"/><s n="nn"/></l><r>human_position<s n="n"/></r></p></e>
+    <e c="  0"><p><l>позор<s n="n"/><s n="m"/><s n="nn"/></l><r>infamy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>поиск<s n="n"/><s n="m"/><s n="nn"/></l><r>searching<s n="n"/></r></p></e>
+    <e c="  0"><p><l>покойник<s n="n"/><s n="m"/><s n="aa"/></l><r>cadaver<s n="n"/></r></p></e>
+    <e c="  0"><p><l>поколение<s n="n"/><s n="nt"/><s n="nn"/></l><r>generation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>покупатель<s n="n"/><s n="m"/><s n="aa"/></l><r>buyer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пол<s n="n"/><s n="m"/><s n="nn"/></l><r>sex_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>полдень<s n="n"/><s n="m"/><s n="nn"/></l><r>noon<s n="n"/></r></p></e>
+    <e c="  0"><p><l>поле<s n="n"/><s n="nt"/><s n="nn"/></l><r>field<s n="n"/></r></p></e>
+    <e c="  0"><p><l>политик<s n="n"/><s n="m"/><s n="aa"/></l><r>politician<s n="n"/></r></p></e>
+    <e c="  0"><p><l>политика<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-en<s n="n"/></r></p></e>
+    <e c="  0"><p><l>полиция<s n="n"/><s n="f"/><s n="nn"/></l><r>police<s n="n"/></r></p></e>
+    <e c="  0"><p><l>полк<s n="n"/><s n="m"/><s n="nn"/></l><r>regiment<s n="n"/></r></p></e>
+    <e c="  0"><p><l>полковник<s n="n"/><s n="m"/><s n="aa"/></l><r>colonel<s n="n"/></r></p></e>
+    <e c="  0"><p><l>полоса<s n="n"/><s n="f"/><s n="nn"/></l><r>strip<s n="n"/></r></p></e>
+    <e c="  0"><p><l>полотенце<s n="n"/><s n="nt"/><s n="nn"/></l><r>towel<s n="n"/></r></p></e>
+    <e c="  0"><p><l>понедельник<s n="n"/><s n="m"/><s n="nn"/></l><r>monday<s n="n"/></r></p></e>
+    <e c="  0"><p><l>понимание<s n="n"/><s n="nt"/><s n="nn"/></l><r>understanding<s n="n"/></r></p></e>
+    <e c="  0"><p><l>понятие<s n="n"/><s n="nt"/><s n="nn"/></l><r>concept<s n="n"/></r></p></e>
+    <e c="  0"><p><l>поп<s n="n"/><s n="m"/><s n="nn"/></l><r>pop<s n="n"/></r></p></e>
+    <e c="  0"><p><l>порошок<s n="n"/><s n="m"/><s n="nn"/></l><r>powder<s n="n"/></r></p></e>
+    <e c="  0"><p><l>порт<s n="n"/><s n="m"/><s n="nn"/></l><r>port<s n="n"/></r></p></e>
+    <e c="  0"><p><l>портрет<s n="n"/><s n="m"/><s n="nn"/></l><r>portrait<s n="n"/></r></p></e>
+    <e c="  0"><p><l>портфель<s n="n"/><s n="m"/><s n="nn"/></l><r>briefcase<s n="n"/></r></p></e>
+    <e c="  0"><p><l>порыв<s n="n"/><s n="m"/><s n="nn"/></l><r>impulse_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>порядок<s n="n"/><s n="m"/><s n="nn"/></l><r>order<s n="n"/></r></p></e>
+    <e c="  0"><p><l>посол<s n="n"/><s n="m"/><s n="nn"/></l><r>ambassador<s n="n"/></r></p></e>
+    <e c="  0"><p><l>посольство<s n="n"/><s n="nt"/><s n="nn"/></l><r>diplomatic_mission<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пост<s n="n"/><s n="m"/><s n="nn"/></l><r>fasting<s n="n"/></r></p></e>
+    <e c="  0"><p><l>посуда<s n="n"/><s n="f"/><s n="nn"/></l><r>dishware<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пот<s n="n"/><s n="m"/><s n="nn"/></l><r>perspiration<s n="n"/></r></p></e>
+    <e c="  0"><p><l>поток<s n="n"/><s n="m"/><s n="nn"/></l><r>potok<s n="n"/></r></p></e>
+    <e c="  0"><p><l>потолок<s n="n"/><s n="m"/><s n="nn"/></l><r>ceiling<s n="n"/></r></p></e>
+    <e c="  0"><p><l>потомок<s n="n"/><s n="m"/><s n="aa"/></l><r>offspring<s n="n"/></r></p></e>
+    <e c="  0"><p><l>потребность<s n="n"/><s n="f"/><s n="nn"/></l><r>need<s n="n"/></r></p></e>
+    <e c="  0"><p><l>походка<s n="n"/><s n="f"/><s n="nn"/></l><r>gait_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>поцелуй<s n="n"/><s n="m"/><s n="nn"/></l><r>kiss<s n="n"/></r></p></e>
+    <e c="  0"><p><l>почва<s n="n"/><s n="f"/><s n="nn"/></l><r>soil<s n="n"/></r></p></e>
+    <e c="  0"><p><l>почерк<s n="n"/><s n="m"/><s n="nn"/></l><r>hand_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>почта<s n="n"/><s n="f"/><s n="nn"/></l><r>mail<s n="n"/></r></p></e>
+    <e c="  0"><p><l>поэзия<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-ja-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>поэт<s n="n"/><s n="m"/><s n="aa"/></l><r>poet<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пояс<s n="n"/><s n="m"/><s n="nn"/></l><r>ceinture<s n="n"/></r></p></e>
+    <e c="  0"><p><l>правда<s n="n"/><s n="f"/><s n="nn"/></l><r>pravda_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>правило<s n="n"/><s n="nt"/><s n="nn"/></l><r>rule<s n="n"/></r></p></e>
+    <e c="  0"><p><l>правило<s n="n"/><s n="nt"/><s n="nn"/></l><r>regulation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>правительство<s n="n"/><s n="nt"/><s n="nn"/></l><r>government<s n="n"/></r></p></e>
+    <e c="  0"><p><l>право<s n="n"/><s n="nt"/><s n="nn"/></l><r>interwiki-zh-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>праздник<s n="n"/><s n="m"/><s n="nn"/></l><r>holiday<s n="n"/></r></p></e>
+    <e c="  0"><p><l>практика<s n="n"/><s n="f"/><s n="nn"/></l><r>practice<s n="n"/></r></p></e>
+    <e c="  0"><p><l>предел<s n="n"/><s n="m"/><s n="nn"/></l><r>limit<s n="n"/></r></p></e>
+    <e c="  0"><p><l>предок<s n="n"/><s n="m"/><s n="aa"/></l><r>ancestor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>предположение<s n="n"/><s n="nt"/><s n="nn"/></l><r>hypothesis<s n="n"/></r></p></e>
+    <e c="  0"><p><l>предприятие<s n="n"/><s n="nt"/><s n="nn"/></l><r>business<s n="n"/></r></p></e>
+    <e c="  0"><p><l>представление<s n="n"/><s n="nt"/><s n="nn"/></l><r>representation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>предчувствие<s n="n"/><s n="nt"/><s n="nn"/></l><r>premonition_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>президент<s n="n"/><s n="m"/><s n="aa"/></l><r>president<s n="n"/></r></p></e>
+    <e c="  0"><p><l>презрение<s n="n"/><s n="nt"/><s n="nn"/></l><r>contempt<s n="n"/></r></p></e>
+    <e c="  0"><p><l>премия<s n="n"/><s n="f"/><s n="nn"/></l><r>performance-related_pay<s n="n"/></r></p></e>
+    <e c="  0"><p><l>премьер<s n="n"/><s n="m"/><s n="aa"/></l><r>premières<s n="n"/></r></p></e>
+    <e c="  0"><p><l>премьера<s n="n"/><s n="f"/><s n="nn"/></l><r>premiere<s n="n"/></r></p></e>
+    <e c="  0"><p><l>преподаватель<s n="n"/><s n="m"/><s n="aa"/></l><r>head_teacher<s n="n"/></r></p></e>
+    <e c="  0"><p><l>преступление<s n="n"/><s n="nt"/><s n="nn"/></l><r>crime<s n="n"/></r></p></e>
+    <e c="  0"><p><l>преступник<s n="n"/><s n="m"/><s n="aa"/></l><r>delinquent<s n="n"/></r></p></e>
+    <e c="  0"><p><l>прибыль<s n="n"/><s n="f"/><s n="nn"/></l><r>profit_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>привычка<s n="n"/><s n="f"/><s n="nn"/></l><r>habit<s n="n"/></r></p></e>
+    <e c="  0"><p><l>приговор<s n="n"/><s n="m"/><s n="nn"/></l><r>sentence_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>признание<s n="n"/><s n="nt"/><s n="nn"/></l><r>the_confession_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>приключение<s n="n"/><s n="nt"/><s n="nn"/></l><r>adventure<s n="n"/></r></p></e>
+    <e c="  0"><p><l>принц<s n="n"/><s n="m"/><s n="aa"/></l><r>prince<s n="n"/></r></p></e>
+    <e c="  0"><p><l>принцесса<s n="n"/><s n="f"/><s n="aa"/></l><r>prince<s n="n"/></r></p></e>
+    <e c="  0"><p><l>принцип<s n="n"/><s n="m"/><s n="nn"/></l><r>principle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>природа<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-en-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>приход<s n="n"/><s n="m"/><s n="nn"/></l><r>parish<s n="n"/></r></p></e>
+    <e c="  0"><p><l>причина<s n="n"/><s n="f"/><s n="nn"/></l><r>causality<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пришелец<s n="n"/><s n="m"/><s n="aa"/></l><r>extraterrestrials_in_fiction<s n="n"/></r></p></e>
+    <e c="  0"><p><l>приятель<s n="n"/><s n="m"/><s n="aa"/></l><r>the_boy_friend<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пробка<s n="n"/><s n="f"/><s n="nn"/></l><r>cork_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>проблема<s n="n"/><s n="f"/><s n="nn"/></l><r>problem<s n="n"/></r></p></e>
+    <e c="  0"><p><l>провинция<s n="n"/><s n="f"/><s n="nn"/></l><r>province<s n="n"/></r></p></e>
+    <e c="  0"><p><l>провод<s n="n"/><s n="m"/><s n="nn"/></l><r>electrical_wiring<s n="n"/></r></p></e>
+    <e c="  0"><p><l>проводник<s n="n"/><s n="m"/><s n="nn"/></l><r>electrical_conductor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>проволока<s n="n"/><s n="f"/><s n="nn"/></l><r>wire<s n="n"/></r></p></e>
+    <e c="  0"><p><l>прогноз<s n="n"/><s n="m"/><s n="nn"/></l><r>prediction<s n="n"/></r></p></e>
+    <e c="  0"><p><l>программа<s n="n"/><s n="f"/><s n="nn"/></l><r>program<s n="n"/></r></p></e>
+    <e c="  0"><p><l>прогресс<s n="n"/><s n="m"/><s n="nn"/></l><r>progress_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>продавец<s n="n"/><s n="m"/><s n="aa"/></l><r>sales_management<s n="n"/></r></p></e>
+    <e c="  0"><p><l>продажа<s n="n"/><s n="f"/><s n="nn"/></l><r>contract_of_sale<s n="n"/></r></p></e>
+    <e c="  0"><p><l>продукт<s n="n"/><s n="m"/><s n="nn"/></l><r>product<s n="n"/></r></p></e>
+    <e c="  0"><p><l>продукция<s n="n"/><s n="f"/><s n="nn"/></l><r>production<s n="n"/></r></p></e>
+    <e c="  0"><p><l>проект<s n="n"/><s n="m"/><s n="nn"/></l><r>project<s n="n"/></r></p></e>
+    <e c="  0"><p><l>проза<s n="n"/><s n="f"/><s n="nn"/></l><r>prose<s n="n"/></r></p></e>
+    <e c="  0"><p><l>произведение<s n="n"/><s n="nt"/><s n="nn"/></l><r>product_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>производство<s n="n"/><s n="nt"/><s n="nn"/></l><r>manufacturing<s n="n"/></r></p></e>
+    <e c="  0"><p><l>прокуратура<s n="n"/><s n="f"/><s n="nn"/></l><r>state's_attorney<s n="n"/></r></p></e>
+    <e c="  0"><p><l>прокурор<s n="n"/><s n="m"/><s n="aa"/></l><r>prosecutor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>промышленность<s n="n"/><s n="f"/><s n="nn"/></l><r>industry<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пропаганда<s n="n"/><s n="f"/><s n="nn"/></l><r>propaganda<s n="n"/></r></p></e>
+    <e c="  0"><p><l>проспект<s n="n"/><s n="m"/><s n="nn"/></l><r>prospect<s n="n"/></r></p></e>
+    <e c="  0"><p><l>простыня<s n="n"/><s n="f"/><s n="nn"/></l><r>bed_sheet<s n="n"/></r></p></e>
+    <e c="  0"><p><l>протест<s n="n"/><s n="m"/><s n="nn"/></l><r>protest<s n="n"/></r></p></e>
+    <e c="  0"><p><l>противоречие<s n="n"/><s n="nt"/><s n="nn"/></l><r>contradiction<s n="n"/></r></p></e>
+    <e c="  0"><p><l>протокол<s n="n"/><s n="m"/><s n="nn"/></l><r>protocol<s n="n"/></r></p></e>
+    <e c="  0"><p><l>профессия<s n="n"/><s n="f"/><s n="nn"/></l><r>profession<s n="n"/></r></p></e>
+    <e c="  0"><p><l>профессор<s n="n"/><s n="m"/><s n="aa"/></l><r>professor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>процедура<s n="n"/><s n="f"/><s n="nn"/></l><r>procedure<s n="n"/></r></p></e>
+    <e c="  0"><p><l>процент<s n="n"/><s n="m"/><s n="nn"/></l><r>percentage<s n="n"/></r></p></e>
+    <e c="  0"><p><l>процесс<s n="n"/><s n="m"/><s n="nn"/></l><r>process<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пруд<s n="n"/><s n="m"/><s n="nn"/></l><r>pond<s n="n"/></r></p></e>
+    <e c="  0"><p><l>птица<s n="n"/><s n="f"/><s n="aa"/></l><r>interwiki-ca-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>публика<s n="n"/><s n="f"/><s n="nn"/></l><r>audience<s n="n"/></r></p></e>
+    <e c="  0"><p><l>публикация<s n="n"/><s n="f"/><s n="nn"/></l><r>publication<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пуговица<s n="n"/><s n="f"/><s n="nn"/></l><r>button<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пузырь<s n="n"/><s n="m"/><s n="nn"/></l><r>bubble<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пулемет<s n="n"/><s n="m"/><s n="nn"/></l><r>machine_gun<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пуля<s n="n"/><s n="f"/><s n="nn"/></l><r>bullet<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пустота<s n="n"/><s n="f"/><s n="nn"/></l><r>emptiness_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пустыня<s n="n"/><s n="f"/><s n="nn"/></l><r>desert<s n="n"/></r></p></e>
+    <e c="  0"><p><l>путешествие<s n="n"/><s n="nt"/><s n="nn"/></l><r>travel<s n="n"/></r></p></e>
+    <e c="  0"><p><l>путь<s n="n"/><s n="m"/><s n="nn"/></l><r>way<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пыль<s n="n"/><s n="f"/><s n="aa"/></l><r>dust<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пьеса<s n="n"/><s n="f"/><s n="nn"/></l><r>play_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>пятница<s n="n"/><s n="f"/><s n="nn"/></l><r>friday<s n="n"/></r></p></e>
+    <e c="  0"><p><l>раб<s n="n"/><s n="m"/><s n="aa"/></l><r>slavery<s n="n"/></r></p></e>
+    <e c="  0"><p><l>работа<s n="n"/><s n="f"/><s n="nn"/></l><r>work<s n="n"/></r></p></e>
+    <e c="  0"><p><l>работник<s n="n"/><s n="m"/><s n="aa"/></l><r>laborer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>равновесие<s n="n"/><s n="nt"/><s n="nn"/></l><r>equilibrium<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рада<s n="n"/><s n="f"/><s n="nn"/></l><r>rada_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>разведка<s n="n"/><s n="f"/><s n="nn"/></l><r>intelligence_assessment<s n="n"/></r></p></e>
+    <e c="  0"><p><l>разведчик<s n="n"/><s n="m"/><s n="aa"/></l><r>intelligence_assessment<s n="n"/></r></p></e>
+    <e c="  0"><p><l>развитие<s n="n"/><s n="nt"/><s n="nn"/></l><r>development<s n="n"/></r></p></e>
+    <e c="  0"><p><l>развод<s n="n"/><s n="m"/><s n="nn"/></l><r>divorce<s n="n"/></r></p></e>
+    <e c="  0"><p><l>разговор<s n="n"/><s n="m"/><s n="nn"/></l><r>dialogue<s n="n"/></r></p></e>
+    <e c="  0"><p><l>размер<s n="n"/><s n="m"/><s n="nn"/></l><r>size<s n="n"/></r></p></e>
+    <e c="  0"><p><l>разница<s n="n"/><s n="f"/><s n="nn"/></l><r>difference<s n="n"/></r></p></e>
+    <e c="  0"><p><l>разработка<s n="n"/><s n="f"/><s n="nn"/></l><r>musical_development<s n="n"/></r></p></e>
+    <e c="  0"><p><l>разрешение<s n="n"/><s n="nt"/><s n="nn"/></l><r>resolution<s n="n"/></r></p></e>
+    <e c="  0"><p><l>разум<s n="n"/><s n="m"/><s n="nn"/></l><r>reason<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рай<s n="n"/><s n="m"/><s n="nn"/></l><r>paradise<s n="n"/></r></p></e>
+    <e c="  0"><p><l>райком<s n="n"/><s n="m"/><s n="nn"/></l><r>communist_party_of_the_soviet_union<s n="n"/></r></p></e>
+    <e c="  0"><p><l>район<s n="n"/><s n="m"/><s n="nn"/></l><r>raion<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ракета<s n="n"/><s n="f"/><s n="nn"/></l><r>rocket<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рама<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-en<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рана<s n="n"/><s n="f"/><s n="nn"/></l><r>wound<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ранг<s n="n"/><s n="m"/><s n="nn"/></l><r>rank<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рассвет<s n="n"/><s n="m"/><s n="nn"/></l><r>dawn<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рассказ<s n="n"/><s n="m"/><s n="nn"/></l><r>short_story<s n="n"/></r></p></e>
+    <e c="  0"><p><l>расстояние<s n="n"/><s n="nt"/><s n="nn"/></l><r>distance<s n="n"/></r></p></e>
+    <e c="  0"><p><l>расстрел<s n="n"/><s n="m"/><s n="nn"/></l><r>execution_by_shooting<s n="n"/></r></p></e>
+    <e c="  0"><p><l>раствор<s n="n"/><s n="m"/><s n="nn"/></l><r>solution<s n="n"/></r></p></e>
+    <e c="  0"><p><l>растение<s n="n"/><s n="nt"/><s n="nn"/></l><r>plant<s n="n"/></r></p></e>
+    <e c="  0"><p><l>реакция<s n="n"/><s n="f"/><s n="nn"/></l><r>reaction<s n="n"/></r></p></e>
+    <e c="  0"><p><l>реальность<s n="n"/><s n="f"/><s n="nn"/></l><r>reality<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ребенок<s n="n"/><s n="m"/><s n="aa"/></l><r>child<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ребро<s n="n"/><s n="nt"/><s n="nn"/></l><r>rib<s n="n"/></r></p></e>
+    <e c="  0"><p><l>революция<s n="n"/><s n="f"/><s n="nn"/></l><r>revolution<s n="n"/></r></p></e>
+    <e c="  0"><p><l>регион<s n="n"/><s n="m"/><s n="nn"/></l><r>region<s n="n"/></r></p></e>
+    <e c="  0"><p><l>редактор<s n="n"/><s n="m"/><s n="aa"/></l><r>contributing_editor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>режиссер<s n="n"/><s n="m"/><s n="aa"/></l><r>director<s n="n"/></r></p></e>
+    <e c="  0"><p><l>результат<s n="n"/><s n="m"/><s n="nn"/></l><r>result<s n="n"/></r></p></e>
+    <e c="  0"><p><l>река<s n="n"/><s n="f"/><s n="nn"/></l><r>river<s n="n"/></r></p></e>
+    <e c="  0"><p><l>реклама<s n="n"/><s n="f"/><s n="nn"/></l><r>advertising<s n="n"/></r></p></e>
+    <e c="  0"><p><l>религия<s n="n"/><s n="f"/><s n="nn"/></l><r>religion<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рельс<s n="n"/><s n="m"/><s n="aa"/></l><r>track_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ремень<s n="n"/><s n="m"/><s n="nn"/></l><r>belt_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ресница<s n="n"/><s n="f"/><s n="nn"/></l><r>eyelash<s n="n"/></r></p></e>
+    <e c="  0"><p><l>республика<s n="n"/><s n="f"/><s n="nn"/></l><r>republic<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ресторан<s n="n"/><s n="m"/><s n="nn"/></l><r>restaurant<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ресурс<s n="n"/><s n="m"/><s n="nn"/></l><r>resource_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>реформа<s n="n"/><s n="f"/><s n="nn"/></l><r>reform<s n="n"/></r></p></e>
+    <e c="  0"><p><l>речь<s n="n"/><s n="f"/><s n="nn"/></l><r>speech<s n="n"/></r></p></e>
+    <e c="  0"><p><l>решетка<s n="n"/><s n="f"/><s n="nn"/></l><r>lattice<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рис<s n="n"/><s n="m"/><s n="nn"/></l><r>rice<s n="n"/></r></p></e>
+    <e c="  0"><p><l>риск<s n="n"/><s n="m"/><s n="nn"/></l><r>risk<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рисунок<s n="n"/><s n="m"/><s n="nn"/></l><r>drawing<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ритм<s n="n"/><s n="m"/><s n="nn"/></l><r>rhythm<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рог<s n="n"/><s n="m"/><s n="nn"/></l><r>horn_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>род<s n="n"/><s n="m"/><s n="nn"/></l><r>genus<s n="n"/></r></p></e>
+    <e c="  0"><p><l>родина<s n="n"/><s n="f"/><s n="nn"/></l><r>rodina_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>родитель<s n="n"/><s n="m"/><s n="aa"/></l><r>kinship<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рождение<s n="n"/><s n="nt"/><s n="nn"/></l><r>birth<s n="n"/></r></p></e>
+    <e c="  0"><p><l>роза<s n="n"/><s n="f"/><s n="nn"/></l><r>rose<s n="n"/></r></p></e>
+    <e c="  0"><p><l>роль<s n="n"/><s n="f"/><s n="nn"/></l><r>role_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>роман<s n="n"/><s n="m"/><s n="nn"/></l><r>novel<s n="n"/></r></p></e>
+    <e c="  0"><p><l>роса<s n="n"/><s n="f"/><s n="nn"/></l><r>dew<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рост<s n="n"/><s n="m"/><s n="nn"/></l><r>growth<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рот<s n="n"/><s n="m"/><s n="nn"/></l><r>mouth<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рота<s n="n"/><s n="f"/><s n="nn"/></l><r>rota<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рубаха<s n="n"/><s n="f"/><s n="nn"/></l><r>shirt<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рубашка<s n="n"/><s n="f"/><s n="nn"/></l><r>shirt<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рубль<s n="n"/><s n="m"/><s n="nn"/></l><r>ruble<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ружье<s n="n"/><s n="nt"/><s n="nn"/></l><r>shotgun<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рука<s n="n"/><s n="f"/><s n="nn"/></l><r>upper_limb<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рукав<s n="n"/><s n="m"/><s n="nn"/></l><r>sleeve_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>руководство<s n="n"/><s n="nt"/><s n="nn"/></l><r>power_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>русский<s n="n"/><s n="m"/><s n="aa"/></l><r>russians<s n="n"/></r></p></e>
+    <e c="  0"><p><l>русский<s n="n"/><s n="f"/><s n="aa"/></l><r>russians<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ручей<s n="n"/><s n="m"/><s n="nn"/></l><r>stream<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ручка<s n="n"/><s n="f"/><s n="nn"/></l><r>handle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рыба<s n="n"/><s n="f"/><s n="aa"/></l><r>interwiki-is-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рыбак<s n="n"/><s n="m"/><s n="aa"/></l><r>fisherman<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рынок<s n="n"/><s n="m"/><s n="nn"/></l><r>market<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рыцарь<s n="n"/><s n="m"/><s n="aa"/></l><r>knight<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рюкзак<s n="n"/><s n="m"/><s n="nn"/></l><r>backpack<s n="n"/></r></p></e>
+    <e c="  0"><p><l>рюмка<s n="n"/><s n="f"/><s n="nn"/></l><r>wine_glass<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ряд<s n="n"/><s n="m"/><s n="nn"/></l><r>row<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сад<s n="n"/><s n="m"/><s n="nn"/></l><r>garden<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сало<s n="n"/><s n="nt"/><s n="nn"/></l><r>salo_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>салон<s n="n"/><s n="m"/><s n="nn"/></l><r>salon_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>самоубийство<s n="n"/><s n="nt"/><s n="nn"/></l><r>suicide<s n="n"/></r></p></e>
+    <e c="  0"><p><l>санитар<s n="n"/><s n="m"/><s n="aa"/></l><r>orderly<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сантиметр<s n="n"/><s n="m"/><s n="nn"/></l><r>centimetre<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сапог<s n="n"/><s n="m"/><s n="nn"/></l><r>boot<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сахар<s n="n"/><s n="m"/><s n="nn"/></l><r>sugar<s n="n"/></r></p></e>
+    <e c="  0"><p><l>свадьба<s n="n"/><s n="f"/><s n="nn"/></l><r>wedding<s n="n"/></r></p></e>
+    <e c="  0"><p><l>свет<s n="n"/><s n="m"/><s n="nn"/></l><r>light<s n="n"/></r></p></e>
+    <e c="  0"><p><l>свеча<s n="n"/><s n="f"/><s n="nn"/></l><r>candle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>свидетель<s n="n"/><s n="m"/><s n="aa"/></l><r>witness<s n="n"/></r></p></e>
+    <e c="  0"><p><l>свинья<s n="n"/><s n="f"/><s n="aa"/></l><r>suidae<s n="n"/></r></p></e>
+    <e c="  0"><p><l>свист<s n="n"/><s n="m"/><s n="nn"/></l><r>whistling<s n="n"/></r></p></e>
+    <e c="  0"><p><l>свобода<s n="n"/><s n="f"/><s n="nn"/></l><r>liberty<s n="n"/></r></p></e>
+    <e c="  0"><p><l>свойство<s n="n"/><s n="nt"/><s n="nn"/></l><r>property_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>связь<s n="n"/><s n="f"/><s n="nn"/></l><r>connection<s n="n"/></r></p></e>
+    <e c="  0"><p><l>священник<s n="n"/><s n="m"/><s n="aa"/></l><r>priest<s n="n"/></r></p></e>
+    <e c="  0"><p><l>север<s n="n"/><s n="m"/><s n="nn"/></l><r>north<s n="n"/></r></p></e>
+    <e c="  0"><p><l>седло<s n="n"/><s n="nt"/><s n="nn"/></l><r>saddle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сезон<s n="n"/><s n="m"/><s n="nn"/></l><r>season_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сейф<s n="n"/><s n="m"/><s n="nn"/></l><r>safe<s n="n"/></r></p></e>
+    <e c="  0"><p><l>секрет<s n="n"/><s n="m"/><s n="nn"/></l><r>secret_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>секретарь<s n="n"/><s n="m"/><s n="aa"/></l><r>secretary_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сектор<s n="n"/><s n="m"/><s n="nn"/></l><r>sector<s n="n"/></r></p></e>
+    <e c="  0"><p><l>секунда<s n="n"/><s n="f"/><s n="nn"/></l><r>second<s n="n"/></r></p></e>
+    <e c="  0"><p><l>село<s n="n"/><s n="nt"/><s n="nn"/></l><r>village<s n="n"/></r></p></e>
+    <e c="  0"><p><l>семейство<s n="n"/><s n="nt"/><s n="nn"/></l><r>family_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>семья<s n="n"/><s n="f"/><s n="nn"/></l><r>family<s n="n"/></r></p></e>
+    <e c="  0"><p><l>семя<s n="n"/><s n="nt"/><s n="nn"/></l><r>seed<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сено<s n="n"/><s n="nt"/><s n="nn"/></l><r>hay<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сентябрь<s n="n"/><s n="m"/><s n="nn"/></l><r>september<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сердце<s n="n"/><s n="nt"/><s n="nn"/></l><r>heart<s n="n"/></r></p></e>
+    <e c="  0"><p><l>серебро<s n="n"/><s n="nt"/><s n="nn"/></l><r>silver<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сержант<s n="n"/><s n="m"/><s n="aa"/></l><r>sergeant<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сестра<s n="n"/><s n="f"/><s n="aa"/></l><r>sister<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сеть<s n="n"/><s n="f"/><s n="nn"/></l><r>network<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сигарета<s n="n"/><s n="f"/><s n="nn"/></l><r>cigarette<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сигнал<s n="n"/><s n="m"/><s n="nn"/></l><r>signal_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сила<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-en-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>символ<s n="n"/><s n="m"/><s n="nn"/></l><r>symbol<s n="n"/></r></p></e>
+    <e c="  0"><p><l>симптом<s n="n"/><s n="m"/><s n="nn"/></l><r>symptom<s n="n"/></r></p></e>
+    <e c="  0"><p><l>система<s n="n"/><s n="f"/><s n="nn"/></l><r>system<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ситуация<s n="n"/><s n="f"/><s n="nn"/></l><r>situation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сказка<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-en<s n="n"/></r></p></e>
+    <e c="  0"><p><l>скала<s n="n"/><s n="f"/><s n="nn"/></l><r>rock_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>скамейка<s n="n"/><s n="f"/><s n="nn"/></l><r>bench_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>скамья<s n="n"/><s n="f"/><s n="nn"/></l><r>bench_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>скандал<s n="n"/><s n="m"/><s n="nn"/></l><r>scandal<s n="n"/></r></p></e>
+    <e c="  0"><p><l>скатерть<s n="n"/><s n="f"/><s n="nn"/></l><r>tablecloth<s n="n"/></r></p></e>
+    <e c="  0"><p><l>склад<s n="n"/><s n="m"/><s n="nn"/></l><r>warehouse<s n="n"/></r></p></e>
+    <e c="  0"><p><l>склон<s n="n"/><s n="m"/><s n="nn"/></l><r>levee<s n="n"/></r></p></e>
+    <e c="  0"><p><l>скорость<s n="n"/><s n="f"/><s n="nn"/></l><r>velocity<s n="n"/></r></p></e>
+    <e c="  0"><p><l>скотина<s n="n"/><s n="f"/><s n="aa"/></l><r>livestock<s n="n"/></r></p></e>
+    <e c="  0"><p><l>слабость<s n="n"/><s n="f"/><s n="nn"/></l><r>weakness<s n="n"/></r></p></e>
+    <e c="  0"><p><l>слава<s n="n"/><s n="f"/><s n="nn"/></l><r>slava_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>слеза<s n="n"/><s n="f"/><s n="nn"/></l><r>tears<s n="n"/></r></p></e>
+    <e c="  0"><p><l>слово<s n="n"/><s n="nt"/><s n="nn"/></l><r>word<s n="n"/></r></p></e>
+    <e c="  0"><p><l>слой<s n="n"/><s n="m"/><s n="nn"/></l><r>layer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>слон<s n="n"/><s n="m"/><s n="aa"/></l><r>elephant<s n="n"/></r></p></e>
+    <e c="  0"><p><l>слуга<s n="n"/><s n="m"/><s n="aa"/></l><r>domestic_worker<s n="n"/></r></p></e>
+    <e c="  0"><p><l>слух<s n="n"/><s n="m"/><s n="nn"/></l><r>hearing_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>случай<s n="n"/><s n="m"/><s n="nn"/></l><r>chance<s n="n"/></r></p></e>
+    <e c="  0"><p><l>случайность<s n="n"/><s n="f"/><s n="nn"/></l><r>randomness<s n="n"/></r></p></e>
+    <e c="  0"><p><l>смерть<s n="n"/><s n="f"/><s n="nn"/></l><r>death<s n="n"/></r></p></e>
+    <e c="  0"><p><l>смех<s n="n"/><s n="m"/><s n="nn"/></l><r>laughter<s n="n"/></r></p></e>
+    <e c="  0"><p><l>смысл<s n="n"/><s n="m"/><s n="nn"/></l><r>word_sense<s n="n"/></r></p></e>
+    <e c="  0"><p><l>снаряд<s n="n"/><s n="m"/><s n="nn"/></l><r>shell_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>снег<s n="n"/><s n="m"/><s n="nn"/></l><r>interwiki-la-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>собака<s n="n"/><s n="f"/><s n="aa"/></l><r>dog<s n="n"/></r></p></e>
+    <e c="  0"><p><l>собрание<s n="n"/><s n="nt"/><s n="nn"/></l><r>meeting<s n="n"/></r></p></e>
+    <e c="  0"><p><l>собственность<s n="n"/><s n="f"/><s n="nn"/></l><r>ownership<s n="n"/></r></p></e>
+    <e c="  0"><p><l>событие<s n="n"/><s n="nt"/><s n="nn"/></l><r>event<s n="n"/></r></p></e>
+    <e c="  0"><p><l>совесть<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-en<s n="n"/></r></p></e>
+    <e c="  0"><p><l>совет<s n="n"/><s n="m"/><s n="nn"/></l><r>council<s n="n"/></r></p></e>
+    <e c="  0"><p><l>советник<s n="n"/><s n="m"/><s n="aa"/></l><r>advisor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>согласие<s n="n"/><s n="nt"/><s n="nn"/></l><r>agreement<s n="n"/></r></p></e>
+    <e c="  0"><p><l>соглашение<s n="n"/><s n="nt"/><s n="nn"/></l><r>contract<s n="n"/></r></p></e>
+    <e c="  0"><p><l>солдат<s n="n"/><s n="m"/><s n="aa"/></l><r>soldier<s n="n"/></r></p></e>
+    <e c="  0"><p><l>солнце<s n="n"/><s n="nt"/><s n="nn"/></l><r>interwiki-de-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>соль<s n="n"/><s n="f"/><s n="nn"/></l><r>salt<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сомнение<s n="n"/><s n="nt"/><s n="nn"/></l><r>doubt<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сон<s n="n"/><s n="m"/><s n="nn"/></l><r>sleep<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сообщение<s n="n"/><s n="nt"/><s n="nn"/></l><r>message<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сооружение<s n="n"/><s n="nt"/><s n="nn"/></l><r>anlage<s n="n"/></r></p></e>
+    <e c="  0"><p><l>соответствие<s n="n"/><s n="nt"/><s n="nn"/></l><r>multivalued_function<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сопротивление<s n="n"/><s n="nt"/><s n="nn"/></l><r>resistance<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сорт<s n="n"/><s n="m"/><s n="nn"/></l><r>cultivar<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сосед<s n="n"/><s n="m"/><s n="aa"/></l><r>neighbourhood<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сосна<s n="n"/><s n="f"/><s n="nn"/></l><r>pine<s n="n"/></r></p></e>
+    <e c="  0"><p><l>состав<s n="n"/><s n="m"/><s n="nn"/></l><r>compound<s n="n"/></r></p></e>
+    <e c="  0"><p><l>состояние<s n="n"/><s n="nt"/><s n="nn"/></l><r>state_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сосуд<s n="n"/><s n="m"/><s n="nn"/></l><r>vessel<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сотня<s n="n"/><s n="f"/><s n="nn"/></l><r>sotnia<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сотрудник<s n="n"/><s n="m"/><s n="aa"/></l><r>laborer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сотрудничество<s n="n"/><s n="nt"/><s n="nn"/></l><r>mutual_aid_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сохранение<s n="n"/><s n="nt"/><s n="nn"/></l><r>saved_game<s n="n"/></r></p></e>
+    <e c="  0"><p><l>социализм<s n="n"/><s n="m"/><s n="nn"/></l><r>socialism<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сочувствие<s n="n"/><s n="nt"/><s n="nn"/></l><r>sympathy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>союз<s n="n"/><s n="m"/><s n="nn"/></l><r>soyuz<s n="n"/></r></p></e>
+    <e c="  0"><p><l>спальня<s n="n"/><s n="f"/><s n="nn"/></l><r>bedroom<s n="n"/></r></p></e>
+    <e c="  0"><p><l>специалист<s n="n"/><s n="m"/><s n="aa"/></l><r>specialist<s n="n"/></r></p></e>
+    <e c="  0"><p><l>спина<s n="n"/><s n="f"/><s n="nn"/></l><r>human_back<s n="n"/></r></p></e>
+    <e c="  0"><p><l>спирт<s n="n"/><s n="m"/><s n="nn"/></l><r>alcohol<s n="n"/></r></p></e>
+    <e c="  0"><p><l>список<s n="n"/><s n="m"/><s n="nn"/></l><r>list<s n="n"/></r></p></e>
+    <e c="  0"><p><l>спичка<s n="n"/><s n="f"/><s n="nn"/></l><r>match<s n="n"/></r></p></e>
+    <e c="  0"><p><l>спора<s n="n"/><s n="f"/><s n="nn"/></l><r>spore<s n="n"/></r></p></e>
+    <e c="  0"><p><l>спорт<s n="n"/><s n="m"/><s n="nn"/></l><r>sport<s n="n"/></r></p></e>
+    <e c="  0"><p><l>спортсмен<s n="n"/><s n="m"/><s n="aa"/></l><r>sport<s n="n"/></r></p></e>
+    <e c="  0"><p><l>способ<s n="n"/><s n="m"/><s n="nn"/></l><r>method<s n="n"/></r></p></e>
+    <e c="  0"><p><l>способность<s n="n"/><s n="f"/><s n="nn"/></l><r>aptitude<s n="n"/></r></p></e>
+    <e c="  0"><p><l>справедливость<s n="n"/><s n="f"/><s n="nn"/></l><r>justice<s n="n"/></r></p></e>
+    <e c="  0"><p><l>спутник<s n="n"/><s n="m"/><s n="aa"/></l><r>sputnik_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сравнение<s n="n"/><s n="nt"/><s n="nn"/></l><r>comparison<s n="n"/></r></p></e>
+    <e c="  0"><p><l>среда<s n="n"/><s n="f"/><s n="nn"/></l><r>wednesday<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ставка<s n="n"/><s n="f"/><s n="nn"/></l><r>stavka<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стадо<s n="n"/><s n="nt"/><s n="nn"/></l><r>herd<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стакан<s n="n"/><s n="m"/><s n="nn"/></l><r>list_of_glassware#drinkware<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сталкер<s n="n"/><s n="m"/><s n="aa"/></l><r>stalker<s n="n"/></r></p></e>
+    <e c="  0"><p><l>станция<s n="n"/><s n="f"/><s n="nn"/></l><r>station<s n="n"/></r></p></e>
+    <e c="  0"><p><l>старость<s n="n"/><s n="f"/><s n="nn"/></l><r>old_age<s n="n"/></r></p></e>
+    <e c="  0"><p><l>старшина<s n="n"/><s n="m"/><s n="aa"/></l><r>starshina<s n="n"/></r></p></e>
+    <e c="  0"><p><l>статус<s n="n"/><s n="m"/><s n="nn"/></l><r>status<s n="n"/></r></p></e>
+    <e c="  0"><p><l>статья<s n="n"/><s n="f"/><s n="nn"/></l><r>article<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стая<s n="n"/><s n="f"/><s n="nn"/></l><r>swarm<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стекло<s n="n"/><s n="nt"/><s n="nn"/></l><r>interwiki-en-fa<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стена<s n="n"/><s n="f"/><s n="nn"/></l><r>wall<s n="n"/></r></p></e>
+    <e c="  0"><p><l>степень<s n="n"/><s n="f"/><s n="nn"/></l><r>degree<s n="n"/></r></p></e>
+    <e c="  0"><p><l>степь<s n="n"/><s n="f"/><s n="nn"/></l><r>steppe<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стиль<s n="n"/><s n="m"/><s n="nn"/></l><r>style<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стихи<s n="n"/><s n="m"/><s n="nn"/></l><r>verse_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стихотворение<s n="n"/><s n="nt"/><s n="nn"/></l><r>verse_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стоимость<s n="n"/><s n="f"/><s n="nn"/></l><r>value_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стол<s n="n"/><s n="m"/><s n="nn"/></l><r>table_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>столб<s n="n"/><s n="m"/><s n="nn"/></l><r>column_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>столетие<s n="n"/><s n="nt"/><s n="nn"/></l><r>century<s n="n"/></r></p></e>
+    <e c="  0"><p><l>столица<s n="n"/><s n="f"/><s n="nn"/></l><r>capital_city<s n="n"/></r></p></e>
+    <e c="  0"><p><l>страдание<s n="n"/><s n="nt"/><s n="nn"/></l><r>suffering<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стража<s n="n"/><s n="f"/><s n="nn"/></l><r>straža<s n="n"/></r></p></e>
+    <e c="  0"><p><l>страна<s n="n"/><s n="f"/><s n="nn"/></l><r>country<s n="n"/></r></p></e>
+    <e c="  0"><p><l>страница<s n="n"/><s n="f"/><s n="nn"/></l><r>page_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>страсть<s n="n"/><s n="f"/><s n="nn"/></l><r>passion_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>страх<s n="n"/><s n="m"/><s n="nn"/></l><r>fear<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стрела<s n="n"/><s n="f"/><s n="nn"/></l><r>arrow<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стрельба<s n="n"/><s n="f"/><s n="nn"/></l><r>shooting_sport<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стремление<s n="n"/><s n="nt"/><s n="nn"/></l><r>want<s n="n"/></r></p></e>
+    <e c="  0"><p><l>строительство<s n="n"/><s n="nt"/><s n="nn"/></l><r>construction<s n="n"/></r></p></e>
+    <e c="  0"><p><l>структура<s n="n"/><s n="f"/><s n="nn"/></l><r>structure<s n="n"/></r></p></e>
+    <e c="  0"><p><l>струя<s n="n"/><s n="f"/><s n="nn"/></l><r>jet<s n="n"/></r></p></e>
+    <e c="  0"><p><l>студент<s n="n"/><s n="m"/><s n="aa"/></l><r>student<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стул<s n="n"/><s n="m"/><s n="nn"/></l><r>chair<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ступень<s n="n"/><s n="f"/><s n="nn"/></l><r>step<s n="n"/></r></p></e>
+    <e c="  0"><p><l>стыд<s n="n"/><s n="m"/><s n="nn"/></l><r>shame<s n="n"/></r></p></e>
+    <e c="  0"><p><l>суббота<s n="n"/><s n="f"/><s n="nn"/></l><r>saturday<s n="n"/></r></p></e>
+    <e c="  0"><p><l>суд<s n="n"/><s n="m"/><s n="nn"/></l><r>court<s n="n"/></r></p></e>
+    <e c="  0"><p><l>судно<s n="n"/><s n="nt"/><s n="nn"/></l><r>ship<s n="n"/></r></p></e>
+    <e c="  0"><p><l>судьба<s n="n"/><s n="f"/><s n="nn"/></l><r>destiny<s n="n"/></r></p></e>
+    <e c="  0"><p><l>судья<s n="n"/><s n="m"/><s n="aa"/></l><r>judge<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сумка<s n="n"/><s n="f"/><s n="nn"/></l><r>handbag<s n="n"/></r></p></e>
+    <e c="  0"><p><l>суп<s n="n"/><s n="m"/><s n="nn"/></l><r>soup<s n="n"/></r></p></e>
+    <e c="  0"><p><l>супруг<s n="n"/><s n="m"/><s n="aa"/></l><r>husband<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сустав<s n="n"/><s n="m"/><s n="nn"/></l><r>joint<s n="n"/></r></p></e>
+    <e c="  0"><p><l>суть<s n="n"/><s n="f"/><s n="nn"/></l><r>essence<s n="n"/></r></p></e>
+    <e c="  0"><p><l>существование<s n="n"/><s n="nt"/><s n="nn"/></l><r>existence<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сущность<s n="n"/><s n="f"/><s n="nn"/></l><r>essence<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сфера<s n="n"/><s n="f"/><s n="nn"/></l><r>sphere<s n="n"/></r></p></e>
+    <e c="  0"><p><l>схема<s n="n"/><s n="f"/><s n="nn"/></l><r>schema<s n="n"/></r></p></e>
+    <e c="  0"><p><l>схема<s n="n"/><s n="f"/><s n="nn"/></l><r>set<b/>up<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сцена<s n="n"/><s n="f"/><s n="nn"/></l><r>stage_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сценарий<s n="n"/><s n="m"/><s n="nn"/></l><r>screenplay<s n="n"/></r></p></e>
+    <e c="  0"><p><l>счастье<s n="n"/><s n="nt"/><s n="nn"/></l><r>happiness<s n="n"/></r></p></e>
+    <e c="  0"><p><l>счет<s n="n"/><s n="m"/><s n="nn"/></l><r>account<s n="n"/></r></p></e>
+    <e c="  0"><p><l>съезд<s n="n"/><s n="m"/><s n="nn"/></l><r>political_convention<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сын<s n="n"/><s n="m"/><s n="aa"/></l><r>son<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сынок<s n="n"/><s n="m"/><s n="aa"/></l><r>son<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сэр<s n="n"/><s n="m"/><s n="aa"/></l><r>sir<s n="n"/></r></p></e>
+    <e c="  0"><p><l>сюжет<s n="n"/><s n="m"/><s n="nn"/></l><r>fabula_and_syuzhet<s n="n"/></r></p></e>
+    <e c="  0"><p><l>табак<s n="n"/><s n="m"/><s n="nn"/></l><r>tobacco<s n="n"/></r></p></e>
+    <e c="  0"><p><l>таблетка<s n="n"/><s n="f"/><s n="nn"/></l><r>tablet<s n="n"/></r></p></e>
+    <e c="  0"><p><l>таблица<s n="n"/><s n="f"/><s n="nn"/></l><r>table<s n="n"/></r></p></e>
+    <e c="  0"><p><l>табуретка<s n="n"/><s n="f"/><s n="nn"/></l><r>stool<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тайга<s n="n"/><s n="f"/><s n="nn"/></l><r>taiga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>такси<s n="n"/><s n="nt"/><s n="aa"/></l><r>taxicab<s n="n"/></r></p></e>
+    <e c="  0"><p><l>танец<s n="n"/><s n="m"/><s n="nn"/></l><r>dance<s n="n"/></r></p></e>
+    <e c="  0"><p><l>танк<s n="n"/><s n="m"/><s n="nn"/></l><r>tank<s n="n"/></r></p></e>
+    <e c="  0"><p><l>танцор<s n="n"/><s n="m"/><s n="aa"/></l><r>dance<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тарелка<s n="n"/><s n="f"/><s n="nn"/></l><r>plate_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тварь<s n="n"/><s n="f"/><s n="aa"/></l><r>animal<s n="n"/></r></p></e>
+    <e c="  0"><p><l>творчество<s n="n"/><s n="nt"/><s n="nn"/></l><r>creativity<s n="n"/></r></p></e>
+    <e c="  0"><p><l>театр<s n="n"/><s n="m"/><s n="nn"/></l><r>theatre<s n="n"/></r></p></e>
+    <e c="  0"><p><l>текст<s n="n"/><s n="m"/><s n="nn"/></l><r>text_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>телевидение<s n="n"/><s n="nt"/><s n="nn"/></l><r>television<s n="n"/></r></p></e>
+    <e c="  0"><p><l>телевизор<s n="n"/><s n="m"/><s n="nn"/></l><r>television_set<s n="n"/></r></p></e>
+    <e slr="1"><p><l>телевизор<s n="n"/><s n="m"/><s n="nn"/></l><r>television<s n="n"/></r></p></e>
+    <e c="  0"><p><l>телега<s n="n"/><s n="f"/><s n="nn"/></l><r>telega<s n="n"/></r></p></e>
+    <e c="  0"><p><l>телефон<s n="n"/><s n="m"/><s n="nn"/></l><r>telephone<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тело<s n="n"/><s n="nt"/><s n="nn"/></l><r>body_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тема<s n="n"/><s n="f"/><s n="nn"/></l><r>theme<s n="n"/></r></p></e>
+    <e c="  0"><p><l>темп<s n="n"/><s n="m"/><s n="nn"/></l><r>temp<s n="n"/></r></p></e>
+    <e c="  0"><p><l>температура<s n="n"/><s n="f"/><s n="nn"/></l><r>temperature<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тень<s n="n"/><s n="f"/><s n="nn"/></l><r>shadow<s n="n"/></r></p></e>
+    <e c="  0"><p><l>теория<s n="n"/><s n="f"/><s n="nn"/></l><r>theory<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тепло<s n="n"/><s n="nt"/><s n="nn"/></l><r>thermal_energy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>термин<s n="n"/><s n="m"/><s n="nn"/></l><r>umbrella_term<s n="n"/></r></p></e>
+    <e c="  0"><p><l>территория<s n="n"/><s n="f"/><s n="nn"/></l><r>territory_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тетка<s n="n"/><s n="f"/><s n="aa"/></l><r>aunt<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тетрадь<s n="n"/><s n="f"/><s n="nn"/></l><r>notebook<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тетя<s n="n"/><s n="f"/><s n="aa"/></l><r>aunt<s n="n"/></r></p></e>
+    <e c="  0"><p><l>технология<s n="n"/><s n="f"/><s n="nn"/></l><r>technology<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тигр<s n="n"/><s n="m"/><s n="aa"/></l><r>tiger<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тип<s n="n"/><s n="m"/><s n="aa"/></l><r>type<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тишина<s n="n"/><s n="f"/><s n="nn"/></l><r>silence<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ткань<s n="n"/><s n="f"/><s n="nn"/></l><r>textile<s n="n"/></r></p></e>
+    <e c="  0"><p><l>товар<s n="n"/><s n="m"/><s n="nn"/></l><r>good_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>товарищ<s n="n"/><s n="m"/><s n="aa"/></l><r>comrade<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ток<s n="n"/><s n="m"/><s n="nn"/></l><r>electric_current<s n="n"/></r></p></e>
+    <e c="  0"><p><l>толпа<s n="n"/><s n="f"/><s n="nn"/></l><r>crowd<s n="n"/></r></p></e>
+    <e c="  0"><p><l>толь<s n="n"/><s n="m"/><s n="nn"/></l><r>toll<s n="n"/></r></p></e>
+    <e c="  0"><p><l>том<s n="n"/><s n="m"/><s n="nn"/></l><r>tom<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тон<s n="n"/><s n="m"/><s n="nn"/></l><r>ton_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тонна<s n="n"/><s n="f"/><s n="nn"/></l><r>tonne<s n="n"/></r></p></e>
+    <e c="  0"><p><l>топливо<s n="n"/><s n="nt"/><s n="nn"/></l><r>fuel<s n="n"/></r></p></e>
+    <e c="  0"><p><l>топор<s n="n"/><s n="m"/><s n="nn"/></l><r>axe<s n="n"/></r></p></e>
+    <e c="  0"><p><l>торговец<s n="n"/><s n="m"/><s n="aa"/></l><r>trader<s n="n"/></r></p></e>
+    <e c="  0"><p><l>торговля<s n="n"/><s n="f"/><s n="nn"/></l><r>trade<s n="n"/></r></p></e>
+    <e c="  0"><p><l>точка<s n="n"/><s n="f"/><s n="nn"/></l><r>point<s n="n"/></r></p></e>
+    <e c="  0"><p><l>точность<s n="n"/><s n="f"/><s n="nn"/></l><r>accuracy_and_precision<s n="n"/></r></p></e>
+    <e c="  0"><p><l>трава<s n="n"/><s n="f"/><s n="nn"/></l><r>grass<s n="n"/></r></p></e>
+    <e c="  0"><p><l>травма<s n="n"/><s n="f"/><s n="nn"/></l><r>trauma_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>трагедия<s n="n"/><s n="f"/><s n="nn"/></l><r>tragedy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>традиция<s n="n"/><s n="f"/><s n="nn"/></l><r>tradition<s n="n"/></r></p></e>
+    <e c="  0"><p><l>трактор<s n="n"/><s n="m"/><s n="nn"/></l><r>tractor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>трамвай<s n="n"/><s n="m"/><s n="nn"/></l><r>tram<s n="n"/></r></p></e>
+    <e c="  0"><p><l>транспорт<s n="n"/><s n="m"/><s n="nn"/></l><r>transport<s n="n"/></r></p></e>
+    <e c="  0"><p><l>траншея<s n="n"/><s n="f"/><s n="nn"/></l><r>trench<s n="n"/></r></p></e>
+    <e c="  0"><p><l>требование<s n="n"/><s n="nt"/><s n="nn"/></l><r>requirement<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тревога<s n="n"/><s n="f"/><s n="nn"/></l><r>anxiety<s n="n"/></r></p></e>
+    <e c="  0"><p><l>трещина<s n="n"/><s n="f"/><s n="nn"/></l><r>fracture<s n="n"/></r></p></e>
+    <e c="  0"><p><l>трибуна<s n="n"/><s n="f"/><s n="nn"/></l><r>tribune_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тройка<s n="n"/><s n="f"/><s n="nn"/></l><r>troika<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тропа<s n="n"/><s n="f"/><s n="nn"/></l><r>trail<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тропинка<s n="n"/><s n="f"/><s n="nn"/></l><r>trail<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тротуар<s n="n"/><s n="m"/><s n="nn"/></l><r>sidewalk<s n="n"/></r></p></e>
+    <e c="  0"><p><l>труба<s n="n"/><s n="f"/><s n="nn"/></l><r>trumpeter_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>труп<s n="n"/><s n="m"/><s n="nn"/></l><r>cadaver<s n="n"/></r></p></e>
+    <e c="  0"><p><l>трус<s n="n"/><s n="m"/><s n="aa"/></l><r>cowardice<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тряпка<s n="n"/><s n="f"/><s n="nn"/></l><r>floorcloth<s n="n"/></r></p></e>
+    <e c="  0"><p><l>туалет<s n="n"/><s n="m"/><s n="nn"/></l><r>toilet<s n="n"/></r></p></e>
+    <e c="  0"><p><l>туман<s n="n"/><s n="m"/><s n="nn"/></l><r>fog<s n="n"/></r></p></e>
+    <e c="  0"><p><l>турист<s n="n"/><s n="m"/><s n="aa"/></l><r>tourism<s n="n"/></r></p></e>
+    <e c="  0"><p><l>туфля<s n="n"/><s n="f"/><s n="nn"/></l><r>dress_shoe<s n="n"/></r></p></e>
+    <e c="  0"><p><l>туча<s n="n"/><s n="f"/><s n="nn"/></l><r>cloud<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тьма<s n="n"/><s n="f"/><s n="nn"/></l><r>darkness<s n="n"/></r></p></e>
+    <e c="  0"><p><l>тюрьма<s n="n"/><s n="f"/><s n="nn"/></l><r>prison<s n="n"/></r></p></e>
+    <e c="  0"><p><l>убийство<s n="n"/><s n="nt"/><s n="nn"/></l><r>murder<s n="n"/></r></p></e>
+    <e c="  0"><p><l>убийца<s n="n"/><s n="m"/><s n="aa"/></l><r>murder<s n="n"/></r></p></e>
+    <e c="  0"><p><l>уважение<s n="n"/><s n="nt"/><s n="nn"/></l><r>respect<s n="n"/></r></p></e>
+    <e c="  0"><p><l>увеличение<s n="n"/><s n="nt"/><s n="nn"/></l><r>magnification<s n="n"/></r></p></e>
+    <e c="  0"><p><l>уверенность<s n="n"/><s n="f"/><s n="nn"/></l><r>confidence<s n="n"/></r></p></e>
+    <e c="  0"><p><l>угол<s n="n"/><s n="m"/><s n="nn"/></l><r>angle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>уголь<s n="n"/><s n="m"/><s n="nn"/></l><r>coal<s n="n"/></r></p></e>
+    <e c="  0"><p><l>угроза<s n="n"/><s n="f"/><s n="nn"/></l><r>threat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>удав<s n="n"/><s n="m"/><s n="aa"/></l><r>boidae<s n="n"/></r></p></e>
+    <e c="  0"><p><l>удар<s n="n"/><s n="m"/><s n="nn"/></l><r>collision<s n="n"/></r></p></e>
+    <e c="  0"><p><l>удача<s n="n"/><s n="f"/><s n="nn"/></l><r>luck<s n="n"/></r></p></e>
+    <e c="  0"><p><l>удивление<s n="n"/><s n="nt"/><s n="nn"/></l><r>surprise_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>удовольствие<s n="n"/><s n="nt"/><s n="nn"/></l><r>pleasure<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ужас<s n="n"/><s n="m"/><s n="nn"/></l><r>horror<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ужин<s n="n"/><s n="m"/><s n="nn"/></l><r>dinner<s n="n"/></r></p></e>
+    <e c="  0"><p><l>узел<s n="n"/><s n="m"/><s n="nn"/></l><r>knot<s n="n"/></r></p></e>
+    <e c="  0"><p><l>указ<s n="n"/><s n="m"/><s n="nn"/></l><r>ukase<s n="n"/></r></p></e>
+    <e c="  0"><p><l>улица<s n="n"/><s n="f"/><s n="nn"/></l><r>street<s n="n"/></r></p></e>
+    <e c="  0"><p><l>улыбка<s n="n"/><s n="f"/><s n="nn"/></l><r>smile<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ум<s n="n"/><s n="m"/><s n="nn"/></l><r>mind<s n="n"/></r></p></e>
+    <e c="  0"><p><l>умение<s n="n"/><s n="nt"/><s n="nn"/></l><r>skill<s n="n"/></r></p></e>
+    <e c="  0"><p><l>университет<s n="n"/><s n="m"/><s n="nn"/></l><r>university<s n="n"/></r></p></e>
+    <e c="  0"><p><l>управление<s n="n"/><s n="nt"/><s n="nn"/></l><r>ruling<s n="n"/></r></p></e>
+    <e c="  0"><p><l>уровень<s n="n"/><s n="m"/><s n="nn"/></l><r>level<s n="n"/></r></p></e>
+    <e c="  0"><p><l>уровень<s n="n"/><s n="m"/><s n="nn"/></l><r>level<s n="n"/></r></p></e>
+    <e c="  0"><p><l>уровень<s n="n"/><s n="m"/><s n="nn"/></l><r>level<s n="n"/></r></p></e>
+    <e c="  0"><p><l>уровень<s n="n"/><s n="m"/><s n="nn"/></l><r>level<s n="n"/></r></p></e>
+    <e c="  0"><p><l>урок<s n="n"/><s n="m"/><s n="nn"/></l><r>lesson<s n="n"/></r></p></e>
+    <e c="  0"><p><l>усадьба<s n="n"/><s n="f"/><s n="nn"/></l><r>estate_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>услуга<s n="n"/><s n="f"/><s n="nn"/></l><r>service_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>устав<s n="n"/><s n="m"/><s n="nn"/></l><r>charter<s n="n"/></r></p></e>
+    <e c="  0"><p><l>утверждение<s n="n"/><s n="nt"/><s n="nn"/></l><r>affirmation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>утро<s n="n"/><s n="nt"/><s n="nn"/></l><r>morning<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ухо<s n="n"/><s n="nt"/><s n="nn"/></l><r>ear<s n="n"/></r></p></e>
+    <e c="  0"><p><l>учебник<s n="n"/><s n="m"/><s n="nn"/></l><r>textbook<s n="n"/></r></p></e>
+    <e c="  0"><p><l>учитель<s n="n"/><s n="m"/><s n="aa"/></l><r>teacher<s n="n"/></r></p></e>
+    <e c="  0"><p><l>учительница<s n="n"/><s n="f"/><s n="aa"/></l><r>teacher<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фабрика<s n="n"/><s n="f"/><s n="nn"/></l><r>factory<s n="n"/></r></p></e>
+    <e c="  0"><p><l>файл<s n="n"/><s n="m"/><s n="nn"/></l><r>computer_file<s n="n"/></r></p></e>
+    <e c="  0"><p><l>файл<s n="n"/><s n="m"/><s n="nn"/></l><r>file<s n="n"/></r></p></e>
+    <e c="  0"><p><l>факт<s n="n"/><s n="m"/><s n="nn"/></l><r>fact<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фактор<s n="n"/><s n="m"/><s n="aa"/></l><r>factor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>факультет<s n="n"/><s n="m"/><s n="nn"/></l><r>faculty_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фамилия<s n="n"/><s n="f"/><s n="nn"/></l><r>family_name<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фантазия<s n="n"/><s n="f"/><s n="nn"/></l><r>fantasy_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фашист<s n="n"/><s n="m"/><s n="aa"/></l><r>fascism<s n="n"/></r></p></e>
+    <e c="  0"><p><l>февраль<s n="n"/><s n="m"/><s n="nn"/></l><r>february<s n="n"/></r></p></e>
+    <e c="  0"><p><l>федерация<s n="n"/><s n="f"/><s n="nn"/></l><r>federation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фигура<s n="n"/><s n="f"/><s n="nn"/></l><r>figure<s n="n"/></r></p></e>
+    <e c="  0"><p><l>физика<s n="n"/><s n="f"/><s n="nn"/></l><r>physics<s n="n"/></r></p></e>
+    <e c="  0"><p><l>физиономия<s n="n"/><s n="f"/><s n="nn"/></l><r>physiognomy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фильм<s n="n"/><s n="m"/><s n="nn"/></l><r>film<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фирма<s n="n"/><s n="f"/><s n="nn"/></l><r>the_firm<s n="n"/></r></p></e>
+    <e c="  0"><p><l>флаг<s n="n"/><s n="m"/><s n="nn"/></l><r>flag<s n="n"/></r></p></e>
+    <e c="  0"><p><l>флот<s n="n"/><s n="m"/><s n="nn"/></l><r>naval_fleet<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фокус<s n="n"/><s n="m"/><s n="nn"/></l><r>focus<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фон<s n="n"/><s n="m"/><s n="aa"/></l><r>fon<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фонарь<s n="n"/><s n="m"/><s n="nn"/></l><r>lantern<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фонд<s n="n"/><s n="m"/><s n="nn"/></l><r>foundation_(non-profit)<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фонтан<s n="n"/><s n="m"/><s n="nn"/></l><r>fountain<s n="n"/></r></p></e>
+    <e c="  0"><p><l>форма<s n="n"/><s n="f"/><s n="nn"/></l><r>form<s n="n"/></r></p></e>
+    <e c="  0"><p><l>формула<s n="n"/><s n="f"/><s n="nn"/></l><r>formula_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фотография<s n="n"/><s n="f"/><s n="nn"/></l><r>photography<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фраза<s n="n"/><s n="f"/><s n="nn"/></l><r>phrase<s n="n"/></r></p></e>
+    <e c="  0"><p><l>француз<s n="n"/><s n="m"/><s n="aa"/></l><r>french_people<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фронт<s n="n"/><s n="m"/><s n="nn"/></l><r>front<s n="n"/></r></p></e>
+    <e c="  0"><p><l>функция<s n="n"/><s n="f"/><s n="nn"/></l><r>function<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фуражка<s n="n"/><s n="f"/><s n="nn"/></l><r>peaked_cap<s n="n"/></r></p></e>
+    <e c="  0"><p><l>фюрер<s n="n"/><s n="m"/><s n="aa"/></l><r>führer<s n="n"/></r></p></e>
+    <e c="  0"><p><l>халат<s n="n"/><s n="m"/><s n="nn"/></l><r>khalat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>характер<s n="n"/><s n="m"/><s n="nn"/></l><r>character<s n="n"/></r></p></e>
+    <e c="  0"><p><l>хвост<s n="n"/><s n="m"/><s n="nn"/></l><r>tail<s n="n"/></r></p></e>
+    <e c="  0"><p><l>хирург<s n="n"/><s n="m"/><s n="aa"/></l><r>surgeon<s n="n"/></r></p></e>
+    <e c="  0"><p><l>хлеб<s n="n"/><s n="m"/><s n="nn"/></l><r>bread<s n="n"/></r></p></e>
+    <e c="  0"><p><l>хоббит<s n="n"/><s n="m"/><s n="aa"/></l><r>hobbit<s n="n"/></r></p></e>
+    <e c="  0"><p><l>холл<s n="n"/><s n="m"/><s n="nn"/></l><r>hall_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>холм<s n="n"/><s n="m"/><s n="nn"/></l><r>hill<s n="n"/></r></p></e>
+    <e c="  0"><p><l>холод<s n="n"/><s n="m"/><s n="nn"/></l><r>cold<s n="n"/></r></p></e>
+    <e c="  0"><p><l>холодильник<s n="n"/><s n="m"/><s n="nn"/></l><r>refrigerator<s n="n"/></r></p></e>
+    <e c="  0"><p><l>хор<s n="n"/><s n="m"/><s n="nn"/></l><r>choir<s n="n"/></r></p></e>
+    <e c="  0"><p><l>хохот<s n="n"/><s n="m"/><s n="nn"/></l><r>laughter<s n="n"/></r></p></e>
+    <e c="  0"><p><l>храм<s n="n"/><s n="m"/><s n="nn"/></l><r>temple<s n="n"/></r></p></e>
+    <e c="  0"><p><l>хрен<s n="n"/><s n="m"/><s n="nn"/></l><r>horseradish<s n="n"/></r></p></e>
+    <e c="  0"><p><l>хутор<s n="n"/><s n="m"/><s n="nn"/></l><r>khutor<s n="n"/></r></p></e>
+    <e c="  0"><p><l>царь<s n="n"/><s n="m"/><s n="aa"/></l><r>tsar<s n="n"/></r></p></e>
+    <e c="  0"><p><l>цвет<s n="n"/><s n="m"/><s n="nn"/></l><r>color<s n="n"/></r></p></e>
+    <e c="  0"><p><l>цветок<s n="n"/><s n="m"/><s n="nn"/></l><r>flower<s n="n"/></r></p></e>
+    <e c="  0"><p><l>цель<s n="n"/><s n="f"/><s n="nn"/></l><r>goal<s n="n"/></r></p></e>
+    <e c="  0"><p><l>цена<s n="n"/><s n="f"/><s n="nn"/></l><r>price<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ценность<s n="n"/><s n="f"/><s n="nn"/></l><r>value_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>центр<s n="n"/><s n="m"/><s n="nn"/></l><r>center<s n="n"/></r></p></e>
+    <e c="  0"><p><l>цепочка<s n="n"/><s n="f"/><s n="nn"/></l><r>chain_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>цепь<s n="n"/><s n="f"/><s n="nn"/></l><r>chain_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>церковь<s n="n"/><s n="f"/><s n="nn"/></l><r>church_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>цех<s n="n"/><s n="m"/><s n="nn"/></l><r>guild<s n="n"/></r></p></e>
+    <e c="  0"><p><l>цивилизация<s n="n"/><s n="f"/><s n="nn"/></l><r>civilisation<s n="n"/></r></p></e>
+    <e c="  0"><p><l>цирк<s n="n"/><s n="m"/><s n="nn"/></l><r>circus<s n="n"/></r></p></e>
+    <e c="  0"><p><l>цифра<s n="n"/><s n="f"/><s n="nn"/></l><r>cypher<s n="n"/></r></p></e>
+    <e c="  0"><p><l>чай<s n="n"/><s n="m"/><s n="nn"/></l><r>tea<s n="n"/></r></p></e>
+    <e c="  0"><p><l>чайник<s n="n"/><s n="m"/><s n="aa"/></l><r>kettle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>час<s n="n"/><s n="m"/><s n="nn"/></l><r>hour<s n="n"/></r></p></e>
+    <e c="  0"><p><l>часть<s n="n"/><s n="f"/><s n="nn"/></l><r>set_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>чашка<s n="n"/><s n="f"/><s n="nn"/></l><r>mug<s n="n"/></r></p></e>
+    <e c="  0"><p><l>человек<s n="n"/><s n="m"/><s n="aa"/></l><r>human<s n="n"/></r></p></e>
+    <e c="  0"><p><l>челюсть<s n="n"/><s n="f"/><s n="nn"/></l><r>jaw<s n="n"/></r></p></e>
+    <e c="  0"><p><l>чемодан<s n="n"/><s n="m"/><s n="nn"/></l><r>suitcase<s n="n"/></r></p></e>
+    <e c="  0"><p><l>череп<s n="n"/><s n="m"/><s n="nn"/></l><r>skull<s n="n"/></r></p></e>
+    <e c="  0"><p><l>честь<s n="n"/><s n="f"/><s n="nn"/></l><r>honour<s n="n"/></r></p></e>
+    <e c="  0"><p><l>число<s n="n"/><s n="nt"/><s n="nn"/></l><r>number<s n="n"/></r></p></e>
+    <e c="  0"><p><l>читатель<s n="n"/><s n="m"/><s n="aa"/></l><r>reading_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>член<s n="n"/><s n="m"/><s n="nn"/></l><r>member<s n="n"/></r></p></e>
+    <e c="  0"><p><l>чтение<s n="n"/><s n="nt"/><s n="nn"/></l><r>reading_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>чувство<s n="n"/><s n="nt"/><s n="nn"/></l><r>feeling<s n="n"/></r></p></e>
+    <e c="  0"><p><l>чудо<s n="n"/><s n="nt"/><s n="nn"/></l><r>miracle<s n="n"/></r></p></e>
+    <e c="  0"><p><l>чудовище<s n="n"/><s n="nt"/><s n="aa"/></l><r>monster<s n="n"/></r></p></e>
+    <e c="  0"><p><l>шанс<s n="n"/><s n="m"/><s n="nn"/></l><r>chance<s n="n"/></r></p></e>
+    <e c="  0"><p><l>шар<s n="n"/><s n="m"/><s n="nn"/></l><r>ball_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>шахта<s n="n"/><s n="f"/><s n="nn"/></l><r>mining<s n="n"/></r></p></e>
+    <e c="  0"><p><l>шерсть<s n="n"/><s n="f"/><s n="nn"/></l><r>fur<s n="n"/></r></p></e>
+    <e c="  0"><p><l>шея<s n="n"/><s n="f"/><s n="nn"/></l><r>neck<s n="n"/></r></p></e>
+    <e c="  0"><p><l>шинель<s n="n"/><s n="f"/><s n="nn"/></l><r>greatcoat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>шкаф<s n="n"/><s n="m"/><s n="nn"/></l><r>cupboard<s n="n"/></r></p></e>
+    <e c="  0"><p><l>школа<s n="n"/><s n="f"/><s n="nn"/></l><r>school<s n="n"/></r></p></e>
+    <e c="  0"><p><l>школьник<s n="n"/><s n="m"/><s n="aa"/></l><r>skolnick<s n="n"/></r></p></e>
+    <e c="  0"><p><l>шкура<s n="n"/><s n="f"/><s n="nn"/></l><r>fur<s n="n"/></r></p></e>
+    <e c="  0"><p><l>шляпа<s n="n"/><s n="f"/><s n="nn"/></l><r>hat<s n="n"/></r></p></e>
+    <e c="  0"><p><l>шоссе<s n="n"/><s n="nt"/><s n="aa"/></l><r>highway<s n="n"/></r></p></e>
+    <e c="  0"><p><l>шпион<s n="n"/><s n="m"/><s n="aa"/></l><r>espionage<s n="n"/></r></p></e>
+    <e c="  0"><p><l>штаб<s n="n"/><s n="m"/><s n="nn"/></l><r>staff_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>штаны<s n="n"/><s n="m"/><s n="nn"/></l><r>trousers<s n="n"/></r></p></e>
+    <e c="  0"><p><l>штат<s n="n"/><s n="m"/><s n="nn"/></l><r>state<s n="n"/></r></p></e>
+    <e c="  0"><p><l>штука<s n="n"/><s n="f"/><s n="nn"/></l><r>interwiki-en-ga<s n="n"/></r></p></e>
+    <e c="  0"><p><l>штурман<s n="n"/><s n="m"/><s n="aa"/></l><r>navigator<s n="n"/></r></p></e>
+    <e c="  0"><p><l>шуба<s n="n"/><s n="f"/><s n="nn"/></l><r>fur_clothing<s n="n"/></r></p></e>
+    <e c="  0"><p><l>шум<s n="n"/><s n="m"/><s n="nn"/></l><r>noise<s n="n"/></r></p></e>
+    <e c="  0"><p><l>шутка<s n="n"/><s n="f"/><s n="nn"/></l><r>humour<s n="n"/></r></p></e>
+    <e c="  0"><p><l>щека<s n="n"/><s n="f"/><s n="nn"/></l><r>cheek<s n="n"/></r></p></e>
+    <e c="  0"><p><l>щенок<s n="n"/><s n="m"/><s n="aa"/></l><r>puppy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>щит<s n="n"/><s n="m"/><s n="nn"/></l><r>shield<s n="n"/></r></p></e>
+    <e c="  0"><p><l>экипаж<s n="n"/><s n="m"/><s n="nn"/></l><r>crew<s n="n"/></r></p></e>
+    <e c="  0"><p><l>экономика<s n="n"/><s n="f"/><s n="nn"/></l><r>economy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>экран<s n="n"/><s n="m"/><s n="nn"/></l><r>screen<s n="n"/></r></p></e>
+    <e c="  0"><p><l>эксперимент<s n="n"/><s n="m"/><s n="nn"/></l><r>experiment<s n="n"/></r></p></e>
+    <e c="  0"><p><l>эксперт<s n="n"/><s n="m"/><s n="aa"/></l><r>expert<s n="n"/></r></p></e>
+    <e c="  0"><p><l>элемент<s n="n"/><s n="m"/><s n="nn"/></l><r>element<s n="n"/></r></p></e>
+    <e c="  0"><p><l>эмоция<s n="n"/><s n="f"/><s n="nn"/></l><r>emotion<s n="n"/></r></p></e>
+    <e c="  0"><p><l>энергия<s n="n"/><s n="f"/><s n="nn"/></l><r>energy<s n="n"/></r></p></e>
+    <e c="  0"><p><l>эпоха<s n="n"/><s n="f"/><s n="nn"/></l><r>epoch<s n="n"/></r></p></e>
+    <e c="  0"><p><l>этаж<s n="n"/><s n="m"/><s n="nn"/></l><r>storey<s n="n"/></r></p></e>
+    <e c="  0"><p><l>этап<s n="n"/><s n="m"/><s n="nn"/></l><r>prisoner_transport<s n="n"/></r></p></e>
+    <e c="  0"><p><l>эффект<s n="n"/><s n="m"/><s n="nn"/></l><r>effect<s n="n"/></r></p></e>
+    <e c="  0"><p><l>эхо<s n="n"/><s n="nt"/><s n="nn"/></l><r>echo_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>юбка<s n="n"/><s n="f"/><s n="nn"/></l><r>skirt<s n="n"/></r></p></e>
+    <e c="  0"><p><l>юг<s n="n"/><s n="m"/><s n="nn"/></l><r>south<s n="n"/></r></p></e>
+    <e c="  0"><p><l>юмор<s n="n"/><s n="m"/><s n="nn"/></l><r>humour<s n="n"/></r></p></e>
+    <e c="  0"><p><l>юность<s n="n"/><s n="f"/><s n="nn"/></l><r>youth<s n="n"/></r></p></e>
+    <e c="  0"><p><l>юноша<s n="n"/><s n="m"/><s n="aa"/></l><r>youth<s n="n"/></r></p></e>
+    <e c="  0"><p><l>яблоко<s n="n"/><s n="nt"/><s n="nn"/></l><r>apple<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ягода<s n="n"/><s n="f"/><s n="nn"/></l><r>berry<s n="n"/></r></p></e>
+    <e c="  0"><p><l>яд<s n="n"/><s n="m"/><s n="nn"/></l><r>poison<s n="n"/></r></p></e>
+    <e c="  0"><p><l>язык<s n="n"/><s n="m"/><s n="nn"/></l><r>language<s n="n"/></r></p></e>
+    <e c="  0"><p><l>яйцо<s n="n"/><s n="nt"/><s n="nn"/></l><r>egg_<s n="n"/></r></p></e>
+    <e c="  0"><p><l>январь<s n="n"/><s n="m"/><s n="nn"/></l><r>january<s n="n"/></r></p></e>
+    <e c="  0"><p><l>японец<s n="n"/><s n="m"/><s n="aa"/></l><r>japanese_people<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ящик<s n="n"/><s n="m"/><s n="nn"/></l><r>box<s n="n"/></r></p></e>
+    <e c="  0"><p><l>таджик<s n="n"/><s n="m"/><s n="aa"/></l><r>tajik_people<s n="n"/></r></p></e>
+
+    <!-- SECTION: Proper nouns -->
+
+    <e c="  0"><p><l>Финляндия<s n="np"/><s n="top"/><s n="f"/></l><r>Finland<s n="np"/><s n="top"/></r></p></e>
+    <e c="  0"><p><l>Россия<s n="np"/><s n="top"/><s n="f"/></l><r>Russia<s n="np"/><s n="top"/></r></p></e>
+    <e c="  0"><p><l>Украиня<s n="np"/><s n="top"/><s n="f"/></l><r>Ukraine<s n="np"/><s n="top"/></r></p></e>
+
+    <!-- SECTION: Adjectives -->
+
+    <e c="  0"><p><l>финский<s n="adj"/></l><r>Finnish<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>английский<s n="adj"/></l><r>English<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>французский<s n="adj"/></l><r>French<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>советский<s n="adj"/></l><r>Soviet<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>российский<s n="adj"/></l><r>Russian<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>русский<s n="adj"/></l><r>Russian<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>германский<s n="adj"/></l><r>Germanic<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>коммунистический<s n="adj"/></l><r>Communist<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>европейский<s n="adj"/></l><r>European<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>исторический<s n="adj"/></l><r>historical<s n="adj"/></r></p></e>
+
+
+	<e><p><l>только<s n="adv"/></l><r>only<s n="adj"/></r></p></e>
+
+    <e><p><l>дорогой<s n="adj"/></l><r>dear<s n="adj"/></r></p></e>
+    <e><p><l>отличный<s n="adj"/></l><r>great<s n="adj"/></r></p></e>
+    <e><p><l>последний<s n="adj"/></l><r>last<s n="adj"/></r></p></e>
+    <e><p><l>хороший<s n="adj"/></l><r>good<s n="adj"/></r></p></e>
+    <e><p><l>безопасный<s n="adj"/></l><r>secure<s n="adj"/></r></p></e>
+    <e><p><l>существующий<s n="adj"/></l><r>existing<s n="adj"/></r></p></e>
+    <e><p><l>все<b/>еще<s n="adj"/></l><r>still<s n="adj"/></r></p></e>
+
+ 
+    <!-- SECTION: Adverbs -->
+
+    <e c="  0"><p><l>в<b/>этом<b/>случае<s n="adv"/></l><r>in<b/>this<b/>case<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>параллельно<b/>с<b/>этим<s n="adv"/></l><r>in<b/>the<b/>meantime<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>до<b/>сих<b/>пор<s n="adv"/></l><r>until<b/>now<s n="adv"/></r></p></e>
+    <e slr="1"><p><l>до<b/>сих<b/>пор<s n="adv"/></l><r>up<b/>till<b/>now<s n="adv"/></r></p></e>
+    <e slr="2"><p><l>до<b/>сих<b/>пор<s n="adv"/></l><r>thus<b/>far<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>завтра<s n="adv"/></l><r>tomorrow<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>сегодня<s n="adv"/></l><r>today<s n="adv"/></r></p></e>
+
+    <e c="  0"><p><l>очень<s n="adv"/></l><r>very<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>хорошо<s n="adv"/></l><r>well<s n="adv"/></r></p></e>
+	<e><p><l>как<s n="adv"/></l><r>as<s n="cnjadv"/></r></p></e>
+	<e><p><l>либо<s n="cnjcoo"/></l><r>either<s n="adv"/></r></p></e>
+	<e><p><l>здесь<s n="adv"/></l><r>here<s n="adv"/></r></p></e>
+	<e><p><l>только<s n="adv"/></l><r>only<s n="adv"/></r></p></e>
+	<e><p><l>вот<s n="adv"/></l><r>here<b/>is<s n="adv"/></r></p></e>
+	<e><p><l>вот<s n="part"/></l><r>here<b/>are<s n="adv"/></r></p></e>
+
+    <!-- SECTION: Verbs -->
+
+
+
+    <e><p><l>выяснить<s n="vblex"/><s n="imperf"/></l><r>find<g><b/>out</g><s n="vblex"/></r></p></e>
+    <e><p><l>ответить<s n="vblex"/><s n="perf"/></l><r>answer<s n="vblex"/></r></p></e>
+    <e><p><l>разработать<s n="vblex"/><s n="perf"/></l><r>work<g><b/>out</g><s n="vblex"/></r></p></e>
+    <e><p><l>быть<s n="vbser"/><g><b/>cпособный</g><s n="adj"/></l><r>be<g><b/>able<b/>to</g><s n="vblex"/></r></p></e>
+
+
+    <e><p><l>применить<s n="vblex"/><s n="perf"/></l><r>apply<s n="vblex"/></r></p></e>
+    <e><p><l>закончить<s n="vblex"/><s n="perf"/></l><r>complete<s n="vblex"/></r></p></e>
+    <e><p><l>запираться<s n="vblex"/><s n="imperf"/><s n="pprs"/><s n="actv"/></l><r>locked<s n="adj"/></r></p></e>
+    <e><p><l>решать<s n="vblex"/><s n="imperf"/></l><r>resolve<s n="vblex"/></r></p></e>
+
+
+    <e c="  0"><p><l>идти<s n="vblex"/><s n="imperf"/></l><r>go<s n="vblex"/></r></p></e>
+    <e slr="1"><p><l>идти<s n="vblex"/><s n="imperf"/></l><r>walk<s n="vblex"/></r></p></e>
+    <e slr="2"><p><l>идти<s n="vblex"/><s n="imperf"/></l><r>function<s n="vblex"/></r></p></e>
+    <e c="  0"><p><l>работать<s n="vblex"/><s n="imperf"/></l><r>work<s n="vblex"/></r></p></e>
+    <e slr="4"><p><l>идти<s n="vblex"/><s n="imperf"/></l><r>suit<s n="vblex"/></r></p></e>
+
+    <e><p><l>любить<s n="vblex"/><s n="imperf"/></l><r>love<s n="vblex"/></r></p></e>
+
+    <e><p><l>необходимый<s n="adj"/></l><r>need<s n="vblex"/></r></p></e>
+
+
+    <e c="  0"><p><l>говорить<s n="vblex"/><s n="imperf"/></l><r>speak<s n="vblex"/></r></p></e>
+    <e slr="1"><p><l>говорить<s n="vblex"/><s n="imperf"/></l><r>talk<s n="vblex"/></r></p></e>
+    <e slr="2"><p><l>говорить<s n="vblex"/><s n="imperf"/></l><r>say<s n="vblex"/></r></p></e>
+    <e slr="3"><p><l>говорить<s n="vblex"/><s n="imperf"/></l><r>tell<s n="vblex"/></r></p></e>
+
+    <e c="  0"><p><l>читать<s n="vblex"/><s n="imperf"/></l><r>read<s n="vblex"/></r></p></e>
+    <e slr="1"><p><l>читать<s n="vblex"/><s n="imperf"/></l><r>recite<s n="vblex"/></r></p></e>
+    <e slr="2"><p><l>читать<s n="vblex"/><s n="imperf"/></l><r>lecture<s n="vblex"/></r></p></e> <!-- iv -->
+    <e slr="3"><p><l>читать<s n="vblex"/><s n="imperf"/></l><r>teach<s n="vblex"/></r></p></e>
+
+    <e c="  0" r="RL"><p><l>прочитать<s n="vblex"/><s n="perf"/></l><r>read<s n="vblex"/><s n="perf"/></r></p></e>
+    <e c="  0" r="RL"><p><l>прочитать<s n="vblex"/><s n="perf"/></l><r>recite<s n="vblex"/><s n="perf"/></r></p></e>
+
+    <e c="  0"><p><l>объявить<s n="vblex"/><s n="perf"/></l><r>announce<s n="vblex"/></r></p></e>
+    <e slr="1"><p><l>объявить<s n="vblex"/><s n="perf"/></l><r>declare<s n="vblex"/></r></p></e>
+    <e slr="2"><p><l>объявить<s n="vblex"/><s n="perf"/></l><r>tell<s n="vblex"/></r></p></e>
+    <e slr="3"><p><l>объявить<s n="vblex"/><s n="perf"/></l><r>proclaim<s n="vblex"/></r></p></e>
+    <e slr="3"><p><l>объявить<s n="vblex"/><s n="perf"/></l><r>advertise<s n="vblex"/></r></p></e>
+    <e slr="3"><p><l>объявить<s n="vblex"/><s n="perf"/></l><r>express<s n="vblex"/></r></p></e>
+
+    <e><p><l>продолжать<s n="vblex"/><s n="imperf"/></l><r>continue<s n="vblex"/></r></p></e>
+
+    <e c="  0"><p><l>работать<s n="vblex"/><s n="imperf"/></l><r>work<s n="vblex"/></r></p></e>
+
+    <e><p><l>описать<s n="vblex"/><s n="perf"/></l><r>lay<g><b/>out</g><s n="vblex"/></r></p></e>
+
+    <e><p><l>сделать<s n="vblex"/><s n="perf"/></l><r>get<g><b/>done</g><s n="vblex"/></r></p></e>
+
+    <e><p><l>учитывать<s n="vblex"/><s n="imperf"/></l><r>consider<s n="vblex"/></r></p></e>
+
+
+    <!-- SECTION: Interjection -->
+
+    <e c="  0"><p><l>спасибо<s n="ij"/></l><r>thank<b/>you<s n="ij"/></r></p></e>
+    <e slr="1"><p><l>спасибо<b/>за<s n="ij"/></l><r>thank<b/>you<b/>for<s n="ij"/></r></p></e>
+    <e slr="1"><p><l>спасибо<s n="ij"/></l><r>thanks<s n="ij"/></r></p></e>
+    <e c="  0"><p><l>большое<b/>спасибо<s n="ij"/></l><r>thank<b/>you<b/>very<b/>much<s n="ij"/></r></p></e>
+    <e slr="1"><p><l>большое<b/>спасибо<s n="ij"/></l><r>thanks<b/>a<b/>lot<s n="ij"/></r></p></e>
+    <e c="  0"><p><l>большое<b/>спасибо<b/>за<s n="ij"/></l><r>thank<b/>you<b/>very<b/>much<b/>for<s n="ij"/></r></p></e>
+    <e c="  0"><p><l>пожалуйста<s n="ij"/></l><r>please<s n="ij"/></r></p></e>
+    <e c="  0"><p><l>спокойной<b/>ночи<s n="ij"/></l><r>good<b/>night<s n="ij"/></r></p></e>
+
+
+    <!-- SECTION: Punctuation -->
+
+    <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+
+
+  </section>
+</dictionary>

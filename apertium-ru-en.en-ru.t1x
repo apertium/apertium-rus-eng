@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transfer>
+			
+	<section-def-cats> 
+		<def-cat n="nom">     
+		   <cat-item tags="n.*"/> 
+		</def-cat>
+
+		<def-cat n="vrb">
+		   <cat-item tags="vblex.*"/>
+		</def-cat>
+
+		<def-cat n="vrb_need">
+		   <cat-item lemma="need" tags="vblex.*"/>
+		</def-cat>
+
+		<def-cat n="vrb_get">
+		   <cat-item lemma="get" tags="vblex.*"/>
+		</def-cat>
+
+
+		<def-cat n="pr_to">
+		   <cat-item lemma="to" tags="pr"/>
+		</def-cat>
+
+		<def-cat n="be_able_to">
+		   <cat-item lemma="be# able to" tags="vblex.*"/>
+		</def-cat>
+
+
+
+		<def-cat n="vrbser">
+		   <cat-item tags="vbser.*"/>
+		</def-cat>
+
+
+		<def-cat n="prpers">
+		   <cat-item lemma="prpers" tags="prn.*"/>
+		</def-cat>
+
+		<def-cat n="adjective">
+		   <cat-item tags="adj.*"/>
+		</def-cat>
+
+		<def-cat n="intj">
+		   <cat-item tags="ij.*"/>
+		</def-cat>
+
+		<def-cat n="det">         
+           <cat-item tags="det.*"/>
+           <cat-item tags="predet.*"/>
+	        </def-cat>	
+
+		<def-cat n="det_itg">         
+           <cat-item tags="det.itg.*"/>
+	        </def-cat>	
+
+
+		<def-cat n="advrb">
+		   <cat-item tags="adv"/>
+		</def-cat>
+
+		
+
+	</section-def-cats>
+
+
+	<section-def-attrs> 
+
+	<def-attr n="gender">   
+		   <attr-item tags="m"/> 
+		   <attr-item tags="f"/>
+		   <attr-item tags="nt"/>
+		   <attr-item tags="mf"/>
+		   <attr-item tags="GD"/>
+	</def-attr>
+
+		<def-attr n="animacy">  	<!-- human or thing - for pronouns, verbs, nouns... -->
+		   <attr-item tags="nn"/>
+		   <attr-item tags="aa"/>
+		</def-attr>
+
+
+		<def-attr n="nbr"> 			<!-- number attr for nouns, verbs etc. -->
+		   <attr-item tags="sg"/>
+		   <attr-item tags="pl"/>
+		</def-attr>
+
+		<def-attr n="aspect">		<!-- for verbs - whether an action is completed -->
+		   <attr-item tags="imperf"/> <!-- not completed -->
+		   <attr-item tags="perf"/> <!-- commpleted -->
+		</def-attr>
+
+		<def-attr n="a_nom">  <!-- same noun but for action section, not pattern --> 
+		   <attr-item tags="n"/>
+		</def-attr>
+
+		<def-attr n="a_adj">   <!-- to define adverb in action section of a rulle -->
+		   <attr-item tags="adj"/>
+		</def-attr>
+
+		<def-attr n="temps">		<!-- "time" for verb - past, present, future etc" -->
+		   <attr-item tags="pri"/>
+		   <attr-item tags="pres"/>
+		   <attr-item tags="past"/>
+		   <attr-item tags="ger"/>
+		</def-attr>
+
+		<def-attr n="pers">        <!-- for verbs or pronouns - Who are taled about - I, he, she etd -->
+		   <attr-item tags="p1"/> <!-- I, we -->
+		   <attr-item tags="p2"/>
+		   <attr-item tags="p3"/>
+
+		   </def-attr>
+
+		<def-attr n="a_verb">   <!-- deffinition of verb for action section, not pattern -->
+		   <attr-item tags="vblex"/>
+		</def-attr>
+
+		<def-attr n="tipus_prn">
+		   <attr-item tags="subj"/>
+		   <attr-item tags="obj"/>
+		</def-attr>
+
+		<def-attr n="a_prn">  <!-- pronoun for action section -->
+		   <attr-item tags="prn"/>
+		</def-attr>
+
+		<def-attr n="case">
+		   <attr-item tags="nom"/>
+		   <attr-item tags="acc"/>
+		</def-attr>
+
+		<def-attr n="a_ij">
+		   <attr-item tags="ij"/>
+		</def-attr>
+
+		<def-attr n="a_det">         
+			<attr-item tags="det.def"/>
+			<attr-item tags="det.ind"/>
+			<attr-item tags="det.dem"/>
+			<attr-item tags="det.pos"/>
+			<attr-item tags="predet"/>
+	        </def-attr>		
+		
+		<def-attr n="a_advrb">
+		   <attr-item tags="adv"/>
+		</def-attr>
+		
+		
+	</section-def-attrs>
+
+
+
+
+	<section-def-vars>    <!-- any custom variables you wont to use in rules -->
+		<def-var n="number"/>
+	</section-def-vars>
+
+
+
+	<section-rules> 
+<!-- Rule 1 "aple"-->	
+		<rule>
+		   <pattern> 
+		     <pattern-item n="nom"/> 
+		   </pattern>
+		   <action>
+		     <out>
+		       <lu> 
+			 <clip pos="1" side="tl" part="lem"/>  
+			 <clip pos="1" side="tl" part="a_nom"/> 
+			 <clip pos="1" side="tl" part="gender"/>
+			 <clip pos="1" side="tl" part="animacy"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+		       </lu>
+		     </out> 
+		   </action>
+		</rule>
+
+
+<!-- Rule 2 "read aple"-->	
+		<rule>
+		   <pattern>
+		     <pattern-item n="adjective"/>
+		     <pattern-item n="nom"/>
+			 </pattern>
+		   <action>
+		     <out>
+		       <lu>
+			 <clip pos="1" side="tl" part="lem"/>  
+			 <clip pos="1" side="tl" part="a_adj"/>
+			 <clip pos="2" side="tl" part="gender"/>
+			 <clip pos="2" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+    		   </lu>
+			   <b/>
+		       <lu>
+			 <clip pos="2" side="tl" part="lem"/>  
+			 <clip pos="2" side="tl" part="a_nom"/>
+			 <clip pos="2" side="tl" part="gender"/>
+			 <clip pos="2" side="tl" part="animacy"/>
+			 <clip pos="2" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+		       </lu>
+
+		     </out>
+		   </action>
+		</rule>
+
+
+
+
+
+<!-- Rule 3 "to eat"-->	
+		<rule>
+		   <pattern>
+		     <pattern-item n="pr_to"/> 
+		     <pattern-item n="vrb"/>
+		   </pattern>
+		   <action>
+		     <out>
+		       <lu>
+			 <clip pos="2" side="tl" part="lem"/>
+			 <clip pos="2" side="tl" part="a_verb"/>
+			 <clip pos="2" side="tl" part="aspect"/>
+			 <lit-tag v="inf"/>
+		       </lu>
+		     </out>
+		   </action>
+		</rule>
+
+
+
+
+
+<!-- Rule 4 "I am able to"-->	
+		<rule><pattern>
+			<pattern-item n="prpers"/> 
+			<pattern-item n="be_able_to"/></pattern>
+		<action><out><lu>
+			 <clip pos="1" side="tl" part="lem"/> 
+			 <lit-tag v="prn"/>
+			 <clip pos="1" side="tl" part="pers"/>
+			 <clip pos="1" side="tl" part="gender"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+			</lu>
+			<b/>
+			<lu>
+			<lit v="быть"/>
+			<lit-tag v="vbser"/>
+			<lit-tag v="past"/>
+			 <clip pos="1" side="tl" part="gender"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+			</lu>
+			<b/>
+			<lu>
+			<lit v="cпособный"/>
+			<lit-tag v="adj"/>
+			<lit-tag v=""/>
+<!--
+			 <clip pos="1" side="tl" part="gender"/>
+			 <clip pos="1" side="tl" part="nbr"/> -->
+			 <lit-tag v="nom"/>
+              </lu></out></action></rule>
+
+<!-- Rule 5 "I need apples"-->	
+		<rule>
+		   <pattern>
+		     <pattern-item n="prpers"/>
+		     <pattern-item n="vrb_need"/>
+		     <pattern-item n="nom"/> 
+
+		 </pattern>
+		   <action>
+		     <out>
+		       <lu>
+			 <clip pos="1" side="tl" part="lem"/> 
+			 <lit-tag v="prn"/>
+			 <clip pos="1" side="tl" part="pers"/>
+			 <clip pos="1" side="tl" part="gender"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+			 <lit-tag v="dat"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="2" side="tl" part="lem"/>
+			 <clip pos="2" side="tl" part="a_adj"/>
+			 <clip pos="3" side="tl" part="gender"/>
+			 <clip pos="3" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="3" side="tl" part="lem"/> 
+			 <clip pos="3" side="tl" part="a_nom"/>
+			 <clip pos="3" side="tl" part="gender"/>
+			 <clip pos="3" side="tl" part="animacy"/>
+			 <clip pos="3" side="tl" part="nbr"/>
+			 <lit-tag v="acc"/>
+		       </lu>
+		   </out>
+		   </action>
+		</rule>
+
+<!-- Rule 6 "I need you to complete"-->	
+		<rule>
+		   <pattern>
+		     <pattern-item n="prpers"/>
+		     <pattern-item n="vrb_need"/>
+		     <pattern-item n="prpers"/>
+		     <pattern-item n="pr_to"/> 
+		     <pattern-item n="vrb"/>
+		 </pattern>
+		   <action>
+		     <out>
+		       <lu>
+			 <clip pos="1" side="tl" part="lem"/> 
+			 <lit-tag v="prn"/>
+			 <clip pos="1" side="tl" part="pers"/>
+			 <clip pos="1" side="tl" part="gender"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+			 <lit-tag v="dat"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="2" side="tl" part="lem"/>
+			 <clip pos="2" side="tl" part="a_adj"/>
+			 <lit-tag v="nt"/>
+			 <lit-tag v="sg"/>
+			 <lit-tag v="short"/>
+		       </lu>
+			<b/>
+			<lu>
+			<lit v="чтобы"/>
+			</lu>
+		       <b/>
+		       <lu>
+			 <clip pos="3" side="tl" part="lem"/> 
+			 <clip pos="3" side="tl" part="a_prn"/>
+			 <clip pos="3" side="tl" part="pers"/>
+			 <clip pos="3" side="tl" part="gender"/>
+			<lit-tag v="pl"/>
+			 <lit-tag v="nom"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="5" side="tl" part="lem"/> 
+			 <clip pos="5" side="tl" part="a_verb"/>
+			 <lit-tag v="perf"/>
+			 <lit-tag v="past"/>
+			 <clip pos="3" side="tl" part="gender"/>
+			<lit-tag v="pl"/>
+		       </lu>
+		   </out>
+		   </action>
+		</rule>
+
+
+
+<!-- Rule 7 "I need the apple"-->	
+		<rule>
+		   <pattern>
+		     <pattern-item n="prpers"/>
+		     <pattern-item n="vrb_need"/>
+		     <pattern-item n="det"/>
+		     <pattern-item n="nom"/> 
+		 </pattern>
+		   <action>
+		     <out>
+		       <lu>
+			 <clip pos="1" side="tl" part="lem"/> 
+			 <lit-tag v="prn"/>
+			 <clip pos="1" side="tl" part="pers"/>
+			 <clip pos="1" side="tl" part="gender"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+			 <lit-tag v="dat"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="2" side="tl" part="lem"/>
+			 <clip pos="2" side="tl" part="a_adj"/>
+			 <clip pos="4" side="tl" part="gender"/>
+			 <clip pos="4" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="3" side="tl" part="lem"/> 
+			 <clip pos="3" side="tl" part="a_prn"/>
+			 <lit-tag v="dem"/>
+			 <clip pos="4" side="tl" part="gender"/>
+			 <clip pos="4" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="4" side="tl" part="lem"/> 
+			 <clip pos="4" side="tl" part="a_nom"/>
+			 <clip pos="4" side="tl" part="gender"/>
+			 <clip pos="4" side="tl" part="animacy"/>
+			 <clip pos="4" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+		       </lu>
+		   </out>
+		   </action>
+		</rule>
+
+<!-- Rule 8 "I read"-->	
+		<rule>
+		   <pattern>
+		     <pattern-item n="prpers"/> 
+		     <pattern-item n="vrb"/>
+		   </pattern>
+		   <action>
+		     <out>
+		       <lu>
+			 <clip pos="1" side="tl" part="lem"/> 
+			 <lit-tag v="prn"/>
+			 <clip pos="1" side="tl" part="pers"/>
+			 <clip pos="1" side="tl" part="gender"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="2" side="tl" part="lem"/> 
+			 <clip pos="2" side="tl" part="a_verb"/>
+			 <clip pos="2" side="tl" part="aspect"/>
+			 <clip pos="2" side="tl" part="temps"/>
+			 <clip pos="1" side="tl" part="pers"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+		       </lu>
+		     </out>
+		   </action>
+		</rule>
+
+<!-- Rule 9 "I love you"-->	
+		<rule>
+		   <pattern>
+		     <pattern-item n="prpers"/>
+		     <pattern-item n="vrb"/>
+		     <pattern-item n="prpers"/> 
+
+		 </pattern>
+		   <action>
+		     <out>
+		       <lu>
+			 <clip pos="1" side="tl" part="lem"/>   
+			 <clip pos="1" side="tl" part="a_prn"/>
+			 <clip pos="1" side="tl" part="pers"/>
+			 <clip pos="1" side="tl" part="gender"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="2" side="tl" part="lem"/> 
+			 <clip pos="2" side="tl" part="a_verb"/>
+			 <clip pos="2" side="tl" part="aspect"/>
+			 <clip pos="2" side="tl" part="temps"/>
+			 <clip pos="1" side="tl" part="pers"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="3" side="tl" part="lem"/>  
+			 <clip pos="3" side="tl" part="a_prn"/>
+			 <lit-tag v="p2"/>
+			 <clip pos="3" side="tl" part="gender"/>
+			 <clip pos="3" side="tl" part="nbr"/>
+			 <lit-tag v="gen"/>
+		       </lu>
+		   </out>
+		   </action>
+		</rule>
+		
+
+<!-- Rule 10 "I am fast"-->	
+		<rule>
+		   <pattern>
+		     <pattern-item n="prpers"/>
+		     <pattern-item n="vrbser"/>		
+		     <pattern-item n="advrb"/>
+		 </pattern>
+		   <action>
+		     <out>
+		       <lu>
+			 <clip pos="1" side="tl" part="lem"/> 
+			 <lit-tag v="prn"/>
+			 <lit-tag v="dem"/>
+			 <clip pos="1" side="tl" part="gender"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="3" side="tl" part="lem"/>  
+			 <clip pos="3" side="tl" part="a_advrb"/>
+		       </lu>
+		   </out>
+		   </action>
+		</rule>
+
+
+<!-- Rule 11 "I am reading newspaper"-->	
+		<rule>
+		   <pattern>
+		     <pattern-item n="prpers"/>
+		     <pattern-item n="vrbser"/>		
+		     <pattern-item n="vrb"/>
+		     <pattern-item n="nom"/> 
+		 </pattern>
+		   <action>
+		     <out>
+		       <lu>
+			 <clip pos="1" side="tl" part="lem"/>  
+			 <clip pos="1" side="tl" part="a_prn"/>
+			 <clip pos="1" side="tl" part="pers"/>
+			 <clip pos="1" side="tl" part="gender"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="3" side="tl" part="lem"/> 
+			 <clip pos="3" side="tl" part="a_verb"/>
+			 <clip pos="3" side="tl" part="aspect"/>
+			 <clip pos="2" side="tl" part="temps"/>
+			 <clip pos="1" side="tl" part="pers"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="4" side="tl" part="lem"/> 
+			 <clip pos="4" side="tl" part="a_nom"/> 
+			 <clip pos="4" side="tl" part="gender"/>
+			 <clip pos="4" side="tl" part="animacy"/>
+			 <clip pos="4" side="tl" part="nbr"/>
+			 <lit-tag v="acc"/>
+		       </lu>
+		   </out>
+		   </action>
+		</rule>
+
+
+
+<!-- Rule 11 "I am reading newspaper"-->	
+		<rule>
+		   <pattern>
+		     <pattern-item n="vrbser"/>		
+		     <pattern-item n="vrb"/>
+		 </pattern>
+		   <action>
+		     <out>
+		       <lu>
+			 <clip pos="2" side="tl" part="lem"/> 
+			 <clip pos="2" side="tl" part="a_verb"/>
+			 <clip pos="2" side="tl" part="aspect"/>
+			 <clip pos="1" side="tl" part="temps"/>
+			 <clip pos="1" side="tl" part="pers"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+		       </lu>
+		   </out>
+		   </action>
+		</rule>
+
+
+
+
+
+<!-- Rule 12 "I need you"-->	
+		<rule>
+		   <pattern>
+		     <pattern-item n="prpers"/>
+		     <pattern-item n="vrb_need"/>
+		     <pattern-item n="prpers"/>
+		 </pattern>
+		   <action>
+		     <out>
+		       <lu>
+			 <clip pos="1" side="tl" part="lem"/> 
+			 <lit-tag v="prn"/>
+			 <clip pos="1" side="tl" part="pers"/>
+			 <clip pos="1" side="tl" part="gender"/>
+			 <clip pos="1" side="tl" part="nbr"/>
+			 <lit-tag v="dat"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="2" side="tl" part="lem"/>
+			 <clip pos="2" side="tl" part="a_adj"/>
+			 <clip pos="4" side="tl" part="gender"/>
+			 <clip pos="4" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="3" side="tl" part="lem"/> 
+			 <clip pos="3" side="tl" part="a_prn"/>
+			 <lit-tag v="dem"/>
+			 <clip pos="4" side="tl" part="gender"/>
+			 <clip pos="4" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+		       </lu>
+		       <b/>
+		       <lu>
+			 <clip pos="4" side="tl" part="lem"/> 
+			 <clip pos="4" side="tl" part="a_nom"/>
+			 <clip pos="4" side="tl" part="gender"/>
+			 <clip pos="4" side="tl" part="animacy"/>
+			 <clip pos="4" side="tl" part="nbr"/>
+			 <lit-tag v="nom"/>
+		       </lu>
+		   </out>
+		   </action>
+		</rule>
+
+
+
+<!-- Rule 13 "I read newspapers-->	
+		<rule><pattern>
+			<pattern-item n="prpers"/>
+			<pattern-item n="vrb"/>
+			<pattern-item n="nom"/> 
+		 </pattern><action><out><lu>
+			<clip pos="1" side="tl" part="lem"/>  
+			<lit-tag v="prn"/>
+			<clip pos="1" side="tl" part="pers"/>
+			<clip pos="1" side="tl" part="gender"/>
+			<clip pos="1" side="tl" part="nbr"/>
+			<lit-tag v="nom"/>
+			</lu><b/><lu>
+			<clip pos="2" side="tl" part="lem"/> 
+			<clip pos="2" side="tl" part="a_verb"/>
+			<clip pos="2" side="tl" part="aspect"/>
+			<lit-tag v="pres"/>
+			<clip pos="1" side="tl" part="pers"/>
+			<clip pos="1" side="tl" part="nbr"/>
+			</lu>
+			<b/>
+			<lu>
+			<clip pos="3" side="tl" part="lem"/> 
+			<clip pos="3" side="tl" part="a_nom"/> 
+			<clip pos="3" side="tl" part="gender"/>
+			<clip pos="3" side="tl" part="animacy"/>
+			<clip pos="3" side="tl" part="nbr"/>
+			<lit-tag v="acc"/>
+		</lu></out></action></rule>
+
+
+<!-- Rule 14 "an aple"-->	
+		<rule><pattern>
+			<pattern-item n="det_itg"/>
+			<pattern-item n="nom"/></pattern>
+		<action><out><lu>
+			<clip pos="1" side="tl" part="lem"/>
+			<lit-tag v="prn"/>
+			<lit-tag v="ind"/>
+			<clip pos="2" side="tl" part="gender"/>
+			<clip pos="2" side="tl" part="nbr"/>
+			<lit-tag v="nom"/>
+			</lu><b/><lu>
+			<clip pos="2" side="tl" part="lem"/> 
+			<clip pos="2" side="tl" part="a_nom"/> 
+			<clip pos="2" side="tl" part="gender"/>
+			<clip pos="2" side="tl" part="animacy"/>
+			<clip pos="2" side="tl" part="nbr"/>
+			<lit-tag v="acc"/>
+              </lu></out></action></rule>		
+
+
+
+
+<!-- Rule 14 "an aple"-->	
+		<rule><pattern>
+			<pattern-item n="det"/>
+			<pattern-item n="nom"/></pattern>
+		<action><out><lu>
+			<clip pos="1" side="tl" part="lem"/>
+			<lit-tag v="prn"/>
+			<lit-tag v="ind"/>
+			<clip pos="2" side="tl" part="gender"/>
+			<clip pos="2" side="tl" part="nbr"/>
+			<lit-tag v="nom"/>
+			</lu><b/><lu>
+			<clip pos="2" side="tl" part="lem"/> 
+			<clip pos="2" side="tl" part="a_nom"/> 
+			<clip pos="2" side="tl" part="gender"/>
+			<clip pos="2" side="tl" part="animacy"/>
+			<clip pos="2" side="tl" part="nbr"/>
+			<lit-tag v="nom"/>
+              </lu></out></action></rule>		
+
+
+
+<!--
+		<rule><pattern>
+
+		</pattern>
+		<action><out><lu>
+
+
+
+		</lu><b/><lu>
+
+
+
+		</lu></out></action></rule>		
+-->
+
+
+		
+	</section-rules>
+</transfer>
+
