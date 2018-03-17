@@ -18,3 +18,8 @@
 /mytrans-en-ru.sh -text
 /mytrans-ru-en.sh -text
 /ru-en.prob -text svneol=unset#unset
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
